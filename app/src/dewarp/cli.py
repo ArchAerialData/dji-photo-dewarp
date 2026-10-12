@@ -27,9 +27,9 @@ def main(argv=None) -> int:
         run_gui()
         return 0
     parser = argparse.ArgumentParser(description="Dewarp DJI JPEGs with per-photo calibration and preserved EXIF.")
-    parser.add_argument("folders", nargs="+", type=Path, help="One or more folders containing JPEGs (non-recursive)")
+    parser.add_argument("folders", nargs="+", type=Path, help="One or more folders; JPG/JPEG photos are found recursively in all subfolders")
     parser.add_argument("--output", "--output-root", dest="output_root", type=Path,
-                        help="Output parent; default: inside each input folder. Existing outputs are never overwritten.")
+                        help="Output parent; preserves input names and relative subfolders. Default: a Dewarped Photos folder inside each input. Existing outputs are never overwritten.")
     parser.add_argument("--workers", type=int, choices=range(1, 5), default=2,
                         help="Concurrent photos, 1-4 (default: 2; use 1 for less RAM)")
     parser.add_argument("--copy-xmp", action="store_true", help="Preserve full XMP using ExifTool (GUI default: on)")

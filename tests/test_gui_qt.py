@@ -45,6 +45,10 @@ class GuiTests(unittest.TestCase):
 
     def tearDown(self):
         window = self.window
+        if window._detection_worker is not None:
+            window._detection_cancel.set()
+            window._detection_worker.join(timeout=10)
+            window._detecting = False
         if window._worker is not None and window._worker.is_alive():
             window._cancel.set()
             window._worker.join(timeout=10)
@@ -82,11 +86,11 @@ class GuiTests(unittest.TestCase):
     def assert_folder_tables_match(self):
         window = self.window
         self.assertEqual(window.folder_table.rowCount(), window.progress_table.rowCount())
-        self.assertEqual(window.folder_table.columnCount(), window.progress_table.columnCount())
+        self.assertEqual(window.folder_table.columnCount() + 1, window.progress_table.columnCount())
         for row in range(window.folder_table.rowCount()):
             for column in range(window.folder_table.columnCount()):
                 self.assertEqual(window.folder_table.item(row, column).text(),
-                                 window.progress_table.item(row, column).text())
+                                 window.progress_table.item(row, column + (column >= 4)).text())
 
     def select_setup_row(self, row):
         # Data/reindex tests choose an exact row, independently of physical key
@@ -231,8 +235,8 @@ class GuiTests(unittest.TestCase):
         self.assertEqual(window._batch_completed, 4)
         self.assertEqual(window.batch_bar.value(), 100)
         self.assertEqual(window._statuses, {0: "Completed", 1: "Completed", 2: "Empty"})
-        self.assertEqual(window.outputs[0].name, "Flight - Dewarped Photos")
-        self.assertEqual(window.outputs[1].name, "Flight - Dewarped Photos (2)")
+        self.assertEqual(window.outputs[0].name, "Flight")
+        self.assertEqual(window.outputs[1].name, "Flight (2)")
         self.assertEqual(len(list(window.outputs[0].glob("*.JPG"))), 2)
         self.assertTrue((window.outputs[0] / "processing-report.json").is_file())
         self.assert_folder_tables_match()
@@ -250,8 +254,8 @@ class GuiTests(unittest.TestCase):
         self.assertIs(window.pages.currentWidget(), window.progress_scroll)
         self.pump_until(lambda: not window._running)
         self.assertEqual(window._batch_completed, 4)
-        self.assertEqual(window.outputs[0].name, "Flight - Dewarped Photos (3)")
-        self.assertEqual(window.outputs[1].name, "Flight - Dewarped Photos (4)")
+        self.assertEqual(window.outputs[0].name, "Flight (3)")
+        self.assertEqual(window.outputs[1].name, "Flight (4)")
         self.assertTrue(all(path.is_dir() for path in first_outputs.values()))
         self.assertEqual({path: path.read_bytes() for path in sources_before}, sources_before)
         self.assert_folder_tables_match()
@@ -695,7 +699,7 @@ class GuiTests(unittest.TestCase):
         window.back_button.click()
         self.assertTrue(window.start_button.isEnabled())
 
-    def test_parent_without_direct_photos_finishes_with_useful_guidance(self):
+    def test_parent_without_direct_photos_processes_nested_photos(self):
         window = self.window
         child = self.directory / "Photos"
         child.mkdir()
@@ -703,12 +707,117 @@ class GuiTests(unittest.TestCase):
         window.add_folders([self.directory])
         window._start_batch()
         self.pump_until(lambda: not window._running)
-        self.assertEqual(window._statuses, {0: "Empty"})
+        self.assertEqual(window._statuses, {0: "Completed"})
+        self.assertEqual(window._batch_completed, 1)
+        self.assertTrue((window.outputs[0] / "Photos" / "DJI_0.JPG").is_file())
+        self.assertEqual(window.current_file_text.text(), "Completed")
+        self.assertEqual(window.batch_bar.value(), 100)
+
+    def test_detect_photos_counts_recursive_inputs_without_writing_and_refreshes(self):
+        window = self.window
+        self.assertFalse(window.detect_button.isEnabled())
+        folder = self.directory / "Flight"
+        nested = folder / "2D" / "Nested"
+        nested.mkdir(parents=True)
+        # Detection counts extensions without decoding or requiring calibration.
+        for name in ("one.JPG", "two.jPeG"):
+            (nested / name).write_bytes(b"preflight only")
+        exports = folder / "Exports"
+        exports.mkdir()
+        (exports / "excluded.jpg").write_bytes(b"not an input")
+        empty = self.directory / "Empty"
+        empty.mkdir()
+        window.add_folders([folder, empty])
+        window.output_edit.setText(str(exports))
+        before = {path: path.read_bytes() for path in self.directory.rglob("*") if path.is_file()}
+        with patch.object(dewarp_gui, "run_batch") as process:
+            window.detect_button.click()
+            self.pump_until(lambda: not window._detecting)
+            process.assert_not_called()
+        self.assertIs(window.pages.currentWidget(), window.setup_scroll)
+        self.assertEqual(window.folder_table.item(0, 3).text(), "2")
+        self.assertEqual(window.folder_table.item(1, 3).text(), "0")
+        self.assertEqual(window.folder_table.item(1, 1).text(), "Empty")
+        self.assertIn("2 photos detected", window.setup_summary.text())
         self.assertFalse(window.outputs)
-        self.assertEqual(window.current_text.text(), "No folder processing")
-        self.assertNotIn("Scanning", window.current_file_text.text())
-        self.assertIn("No JPEG photos found directly", window.batch_text.text())
-        self.assertIn("add the photo-containing subfolders", window.log.toPlainText())
+        self.assertEqual(before, {path: path.read_bytes() for path in self.directory.rglob("*") if path.is_file()})
+        (nested / "three.jpg").write_bytes(b"added after detection")
+        window.detect_action.trigger()
+        self.pump_until(lambda: not window._detecting)
+        self.assertEqual(window.folder_table.item(0, 3).text(), "3")
+        window.output_edit.clear()
+        self.assertEqual(window.folder_table.item(0, 3).text(), "—")
+        window.detect_button.click()
+        self.pump_until(lambda: not window._detecting)
+        self.assertEqual(window.folder_table.item(0, 3).text(), "4")
+        window.folder_table.selectRow(0)
+        window._remove_selected()
+        self.assertEqual(window.folder_table.item(0, 3).text(), "0")
+        self.assertIn("0 photos detected", window.setup_summary.text())
+
+    def test_detection_is_responsive_cancellable_and_blocks_queue_edits(self):
+        window = self.window
+        window.add_folders([self.directory])
+        entered = threading.Event()
+        threads = []
+
+        def delayed_scan(folder, output, cancel):
+            threads.append(threading.get_ident())
+            entered.set()
+            cancel.wait(timeout=5)
+            return [folder / "partial.jpg"]
+
+        with patch.object(dewarp_gui, "scan_photos", side_effect=delayed_scan):
+            window.detect_button.click()
+            self.pump_until(entered.is_set)
+            self.assertNotEqual(threads, [threading.get_ident()])
+            self.assertFalse(window.start_button.isEnabled())
+            self.assertFalse(window.detect_button.isEnabled())
+            self.assertFalse(window.output_edit.isEnabled())
+            self.assertTrue(window.cancel_button.isEnabled())
+            window._clear_queue()
+            window._remove_selected()
+            window.add_folders([self.directory / "other"])
+            window._start_batch()
+            self.assertEqual(window.folders, [self.directory])
+            self.assertFalse(window._running)
+            window.cancel_action.trigger()
+            self.pump_until(lambda: not window._detecting)
+        self.assertEqual(window.folder_table.item(0, 3).text(), "—")
+        self.assertEqual(window.folder_table.item(0, 1).text(), "Not scanned")
+        self.assertIn("Detection cancelled", window.footer_status.text())
+        self.assertTrue(window.start_button.isEnabled())
+        self.assertTrue(window.detect_button.isEnabled())
+
+    def test_detection_errors_are_visible_and_do_not_hide_other_counts(self):
+        window = self.window
+        gone = self.directory / "Unavailable"
+        gone.mkdir()
+        window.add_folders([gone, self.directory])
+        gone.rmdir()
+        window.detect_button.click()
+        self.pump_until(lambda: not window._detecting)
+        self.assertEqual(window.folder_table.item(0, 1).text(), "Scan failed")
+        self.assertEqual(window.folder_table.item(0, 3).text(), "—")
+        self.assertIn("unavailable", window.folder_table.item(0, 1).toolTip())
+        self.assertEqual(window.folder_table.item(1, 3).text(), "0")
+        self.assertIn("1 scan failed", window.footer_status.text())
+        self.assertIn("Preflight: Scan failed", window._status_contents())
+
+    def test_close_during_detection_cancels_and_waits_for_worker(self):
+        window = self.window
+        window.add_folders([self.directory])
+
+        def delayed_scan(folder, output, cancel):
+            cancel.wait(timeout=5)
+            return []
+
+        with patch.object(dewarp_gui, "scan_photos", side_effect=delayed_scan):
+            window.detect_button.click()
+            window.close()
+            self.pump_until(lambda: not window._detecting)
+        self.assertFalse(window.isVisible())
+        self.assertIsNone(window._detection_worker)
 
     def test_completion_issues_are_in_visible_and_accessible_summary(self):
         window = self.window

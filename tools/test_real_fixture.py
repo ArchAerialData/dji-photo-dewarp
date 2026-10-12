@@ -222,7 +222,7 @@ def gui_scenario(config, scenario):
         raise AssertionError("GUI did not make metadata warnings visible in its final summary")
     for row in range(len(folders)):
         for column in range(window.folder_table.columnCount()):
-            if window.folder_table.item(row, column).text() != window.progress_table.item(row, column).text():
+            if window.folder_table.item(row, column).text() != window.progress_table.item(row, column + (column >= 4)).text():
                 raise AssertionError("Setup and progress folder summaries disagree")
     window.back_button.click()
     app.processEvents()

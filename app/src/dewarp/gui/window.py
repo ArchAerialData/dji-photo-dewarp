@@ -16,7 +16,7 @@ from PySide6.QtCore import QEvent, QPoint, QRect, QSize, Qt, QTimer, QUrl
 from PySide6.QtGui import QAction, QActionGroup, QAccessible, QAccessibleAnnouncementEvent, QDesktopServices, QFont, QKeySequence
 from PySide6.QtWidgets import (QApplication, QAbstractItemView, QDialog, QFileDialog, QGridLayout, QGroupBox, QHeaderView, QLabel, QLayout, QLineEdit, QMainWindow, QMessageBox, QPlainTextEdit, QProgressBar, QPushButton, QScrollArea, QSizePolicy, QStackedWidget, QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget)
 
-from dewarp.core.engine import BatchOptions, exiftool_path, run_batch
+from dewarp.core.engine import BatchOptions, exiftool_path, run_batch, scan_photos
 from .theme import install_system_theme
 from .buttons import ActionButton as _Button
 from .settings import ProcessingSettings, SettingsDialog, SettingsStore
@@ -133,6 +133,10 @@ class DewarpApp(QMainWindow):
         self._cancel = threading.Event()
         self._worker = None
         self._running = False
+        self._detecting = False
+        self._detection_worker = None
+        self._detection_cancel = threading.Event()
+        self._detections = {}
         self._close_when_finished = False
         self._started_at = 0.0
         self._batch_total = self._batch_completed = 0
@@ -237,9 +241,13 @@ class DewarpApp(QMainWindow):
         scroll.setWidget(body)
         return scroll, layout
 
-    def _table(self, name, description):
-        table = _accessible(_CompactTable(0, 5), name, description)
-        table.setHorizontalHeaderLabels(["Input folder", "Status", "Processed", "Photos", "Output folder"])
+    def _table(self, name, description, *, show_duration=False):
+        headers = ["Input folder", "Status", "Processed", "Photos"]
+        if show_duration:
+            headers.append("Duration")
+        headers.append("Output folder")
+        table = _accessible(_CompactTable(0, len(headers)), name, description)
+        table.setHorizontalHeaderLabels(headers)
         table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
         table.setSelectionMode(QAbstractItemView.SelectionMode.ExtendedSelection)
         table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
@@ -279,7 +287,8 @@ class DewarpApp(QMainWindow):
         self.add_button = self._button("Add folder…", "Add input folder", self._browse_folder, "Add another folder. Shortcut: Control+O.", role="browse")
         self.remove_button = self._button("Remove selected", "Remove selected folders", self._remove_selected, "Remove selected queue rows without deleting files.")
         self.clear_button = self._button("Clear queue", "Clear folder queue", self._clear_queue)
-        folder_layout.addWidget(self._flow(self.add_button, self.remove_button, self.clear_button))
+        self.detect_button = self._button("Detect Photos", "Detect Photos", self._detect_photos, "Count JPG/JPEG photos recursively before processing. No photos are changed. Shortcut: Control+D.", role="browse")
+        folder_layout.addWidget(self._flow(self.add_button, self.remove_button, self.clear_button, self.detect_button))
         self.setup_summary = self._label("No folders added", "Number of folders in the batch setup")
         folder_layout.addWidget(self.setup_summary)
         self.folder_table = self._table("Input folder queue", "Input folder, status, processed photos, total photos, and output folder. Arrow keys navigate; Shift or Control selects rows. Delete removes selected folders on the setup page. Full paths are available in cell tooltips and the Batch status dialog.")
@@ -287,11 +296,12 @@ class DewarpApp(QMainWindow):
         self.folder_table.viewport().setAcceptDrops(True)
         self.folder_table.viewport().installEventFilter(self)
         folder_layout.addWidget(self.folder_table, 1)
-        folder_layout.addWidget(self._label("Add or drop multiple folders. Only JPEGs directly inside each folder are processed."))
+        folder_layout.addWidget(self._label("Add or drop multiple folders. JPG/JPEG photos in all subfolders are included."))
         self.output_edit = _accessible(QLineEdit(), "Output parent folder", "Leave blank to save inside each input folder. Enter or browse to a common parent folder for all outputs.")
         self.output_edit.setMinimumWidth(0)
         self.output_edit.setPlaceholderText("Save inside each input folder")
         self.output_edit.textChanged.connect(self._update_selection)
+        self.output_edit.textChanged.connect(self._invalidate_detections)
         label = QLabel("&Output location")
         label.setBuddy(self.output_edit)
         folder_layout.addWidget(label)
@@ -299,7 +309,7 @@ class DewarpApp(QMainWindow):
         self.output_browse_button = self._button("Browse…", "Browse output location", self._browse_output, "Choose one parent folder for every batch output. Shortcut: Control+Shift+O.", role="browse")
         self.output_reset_button = self._button("Use input folders", "Use input folders for output", lambda: self.output_edit.clear())
         folder_layout.addWidget(self._flow(self.output_browse_button, self.output_reset_button))
-        folder_layout.addWidget(self._label("Output names: “Input name - Dewarped Photos”. Existing names receive a number."))
+        folder_layout.addWidget(self._label("Output mirrors input folder names and subfolders. Existing output names receive a number."))
         self._editable_widgets = [self.add_button, self.remove_button, self.clear_button, self.output_edit, self.output_browse_button, self.output_reset_button]
 
         progress_layout = self._group("Live progress", progress_page_layout)
@@ -323,7 +333,7 @@ class DewarpApp(QMainWindow):
         results_layout = self._group("Folder results", progress_page_layout, 2)
         self.overview_text = self._label("0 folders queued", "Folder queue summary")
         results_layout.addWidget(self.overview_text)
-        self.progress_table = self._table("Batch folder results", "Input folder, status, processed photos, total photos, and output folder. Full paths are available in cell tooltips and the Batch status dialog. Select a completed folder, then choose Open output.")
+        self.progress_table = self._table("Batch folder results", "Input folder, status, processed photos, total photos, duration, and output folder. Duration shows elapsed processing time once a folder finishes, in minutes:seconds or hours:minutes:seconds. Full paths are available in cell tooltips and the Batch status dialog. Select a completed folder, then choose Open output.", show_duration=True)
         self.progress_table.itemDoubleClicked.connect(lambda _item: self._open_output())
         results_layout.addWidget(self.progress_table, 1)
         self.open_button = self._button("Open output", "Open selected output folder", self._open_output, "Open the selected output in the file manager. Shortcut: Control+Shift+E.", role="browse")
@@ -365,6 +375,7 @@ class DewarpApp(QMainWindow):
     def _build_menus(self):
         file_menu = self.menuBar().addMenu("&File")
         self.add_action = self._action(file_menu, "Add folder…", self._browse_folder, ("Ctrl+O",))
+        self.detect_action = self._action(file_menu, "Detect Photos", self._detect_photos, ("Ctrl+D",))
         self.output_action = self._action(file_menu, "Choose output location…", self._browse_output, ("Ctrl+Shift+O",))
         self.open_action = self._action(file_menu, "Open selected output", self._open_output, ("Ctrl+Shift+E",))
         self.open_action.setEnabled(False)
@@ -396,7 +407,7 @@ class DewarpApp(QMainWindow):
         self._action(help_menu, "Keyboard and processing help…", self._show_help, ("F1",))
 
     def _connect_focus_order(self):
-        order = [self.add_button, self.remove_button, self.clear_button, self.folder_table,
+        order = [self.add_button, self.remove_button, self.clear_button, self.detect_button, self.folder_table,
                  self.output_edit, self.output_browse_button, self.output_reset_button,
                  self.current_text, self.current_file_text, self.progress_table,
                  self.open_button, self.log, self.cancel_button, self.start_button, self.back_button]
@@ -419,7 +430,7 @@ class DewarpApp(QMainWindow):
         self._update_availability()
 
     def _show_setup(self):
-        if self._running:
+        if self._running or self._detecting:
             return
         self.pages.setCurrentWidget(self.setup_scroll)
         if not self._batch_summary_received and not self._batch_completed:
@@ -427,7 +438,7 @@ class DewarpApp(QMainWindow):
         (self.start_button if self.folders else self.add_button).setFocus()
 
     def _show_settings(self):
-        if self._running:
+        if self._running or self._detecting:
             return
         dialog = SettingsDialog(self.processing_settings, self)
         try:
@@ -485,7 +496,8 @@ class DewarpApp(QMainWindow):
         line = self.fontMetrics().height()
         for table, rows in ((self.folder_table, 5), (self.progress_table, 3)):
             table.setMinimumHeight(line * rows + table.horizontalHeader().sizeHint().height() + 24)
-            for column, characters in enumerate((22, 18, 10, 8, 24)):
+            widths = (22, 18, 10, 8, 10, 24) if table is self.progress_table else (22, 18, 10, 8, 24)
+            for column, characters in enumerate(widths):
                 table.setColumnWidth(column, self.fontMetrics().horizontalAdvance("M") * characters + 20)
             table.resizeRowsToContents()
         self.log.setMinimumHeight(line * 3 + 16)
@@ -511,7 +523,7 @@ class DewarpApp(QMainWindow):
             if event.type() == QEvent.Type.KeyPress and event.key() == Qt.Key.Key_Delete:
                 self._remove_selected()
                 return True
-            if event.type() in (QEvent.Type.DragEnter, QEvent.Type.DragMove) and not self._running and self.pages.currentIndex() == 0 and event.mimeData().hasUrls():
+            if event.type() in (QEvent.Type.DragEnter, QEvent.Type.DragMove) and not (self._running or self._detecting) and self.pages.currentIndex() == 0 and event.mimeData().hasUrls():
                 event.acceptProposedAction()
                 return True
             if event.type() == QEvent.Type.Drop:
@@ -520,11 +532,11 @@ class DewarpApp(QMainWindow):
         return super().eventFilter(watched, event)
 
     def dragEnterEvent(self, event):
-        if not self._running and self.pages.currentIndex() == 0 and any(url.isLocalFile() for url in event.mimeData().urls()):
+        if not (self._running or self._detecting) and self.pages.currentIndex() == 0 and any(url.isLocalFile() for url in event.mimeData().urls()):
             event.acceptProposedAction()
 
     def dropEvent(self, event):
-        if not self._running and self.pages.currentIndex() == 0:
+        if not (self._running or self._detecting) and self.pages.currentIndex() == 0:
             self._drop_paths(url.toLocalFile() for url in event.mimeData().urls() if url.isLocalFile())
             event.acceptProposedAction()
 
@@ -532,19 +544,19 @@ class DewarpApp(QMainWindow):
         self.add_folders(paths)
 
     def _browse_folder(self):
-        if not self._running and self.pages.currentIndex() == 0:
+        if not (self._running or self._detecting) and self.pages.currentIndex() == 0:
             folder = QFileDialog.getExistingDirectory(self, "Add input folder")
             if folder:
                 self.add_folders([folder])
 
     def _browse_output(self):
-        if not self._running and self.pages.currentIndex() == 0:
+        if not (self._running or self._detecting) and self.pages.currentIndex() == 0:
             folder = QFileDialog.getExistingDirectory(self, "Choose parent folder for all outputs")
             if folder:
                 self.output_edit.setText(folder)
 
     def add_folders(self, paths):
-        if self._running or self.pages.currentIndex() != 0:
+        if self._running or self._detecting or self.pages.currentIndex() != 0:
             return
         known = {os.path.normcase(str(folder)) for folder in self.folders}
         added = duplicates = invalid = 0
@@ -591,7 +603,7 @@ class DewarpApp(QMainWindow):
         return sorted({index.row() for index in table.selectionModel().selectedRows()})
 
     def _remove_selected(self):
-        if self._running or self.pages.currentIndex() != 0:
+        if self._running or self._detecting or self.pages.currentIndex() != 0:
             return
         selected = set(self._selected_rows())
         if selected:
@@ -600,6 +612,7 @@ class DewarpApp(QMainWindow):
             retained = [index for index in range(len(self.folders)) if index not in selected]
             new_index = {old: new for new, old in enumerate(retained)}
             self.folders = [self.folders[index] for index in retained]
+            self._detections = {folder: row for folder, row in self._detections.items() if folder in self.folders}
             self.outputs = {new_index[index]: value for index, value in self.outputs.items() if index in new_index}
             self._statuses = {new_index[index]: value for index, value in self._statuses.items() if index in new_index}
             self._folder_stats = {new_index[index]: dict(value, index=new_index[index]) for index, value in self._folder_stats.items() if index in new_index}
@@ -624,7 +637,7 @@ class DewarpApp(QMainWindow):
             self._update_selection()
 
     def _clear_queue(self):
-        if self._running or self.pages.currentIndex() != 0:
+        if self._running or self._detecting or self.pages.currentIndex() != 0:
             return
         self.folder_table.setRowCount(0)
         self.progress_table.setRowCount(0)
@@ -632,6 +645,7 @@ class DewarpApp(QMainWindow):
         self.outputs.clear()
         self._statuses.clear()
         self._folder_stats.clear()
+        self._detections.clear()
         self._current_index = None
         self._batch_total = self._batch_completed = 0
         self._batch_summary_received = False
@@ -654,7 +668,7 @@ class DewarpApp(QMainWindow):
 
     def _update_availability(self):
         """Derive visible buttons and menu actions from the same page/state."""
-        idle = not self._running
+        idle = not (self._running or self._detecting)
         setup = self.pages.currentIndex() == 0
         can_edit = idle and setup
         selection = [index for index in self._selected_rows() if index < len(self.folders)]
@@ -664,13 +678,19 @@ class DewarpApp(QMainWindow):
         except OSError:
             can_open = False
         can_start = can_edit and bool(self.folders)
-        can_cancel = self._running and not self._cancel.is_set()
+        can_cancel = (self._detecting and not self._detection_cancel.is_set()
+                      or self._running and not self._cancel.is_set())
         for widget in self._editable_widgets:
             widget.setEnabled(can_edit)
         self.remove_button.setEnabled(can_edit and bool(selection))
         self.clear_button.setEnabled(can_edit and bool(self.folders))
         self.output_reset_button.setEnabled(can_edit and bool(self.output_edit.text().strip()))
         self.start_button.setEnabled(can_start)
+        self.detect_button.setEnabled(can_start)
+        self.detect_action.setEnabled(can_start)
+        self.cancel_button.setText("Cancel detection" if self._detecting else "Cancel batch")
+        self.cancel_button.setAccessibleName("Cancel detection" if self._detecting else "Cancel batch")
+        self.cancel_action.setText("Cancel detection" if self._detecting else "Cancel batch")
         self.cancel_button.setEnabled(can_cancel)
         self.back_button.setEnabled(idle and not setup)
         self.open_button.setEnabled(can_open)
@@ -689,8 +709,75 @@ class DewarpApp(QMainWindow):
         self._running = running
         self._update_availability()
 
+    def _invalidate_detections(self, *_args):
+        if not self._detections:
+            return
+        self._detections.clear()
+        for index in range(len(self.folders)):
+            self._update_row(index)
+        self._update_overview()
+        self.footer_status.setText("Output changed · Detect Photos to refresh counts")
+
+    def _detect_photos(self):
+        if self._running or self._detecting or not self.folders or self.pages.currentIndex() != 0:
+            return
+        try:
+            text = self.output_edit.text().strip()
+            output = Path(text).expanduser().resolve() if text else None
+            if output and output.exists() and not output.is_dir():
+                raise ValueError("The output location must be a folder.")
+        except (OSError, ValueError) as exc:
+            QMessageBox.warning(self, "Check output location", str(exc))
+            return
+        self._detection_cancel.clear()
+        self._detecting = True
+        self._detections = {folder: {"status": "Detecting…"} for folder in self.folders}
+        for index in range(len(self.folders)):
+            self._update_row(index)
+        self._update_overview()
+        self._update_availability()
+        self.footer_status.setText("Detecting photos…")
+        self.cancel_button.setFocus()
+        self._detection_worker = threading.Thread(
+            target=self._detect_worker, args=(list(self.folders), output),
+            name="dewarp-detection", daemon=False)
+        self._detection_worker.start()
+
+    def _detect_worker(self, folders, output):
+        for index, folder in enumerate(folders):
+            if self._detection_cancel.is_set():
+                break
+            try:
+                if not folder.is_dir():
+                    raise OSError(f"Input folder is unavailable: {folder}")
+                total = len(scan_photos(folder, output, self._detection_cancel))
+                result = dict(total=total, status="Detected" if total else "Empty")
+            except Exception as exc:
+                result = dict(status="Scan failed", error=f"{type(exc).__name__}: {exc}")
+            if self._detection_cancel.is_set():
+                break
+            self._events.put(dict(event="detection_folder", index=index, result=result))
+
+    def _finish_detection(self):
+        self._detecting = False
+        self._detection_worker = None
+        for index, folder in enumerate(self.folders):
+            if self._detections[folder]["status"] == "Detecting…":
+                self._detections[folder] = dict(status="Not scanned")
+                self._update_row(index)
+        self._update_overview()
+        self._update_availability()
+        total = sum(row.get("total", 0) for row in self._detections.values())
+        errors = sum("error" in row for row in self._detections.values())
+        final = "Detection cancelled" if self._detection_cancel.is_set() else "Detection finished"
+        self.footer_status.setText(f"{final} · {total:,} photos" + (f" · {errors} scan failed" if errors else ""))
+        self._log(self.footer_status.text())
+        self._announce(self.footer_status.text())
+        if not self._close_when_finished:
+            self.detect_button.setFocus()
+
     def _start_batch(self):
-        if self._running or self.pages.currentIndex() != 0:
+        if self._running or self._detecting or self.pages.currentIndex() != 0:
             return
         if not self.folders:
             QMessageBox.information(self, "Add an input folder", "Add one or more folders containing DJI JPEG photos.")
@@ -710,6 +797,7 @@ class DewarpApp(QMainWindow):
             QMessageBox.warning(self, "Check processing options", str(exc))
             return
         self.outputs.clear()
+        self._detections.clear()
         self._folder_stats.clear()
         self._statuses = {index: "Queued" for index in range(len(self.folders))}
         self._batch_summary_received = False
@@ -749,6 +837,11 @@ class DewarpApp(QMainWindow):
             self._events.put({"event": "worker_exit"})
 
     def _cancel_batch(self):
+        if self._detecting:
+            self._detection_cancel.set()
+            self.footer_status.setText("Cancelling detection…")
+            self._update_availability()
+            return
         if self._running and not self._cancel.is_set():
             self._cancel.set()
             self._update_availability()
@@ -758,6 +851,11 @@ class DewarpApp(QMainWindow):
             self._announce("Cancellation requested. Active photos will finish safely.")
 
     def closeEvent(self, event):
+        if self._detecting:
+            self._close_when_finished = True
+            self._cancel_batch()
+            event.ignore()
+            return
         if self._running:
             if not self._close_when_finished and QMessageBox.question(self, "Stop processing and close?", "Cancel this batch and close after active photos finish? Completed output files will be kept.", QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No, QMessageBox.StandardButton.No) == QMessageBox.StandardButton.Yes:
                 self._close_when_finished = True
@@ -781,6 +879,10 @@ class DewarpApp(QMainWindow):
             except queue.Empty:
                 break
             self._handle_event(event)
+        if self._detecting and self._detection_worker is not None and not self._detection_worker.is_alive() and self._events.empty():
+            self._finish_detection()
+            if self._close_when_finished:
+                self.close()
         if self._running:
             self._update_timing()
         if self._running and self._worker is not None and not self._worker.is_alive() and self._events.empty():
@@ -790,7 +892,15 @@ class DewarpApp(QMainWindow):
 
     def _handle_event(self, event):
         kind = event.get("event")
-        if kind == "batch_start":
+        if kind == "detection_folder":
+            index, result = event["index"], event["result"]
+            self._detections[self.folders[index]] = result
+            self._update_row(index)
+            self._update_overview()
+            self.footer_status.setText(f"Detecting photos… {index + 1}/{len(self.folders)} folders")
+            if result.get("error"):
+                self._log(f"Detection failed for {self.folders[index]}: {result['error']}")
+        elif kind == "batch_start":
             self._batch_total = event.get("total", 0)
             self._log(f"Batch contains {self._batch_total:,} photos in {event.get('folders_total', len(self.folders))} folder(s). Effective parallel photos: {event.get('workers', '—')}.")
             self._update_batch_progress()
@@ -819,7 +929,7 @@ class DewarpApp(QMainWindow):
                     self.current_file_text.setText(status)
                 elapsed = event.get("elapsed_seconds")
                 timing = f" Elapsed: {elapsed:.2f} seconds." if elapsed is not None else ""
-                detail = " No JPEGs directly inside this folder; add the photo-containing subfolders separately." if status == "Empty" else ""
+                detail = " No JPG/JPEG photos found in this folder or its subfolders." if status == "Empty" else ""
                 self._log(f"{self.folders[index].name}: {status}. Dewarped {event.get('applied', 0)}, already corrected {event.get('already', 0)}, skipped {event.get('skipped', 0)}, failed {event.get('failed', 0)}." + timing + detail + (f" {event['error']}" if event.get("error") else ""))
                 self._announce(f"{self.folders[index].name}: {status}.")
             self._statuses[index] = status
@@ -897,15 +1007,25 @@ class DewarpApp(QMainWindow):
     def _update_row(self, index):
         stats = self._folder_stats.get(index, {})
         output = self.outputs.get(index)
+        elapsed = stats.get("elapsed_seconds") if stats.get("event") == "folder_done" else None
         values = (self.folders[index].name or str(self.folders[index]), self._statuses.get(index, "Queued"), stats.get("completed", 0), stats.get("total", "—"), output.name if output else "Assigned at start")
         for table in (self.folder_table, self.progress_table):
-            for column, value in enumerate(values):
+            detected = self._detections.get(self.folders[index]) if table is self.folder_table else None
+            row_values = ((values[0], detected["status"], 0, detected.get("total", "—"), values[4])
+                          if detected else values)
+            if table is self.progress_table:
+                row_values = row_values[:4] + (_duration(elapsed) if elapsed is not None else "—",) + row_values[4:]
+            for column, value in enumerate(row_values):
                 item = table.item(index, column)
                 if item is None:
                     item = QTableWidgetItem()
                     table.setItem(index, column, item)
                 item.setText(str(value))
-                full_text = str(self.folders[index]) if column == 0 else str(output) if column == 4 and output else str(value)
+                full_text = str(self.folders[index]) if column == 0 else str(output) if column == table.columnCount() - 1 and output else str(value)
+                if table is self.progress_table and column == 4 and elapsed is not None:
+                    full_text = f"Elapsed processing time: {elapsed:.2f} seconds"
+                if column == 1 and detected and detected.get("error"):
+                    full_text += ": " + detected["error"]
                 item.setToolTip(full_text)
                 item.setData(Qt.ItemDataRole.AccessibleDescriptionRole, full_text)
             table.resizeRowToContents(index)
@@ -918,12 +1038,17 @@ class DewarpApp(QMainWindow):
                 parts.append(f"{count} {text}")
         self.overview_text.setText(" · ".join(parts))
         self.setup_summary.setText(f"{len(self.folders):,} folder(s) in this batch" if self.folders else "No folders added")
+        detections = [self._detections[folder] for folder in self.folders if folder in self._detections]
+        if detections:
+            total = sum(row.get("total", 0) for row in detections)
+            scanned = sum("total" in row for row in detections)
+            self.setup_summary.setText(f"{len(self.folders):,} folder(s) · {total:,} photos detected · {scanned}/{len(self.folders)} folders counted")
 
     def _update_batch_progress(self, final=None):
         fraction = self._batch_completed / self._batch_total if self._batch_total else 0.0
         self._set_progress(self.batch_bar, self._batch_completed, self._batch_total)
         if final == "Finished" and not self._batch_total:
-            self.batch_text.setText("Finished · No JPEG photos found directly inside the listed folders.")
+            self.batch_text.setText("Finished · No JPEG photos found in the listed folders or their subfolders.")
             self.footer_status.setText("No JPEG photos")
         elif self._cancel.is_set() and not final:
             self.batch_text.setText(f"Cancelling… {self._batch_completed:,} / {self._batch_total:,} photos processed ({fraction:.1%})")
@@ -967,6 +1092,11 @@ class DewarpApp(QMainWindow):
         for index, folder in enumerate(self.folders):
             stats = self._folder_stats.get(index, {})
             lines.append(f"{folder}\n  {self._statuses.get(index, 'Queued')}: {stats.get('completed', 0)} / {stats.get('total', 'not scanned')} photos")
+            if folder in self._detections:
+                detected = self._detections[folder]
+                lines.append(f"  Preflight: {detected['status']} · {detected.get('total', 'unknown')} photos")
+                if detected.get("error"):
+                    lines.append(f"  {detected['error']}")
             if stats.get("elapsed_seconds") is not None:
                 lines.append(f"  Elapsed: {stats['elapsed_seconds']:.2f} seconds")
             if index in self.outputs:
@@ -1002,10 +1132,11 @@ class DewarpApp(QMainWindow):
     def _show_help(self):
         self._text_dialog("Keyboard and processing help", """Keyboard shortcuts
 Control+O: add an input folder.
+Control+D: detect photos recursively and fill the setup Photos column without processing.
 Control+Shift+O: choose the output parent folder.
 Control+Comma: open processing settings.
 Control+Return or Alt+S: start the batch.
-Escape: cancel an active batch; active photos finish safely.
+Escape: cancel photo detection or an active batch; active photos finish safely.
 Control+Shift+E: open the selected output folder.
 Control+I: read a complete batch-status snapshot.
 F1: open this help.
@@ -1019,7 +1150,7 @@ Full input and output paths appear in table tooltips and the Batch status dialog
 The activity log and status dialog support keyboard reading and copying.
 
 Processing
-Only JPEGs directly inside each input folder are processed. Add multiple folders or drop them into the window. A parent folder containing only subfolders is empty for processing; add its photo-containing subfolders separately. Start batch opens the progress page and processes every listed folder, including completed rows. Results remain visible after finishing or cancelling. Choose Back to setup to change the queue or run again; reruns create separate output folders. Blank output location saves inside each input folder. Named output folders receive a numeric suffix when needed.
+JPG/JPEG photos are found recursively in each input folder and its subfolders. Add multiple folders or drop them into the window. Outputs preserve each photo’s relative folder path. Previous dewarp output folders and directory links are excluded from scans. Detect Photos fills the setup Photos column and shows a total before starting. Counts are a snapshot of JPG/JPEG files, not a calibration check. Changing the output location clears detection counts. Start batch scans again for current files, opens the progress page and processes every listed folder, including completed rows. Results remain visible after finishing or cancelling. Choose Back to setup to change the queue or run again; reruns create separate output folders. A chosen output location contains folders with the original input names. Blank output location saves inside each input folder under “Input name - Dewarped Photos”. Existing output names receive a numeric suffix when needed.
 Progress counts completed attempts; dewarped, already-corrected, skipped, and failed counts remain separate. Overall progress is weighted by photo count.
 File > Settings stores your processing defaults for future runs. Preserve XMP requires ExifTool. Crop edges is the default framing; Wider view keeps more field of view. Both use a valid-region crop.
 Two parallel photos is the default; one to four are available. Higher counts require more memory. Cancellation preserves completed output and lets active photos finish. Closing during a batch offers safe cancellation.

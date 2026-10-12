@@ -7,27 +7,46 @@ use. See the [setup guide](../.github/README.md) for other computers.
 ## Batch workflow
 
 1. Click **Add folder…** for each input, or drag several folders into the queue.
-   Duplicate selections are ignored. JPEGs directly inside each folder are
-   processed; subfolders are not scanned recursively.
+   Duplicate selections are ignored. JPG/JPEG photos are found recursively in
+   every subfolder, regardless of extension capitalization. Previous dewarp
+   outputs, a nested output location, and directory links/junctions are excluded.
 2. Choose an **Output location**, or leave it blank to save inside each input
-   folder. A folder named `Gorgon LGL` produces `Gorgon LGL - Dewarped Photos`.
+   folder. With a chosen output location, input folder names and each photo’s
+   relative subfolder path are preserved: `Raw/Abu CS/2D/Flight/photo.JPG`
+   becomes `Output/Abu CS/2D/Flight/photo.JPG` when `Abu CS` is queued. If you
+   queue `Raw` itself, the output also includes that `Raw` level. Leaving the
+   output location blank uses `Input name - Dewarped Photos` inside each input.
+   Subfolders containing processed photos are created as needed; non-JPEG files
+   and empty directories are not copied.
    Existing names and duplicate input names receive `(2)`, `(3)`, etc. Source
    photos and previous output folders are never overwritten by a batch run.
-3. Click **Start batch** at the bottom right. The app switches to its dedicated
+3. Optionally click **Detect Photos** (or **Ctrl+D**) to fill the **Photos**
+   column for every queued folder and show the total before processing. Detection
+   runs in the background and stays on setup; **Cancel detection** or **Escape**
+   stops it. Scan errors appear in the row tooltip and **Ctrl+I** details.
+   Detection counts JPG/JPEG files without decoding or checking calibration,
+   creating output folders, or changing photos. Changing the output location
+   clears these counts. Click Detect Photos again to refresh after files change.
+4. Click **Start batch** at the bottom right. It scans again for current files. The app switches to its dedicated
    processing screen. Folders run in queue order, with two photos at a time by
    default. The progress table shows queued, processing, completed, empty,
    failed and cancelled folders. Full paths are available in table tooltips and
    the copyable **View → Batch status** snapshot (**Ctrl+I**).
-4. Watch current-folder counts, overall progress, folder status and activity on
+5. Watch current-folder counts, overall progress, folder status and activity on
    the processing screen. **Processed** includes
    dewarped photos, already-corrected photos, skipped photos and failures.
    The separate counters distinguish each outcome; 100% means all photos were
    attempted, not that every photo succeeded. Overall progress is weighted by
    photo count rather than giving small and large folders equal weight.
-5. Use **Open output** to view a selected folder's result. Each processed folder
+   **Duration**, between **Photos** and **Output folder**, shows each folder's
+   elapsed processing time after it finishes, as `m:ss` (or `h:mm:ss`). Hover
+   for seconds with two decimal places. A dash means no final timing is available.
+6. Use **Open output** to view a selected folder's result. Each processed folder
    includes `processing-report.json` with options, totals, warnings and each
-   photo's outcome. Empty folders do not create output directories.
-6. When processing has finished or cancellation has completed, click
+   photo's outcome, identified by its relative path. A `.dewarp-output` marker
+   prevents later scans from reprocessing outputs, including interrupted runs.
+   Folders without JPEGs anywhere below them do not create output directories.
+7. When processing has finished or cancellation has completed, click
    **Back to setup** at the bottom right to prepare another run. The folder
    queue and output location are retained. Remove unwanted folders or use
    **Clear queue** to begin with a fresh selection. Start processes every listed
