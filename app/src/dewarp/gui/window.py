@@ -16,7 +16,7 @@ from PySide6.QtCore import QEvent, QPoint, QRect, QSize, Qt, QTimer, QUrl
 from PySide6.QtGui import QAction, QActionGroup, QAccessible, QAccessibleAnnouncementEvent, QDesktopServices, QFont, QKeySequence
 from PySide6.QtWidgets import (QApplication, QAbstractItemView, QDialog, QFileDialog, QGridLayout, QGroupBox, QHeaderView, QLabel, QLayout, QLineEdit, QMainWindow, QMessageBox, QPlainTextEdit, QProgressBar, QPushButton, QScrollArea, QSizePolicy, QStackedWidget, QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget)
 
-from dewarp.core.engine import BatchOptions, exiftool_path, run_batch, scan_photos
+from dewarp.core.engine import BatchOptions, exiftool_path, is_suppressed_warning, run_batch, scan_photos
 from .theme import install_system_theme
 from .buttons import ActionButton as _Button
 from .settings import ProcessingSettings, SettingsDialog, SettingsStore
@@ -950,7 +950,8 @@ class DewarpApp(QMainWindow):
             if event.get("status") in ("failed", "skipped"):
                 self._log(f"{event.get('status', '').capitalize()} {event.get('name', '')}: {event.get('message', '')}")
             for warning in event.get("warnings", []) or []:
-                self._log(f"Warning · {event.get('name', '')}: {warning}")
+                if not is_suppressed_warning(warning):
+                    self._log(f"Warning · {event.get('name', '')}: {warning}")
         elif kind == "batch_done":
             self._batch_summary_received = True
             self._batch_total = event.get("total", self._batch_total)
@@ -960,8 +961,13 @@ class DewarpApp(QMainWindow):
                 if status in ("Queued", "Processing"):
                     self._statuses[index] = "Cancelled" if cancelled else "Failed"
                     self._update_row(index)
+            warnings = event.get("warnings", []) or []
+            if isinstance(warnings, int):
+                warnings = max(0, warnings - event.get("suppressed_warnings", 0))
+            else:
+                warnings = [warning for warning in warnings if not is_suppressed_warning(warning)]
             issues = (any(status in ("Failed", "Completed with issues") for status in self._statuses.values())
-                      or event.get("failed", 0) or event.get("skipped", 0) or event.get("warnings", 0))
+                      or event.get("failed", 0) or event.get("skipped", 0) or warnings)
             final = "Cancelled" if cancelled else "Finished with issues" if issues else "Finished"
             if self._current_index is None:
                 self.current_text.setText("No folder processing")
@@ -970,7 +976,6 @@ class DewarpApp(QMainWindow):
             self._update_batch_progress(final=final)
             self._update_timing(event.get("elapsed"), finished=True)
             self._log(f"Batch {'cancelled' if cancelled else 'finished'}: {self._batch_completed:,}/{self._batch_total:,} photos processed; dewarped {event.get('applied', 0):,}, already corrected {event.get('already', 0):,}, skipped {event.get('skipped', 0):,}, failed {event.get('failed', 0):,}.")
-            warnings = event.get("warnings", []) or []
             if isinstance(warnings, int):
                 if warnings:
                     self._log(f"{warnings:,} metadata warning(s); see the per-folder processing-report.json files for details.")

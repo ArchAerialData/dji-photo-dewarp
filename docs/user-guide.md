@@ -46,6 +46,10 @@ use. See the [setup guide](../.github/README.md) for other computers.
    photo's outcome, identified by its relative path. A `.dewarp-output` marker
    prevents later scans from reprocessing outputs, including interrupted runs.
    Folders without JPEGs anywhere below them do not create output directories.
+   The specific minor “Possibly incorrect maker notes offsets” warning is kept
+   in these reports but hidden from the GUI and excluded from completion issues.
+   Report warning totals include it; `suppressed_warnings` counts these excluded
+   warnings. Other warnings, skipped photos, and failures still flag issues.
 7. When processing has finished or cancellation has completed, click
    **Back to setup** at the bottom right to prepare another run. The folder
    queue and output location are retained. Remove unwanted folders or use
