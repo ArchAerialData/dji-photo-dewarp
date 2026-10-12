@@ -16,6 +16,7 @@ from pathlib import Path
 import queue
 import re
 import shutil
+import stat
 import subprocess
 import tempfile
 import threading
@@ -30,6 +31,7 @@ import piexif
 
 NUM_RE = r"[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?"
 JPEG_SUFFIXES = {".jpg", ".jpeg"}
+OUTPUT_MARKER = ".dewarp-output"
 _BATCH_LOCK = threading.Lock()  # OpenCV's thread setting is process-wide.
 
 
@@ -400,6 +402,7 @@ def _process_image(source, output, options, cache, exiftool):
         corrected = normalize_orientation(corrected, orientation)
         rgb = cv2.cvtColor(corrected, cv2.COLOR_BGR2RGB)
         del decoded, corrected
+        output.mkdir(parents=True, exist_ok=True)
         handle, name = tempfile.mkstemp(prefix=".dewarp-", suffix=".jpg", dir=output)
         os.close(handle)
         temporary = Path(name)
@@ -429,18 +432,70 @@ def _process_image(source, output, options, cache, exiftool):
     return result
 
 
+def _is_previous_output(folder: Path) -> bool:
+    if (folder / OUTPUT_MARKER).is_file():
+        return True
+    # Recognize outputs from versions predating the reservation marker too.
+    report = folder / "processing-report.json"
+    if report.is_file():
+        try:
+            data = json.loads(report.read_text(encoding="utf-8"))
+        except (ValueError, UnicodeError):
+            return False
+        return (isinstance(data, dict) and data.get("version") == 2
+                and isinstance(data.get("summary"), dict)
+                and bool(data["summary"].get("output"))
+                and bool(data["summary"].get("folder")))
+    return False
+
+
+def scan_photos(folder: Path, output_root: Path | None = None, cancel_event=None) -> list[Path]:
+    """Inventory JPEGs recursively without following directory links or outputs.
+
+    Raise on unreadable subtrees instead of silently reporting a partial scan
+    as successful. An explicitly selected output folder can still be an input.
+    """
+    def scan_error(error):
+        raise error
+
+    def include_directory(path):
+        # lstat also recognizes Windows junctions on supported Python 3.10/3.11,
+        # where os.path.isjunction is not available yet.
+        info = path.lstat()
+        is_link = (stat.S_ISLNK(info.st_mode)
+                   or getattr(info, "st_reparse_tag", None) == stat.IO_REPARSE_TAG_MOUNT_POINT)
+        return not is_link and path != output_root and not _is_previous_output(path)
+
+    photos = []
+    for directory, children, files in os.walk(folder, onerror=scan_error, followlinks=False):
+        if cancel_event is not None and cancel_event.is_set():
+            return []  # Never expose a partial inventory as a complete count.
+        parent = Path(directory)
+        children[:] = sorted(
+            (name for name in children if include_directory(parent / name)),
+            key=str.casefold)
+        photos.extend(parent / name for name in files
+                      if Path(name).suffix.lower() in JPEG_SUFFIXES and (parent / name).is_file())
+    return sorted(photos, key=lambda path: path.relative_to(folder).as_posix().casefold())
+
+
 def reserve_output(folder: Path, root: Path | None) -> Path:
     parent = root if root is not None else folder
     parent.mkdir(parents=True, exist_ok=True)
-    stem = (folder.name or folder.drive.replace(":", "") or "Photos") + " - Dewarped Photos"
+    stem = folder.name or folder.drive.replace(":", "") or "Photos"
+    if root is None:
+        stem += " - Dewarped Photos"
     number = 1
     while True:
         output = parent / (stem if number == 1 else f"{stem} ({number})")
         try:
             output.mkdir()
-            return output
         except FileExistsError:
             number += 1
+            continue
+        # Reserve before processing, so cancelled/failed runs are excluded too.
+        (output / OUTPUT_MARKER).write_text("DJI Photo Dewarp output\n", encoding="utf-8")
+        return output
 
 
 def _write_report(result, files, options):
@@ -498,8 +553,7 @@ def run_batch(folders, options: BatchOptions, on_event=None, cancel_event=None) 
         for index, folder in enumerate(unique):
             error = None
             try:
-                photos = sorted((p for p in folder.iterdir() if p.is_file() and p.suffix.lower() in JPEG_SUFFIXES),
-                                key=lambda p: p.name.casefold())
+                photos = scan_photos(folder, output_root)
             except OSError as exc:
                 photos, error = [], str(exc)
             inventories.append((photos, error))
@@ -527,7 +581,8 @@ def run_batch(folders, options: BatchOptions, on_event=None, cancel_event=None) 
                         result["elapsed_seconds"] = time.monotonic() - folder_started
                         emit(dict(event="folder_done", **result))
                         continue
-                    output = reserve_output(Path(result["folder"]), output_root)
+                    folder = Path(result["folder"])
+                    output = reserve_output(folder, output_root)
                     result.update(output=str(output), status="Processing")
                     emit(dict(event="folder_start", **result))
                     iterator = iter(photos)
@@ -538,7 +593,8 @@ def run_batch(folders, options: BatchOptions, on_event=None, cancel_event=None) 
                             return
                         src = next(iterator, None)
                         if src is not None:
-                            future = pool.submit(_process_image, src, output, options, cache, session)
+                            destination = output / src.relative_to(folder).parent
+                            future = pool.submit(_process_image, src, destination, options, cache, session)
                             pending[future] = src
 
                     for _ in range(options.workers):
@@ -553,6 +609,8 @@ def run_batch(folders, options: BatchOptions, on_event=None, cancel_event=None) 
                                 # A worker bug must not abandon other in-flight outputs.
                                 record = dict(name=source.name, status="failed",
                                               message=f"Unexpected worker error: {exc}", warnings=[])
+                            # Relative paths disambiguate identical names in different flights.
+                            record["name"] = source.relative_to(folder).as_posix()
                             records.append(record)
                             status = record["status"]
                             result[status] += 1

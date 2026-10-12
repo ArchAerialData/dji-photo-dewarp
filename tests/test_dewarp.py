@@ -239,8 +239,8 @@ class DewarpRegressionTests(unittest.TestCase):
         self.assertEqual(len(results), 2)
         outputs = [Path(result["output"]) for result in results]
         self.assertEqual(len(set(outputs)), 2)
-        self.assertEqual(outputs[0].name, "Gorgon LGL - Dewarped Photos")
-        self.assertEqual(outputs[1].name, "Gorgon LGL - Dewarped Photos (2)")
+        self.assertEqual(outputs[0].name, "Gorgon LGL")
+        self.assertEqual(outputs[1].name, "Gorgon LGL (2)")
         for result, output in zip(results, outputs):
             self.assertEqual(output.parent, output_root)
             self.assertEqual(result["applied"], 1)
@@ -258,6 +258,73 @@ class DewarpRegressionTests(unittest.TestCase):
         result = self.run_folder(folder)
         self.assertEqual(Path(result["output"]), folder / "Flight - Dewarped Photos")
         self.assertEqual(hashlib.sha256(source.read_bytes()).digest(), original_hash)
+
+    def test_recursive_batch_mirrors_paths_and_reports_duplicate_names(self):
+        folder = self.root / "Raw" / "Abu CS"
+        names = ["root.JpG", "2D/Flight A/photo.JPG", "2D/Flight B/photo.JPG",
+                 "2D/Flight B/deeper/photo.JPEG"]
+        sources = [synthetic_photo(folder / name) for name in names]
+        before = {source: source.read_bytes() for source in sources}
+        (folder / "2D" / "Flight A" / "sidecar.txt").write_text("ignore")
+        events = []
+        result = engine.run_batch([folder], self.options(output_root=self.root / "Output", workers=2),
+                                  on_event=events.append)[0]
+        output = Path(result["output"])
+        self.assertEqual(output, self.root / "Output" / "Abu CS")
+        self.assertEqual(result["total"], 4)
+        self.assertEqual(result["applied"], 4)
+        self.assertEqual(result["failed"], 0)
+        actual = {p.relative_to(output).as_posix() for p in output.rglob("*")
+                  if p.suffix.lower() in engine.JPEG_SUFFIXES}
+        self.assertEqual(actual, set(names))
+        self.assertFalse((output / "2D/Flight A/sidecar.txt").exists())
+        report = json.loads((output / "processing-report.json").read_text(encoding="utf-8"))
+        self.assertEqual({item["name"] for item in report["files"]}, set(names))
+        self.assertEqual({item["name"] for item in events if item["event"] == "photo_done"}, set(names))
+        self.assertEqual(events[-1]["completed"], 4)
+        self.assertEqual(before, {source: source.read_bytes() for source in sources})
+
+    def test_recursive_rerun_excludes_previous_and_interrupted_outputs(self):
+        folder = self.root / "Flight"
+        synthetic_photo(folder / "2D" / "source.jpeg")
+        first = self.run_folder(folder)
+        output = Path(first["output"])
+        # A pre-marker output remains recognizable by its existing report.
+        (output / engine.OUTPUT_MARKER).unlink()
+        interrupted = engine.reserve_output(folder, None)
+        synthetic_photo(interrupted / "unfinished.JPG")
+        # A legitimate input folder with the old output naming style is included.
+        synthetic_photo(folder / "Survey - Dewarped Photos" / "source.JPG")
+        second = self.run_folder(folder)
+        self.assertEqual(second["total"], 2)
+        self.assertEqual(second["applied"], 2)
+        self.assertEqual(second["already"], 0)
+        self.assertEqual(Path(second["output"]).name, "Flight - Dewarped Photos (3)")
+
+    def test_nested_output_location_is_excluded_from_recursive_input(self):
+        folder = self.root / "Flight"
+        synthetic_photo(folder / "2D" / "source.jpeg")
+        exports = folder / "Exports"
+        synthetic_photo(exports / "unrelated.jpg")
+        for _ in range(2):
+            result = self.run_folder(folder, output_root=exports)
+            self.assertEqual(result["total"], 1)
+            self.assertEqual(result["applied"], 1)
+            self.assertTrue((Path(result["output"]) / "2D/source.jpeg").is_file())
+
+    def test_recursive_scan_errors_are_reported_instead_of_partial_success(self):
+        folder = self.root / "Flight"
+        folder.mkdir()
+
+        def unreadable_walk(top, *, onerror, followlinks):
+            yield str(top), [], ["photo.JPG"]
+            onerror(PermissionError("Cannot read nested flight"))
+
+        with mock.patch.object(engine.os, "walk", side_effect=unreadable_walk):
+            result = self.run_folder(folder)
+        self.assertEqual(result["status"], "Failed")
+        self.assertIn("Cannot read nested flight", result["error"])
+        self.assertFalse(result["output"])
 
     def test_duplicate_inputs_are_processed_once_and_empty_folders_are_reported(self):
         folder = self.root / "One flight"
@@ -368,7 +435,7 @@ class DewarpRegressionTests(unittest.TestCase):
         self.assertEqual(result["failed"], 1)
         output = Path(result["output"])
         self.assertFalse((output / source.name).exists())
-        self.assertEqual(list(output.glob(".dewarp-*")), [])
+        self.assertEqual(list(output.glob(".dewarp-*.jpg")), [])
         report = json.loads((output / "processing-report.json").read_text(encoding="utf-8"))
         self.assertIn("ExifTool is required to preserve camera MakerNotes", report["files"][0]["message"])
 
@@ -530,7 +597,7 @@ class DewarpRegressionTests(unittest.TestCase):
         self.assertIn("--workers", help_result.stdout)
         folders = [self.root / "CLI A", self.root / "CLI B"]
         for folder in folders:
-            synthetic_photo(folder / "photo.jpg")
+            synthetic_photo(folder / "nested" / "photo.jpg")
         output_root = self.root / "CLI output"
         response = subprocess.run(
             [sys.executable, str(script), *(str(folder) for folder in folders),
@@ -540,8 +607,8 @@ class DewarpRegressionTests(unittest.TestCase):
         self.assertEqual(response.returncode, 0, response.stdout + response.stderr)
         self.assertIn("2/2 photos", response.stdout)
         for folder in folders:
-            output = output_root / f"{folder.name} - Dewarped Photos"
-            self.assertTrue((output / "photo.jpg").is_file())
+            output = output_root / folder.name
+            self.assertTrue((output / "nested" / "photo.jpg").is_file())
             self.assertTrue((output / "processing-report.json").is_file())
 
 

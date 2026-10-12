@@ -34,8 +34,10 @@ between machines. Runtime environments, logs and local scratch are Git-ignored.
 ## Use
 
 Add folders or drag several into the queue, choose an output parent, then click
-**Start batch**. `Gorgon LGL` produces `Gorgon LGL - Dewarped Photos`; existing
-names get numbered suffixes. A dedicated processing screen shows the current
+**Start batch**. All JPG/JPEG subfolders are scanned. A chosen output parent
+contains the original input folder names and relative photo paths. Blank output
+uses `Input name - Dewarped Photos` inside each input. Existing output names
+get numbered suffixes; previous outputs are excluded from recursive scans. A dedicated processing screen shows the current
 folder and whole batch, outcomes and elapsed time. Cancel stays at the bottom
 left; Start or Back to setup stays at the bottom right. **File → Settings**
 saves processing defaults for your user; XMP preservation and edge cropping
