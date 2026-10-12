@@ -559,6 +559,21 @@ class DewarpRegressionTests(unittest.TestCase):
         self.assertEqual(report["summary"]["failed"], 1)
         self.assertIn("Metadata write failed", report["files"][0]["message"])
 
+    def test_only_specific_minor_makernote_offset_warning_is_suppressed(self):
+        for warning in (
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - A:/photo.JPG",
+            "[minor] Possibly incorrect maker notes offsets (fix by 24?)",
+        ):
+            self.assertTrue(engine.is_suppressed_warning(warning), warning)
+        for warning in (
+            "Error: [minor] Possibly incorrect maker notes offsets (fix by -452?) - A:/photo.JPG",
+            "Warning: Bad MakerNotes offset for DataDump",
+            "Warning: [minor] Unrecognized MakerNotes",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?)\nError: metadata write failed",
+            "Warning: unrelated problem - Possibly incorrect maker notes offsets (fix by -452?)",
+        ):
+            self.assertFalse(engine.is_suppressed_warning(warning), warning)
+
     def test_full_xmp_request_reports_missing_exiftool_before_processing(self):
         folder = self.root / "No ExifTool"
         synthetic_photo(folder / "photo.jpg")

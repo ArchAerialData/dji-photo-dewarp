@@ -33,6 +33,17 @@ NUM_RE = r"[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?"
 JPEG_SUFFIXES = {".jpg", ".jpeg"}
 OUTPUT_MARKER = ".dewarp-output"
 _BATCH_LOCK = threading.Lock()  # OpenCV's thread setting is process-wide.
+_SUPPRESSED_MAKERNOTE_WARNING = re.compile(
+    r"(?:Warning: )?\[minor\] Possibly incorrect maker notes offsets "
+    r"\(fix by [+-]?\d+\?\)(?: - .+)?")
+
+
+def is_suppressed_warning(warning: str) -> bool:
+    """Keep this known minor diagnostic in reports, without flagging completion.
+
+    Match the specific ExifTool warning, never arbitrary MakerNotes errors.
+    """
+    return _SUPPRESSED_MAKERNOTE_WARNING.fullmatch(warning.strip()) is not None
 
 
 @dataclass(frozen=True)
@@ -545,7 +556,7 @@ def run_batch(folders, options: BatchOptions, on_event=None, cancel_event=None) 
     session = ExifToolSession(exe) if exe else None
     started = time.monotonic()
     results, inventories = [], []
-    counts = dict(completed=0, applied=0, already=0, skipped=0, failed=0, warnings=0)
+    counts = dict(completed=0, applied=0, already=0, skipped=0, failed=0, warnings=0, suppressed_warnings=0)
     total = 0
     try:
         # JPEG encoding dominates; a small OpenCV thread team avoids oversubscription.
@@ -559,7 +570,7 @@ def run_batch(folders, options: BatchOptions, on_event=None, cancel_event=None) 
             inventories.append((photos, error))
             results.append(dict(index=index, folder=str(folder), output="", total=len(photos),
                                 completed=0, applied=0, already=0, skipped=0, failed=0,
-                                warnings=0, status="Queued", error=error, elapsed_seconds=0.0))
+                                warnings=0, suppressed_warnings=0, status="Queued", error=error, elapsed_seconds=0.0))
             total += len(photos)
         emit(dict(event="batch_start", total=total, folders_total=len(unique), workers=options.workers))
         for result in results:
@@ -616,9 +627,12 @@ def run_batch(folders, options: BatchOptions, on_event=None, cancel_event=None) 
                             result[status] += 1
                             result["completed"] += 1
                             result["warnings"] += len(record["warnings"])
+                            suppressed = sum(is_suppressed_warning(warning) for warning in record["warnings"])
+                            result["suppressed_warnings"] += suppressed
                             counts[status] += 1
                             counts["completed"] += 1
                             counts["warnings"] += len(record["warnings"])
+                            counts["suppressed_warnings"] += suppressed
                             emit(dict(event="photo_done", index=result["index"], **record,
                                       completed=result["completed"], remaining=result["total"] - result["completed"],
                                       total=result["total"], applied=result["applied"], already=result["already"],
@@ -627,7 +641,7 @@ def run_batch(folders, options: BatchOptions, on_event=None, cancel_event=None) 
                                       elapsed=time.monotonic() - started))
                             submit_next()
                     result["status"] = ("Cancelled" if result["completed"] < result["total"] else
-                                        "Completed with issues" if result["failed"] or result["skipped"] or result["warnings"]
+                                        "Completed with issues" if result["failed"] or result["skipped"] or result["warnings"] > result["suppressed_warnings"]
                                         else "Completed")
                 except Exception as exc:
                     result.update(status="Failed", error=f"{type(exc).__name__}: {exc}")

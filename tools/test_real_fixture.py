@@ -218,7 +218,7 @@ def gui_scenario(config, scenario):
             or not clean_summary or worker_errors
             or any(value not in ("Completed", "Completed with issues") for value in window._statuses.values())):
         raise AssertionError(f"GUI completion mismatch: {result}")
-    if summaries[0].get("warnings") and "Finished with issues" not in window.batch_text.text():
+    if summaries[0].get("warnings", 0) > summaries[0].get("suppressed_warnings", 0) and "Finished with issues" not in window.batch_text.text():
         raise AssertionError("GUI did not make metadata warnings visible in its final summary")
     for row in range(len(folders)):
         for column in range(window.folder_table.columnCount()):
@@ -267,7 +267,7 @@ def _verify_scenario(config, scenario, session):
         summary = report["summary"]
         expected = {path.name for path in folder.iterdir() if path.suffix.lower() in JPEG}
         actual = {path.name for path in report_path.parent.iterdir() if path.suffix.lower() in JPEG}
-        expected_status = "Completed with issues" if summary["warnings"] else "Completed"
+        expected_status = "Completed with issues" if summary["warnings"] > summary.get("suppressed_warnings", 0) else "Completed"
         if expected != actual or summary["status"] != expected_status or summary["applied"] != len(expected):
             raise AssertionError(f"Output counts/status mismatch: {summary}")
         if summary["failed"] or summary["skipped"]:

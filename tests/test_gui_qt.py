@@ -4,6 +4,7 @@ Run with the standard unittest suite; synthetic photos only. DPI matrices and
 native Windows UI Automation probes are recorded separately in docs/.
 """
 from pathlib import Path
+import json
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "app" / "src"))
 import tempfile
@@ -818,6 +819,44 @@ class GuiTests(unittest.TestCase):
             self.pump_until(lambda: not window._detecting)
         self.assertFalse(window.isVisible())
         self.assertIsNone(window._detection_worker)
+
+    def test_makernote_warning_stays_in_report_without_hiding_other_issues(self):
+        window = self.window
+        (self.directory / "photo.jpg").write_bytes(b"worker fixture")
+        window.add_folders([self.directory])
+        minor = "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - photo.jpg"
+        other = "Warning: Bad MakerNotes offset for DataDump"
+        for outcome, warnings, has_issues in (
+            ("applied", [minor, minor], False),
+            ("applied", [minor, other], True),
+            ("skipped", [minor], True),
+            ("failed", [minor], True),
+        ):
+            with self.subTest(outcome=outcome, warnings=warnings):
+                window.pages.setCurrentWidget(window.setup_scroll)
+                window.log.clear()
+                record = dict(name="photo.jpg", status=outcome, message="Fixture outcome", warnings=warnings)
+                with patch("dewarp.core.engine._process_image", return_value=record):
+                    window._start_batch()
+                    self.pump_until(lambda: not window._running)
+                expected = "Completed with issues" if has_issues else "Completed"
+                self.assertEqual(window._statuses[0], expected)
+                self.assertEqual("Finished with issues" in window.batch_text.text(), has_issues)
+                self.assertEqual("Finished with issues" in window._status_contents(), has_issues)
+                activity = window.log.toPlainText()
+                self.assertNotIn("Possibly incorrect maker notes offsets", activity)
+                self.assertEqual(other in activity, other in warnings)
+                if outcome in ("skipped", "failed"):
+                    self.assertIn(f"{outcome.capitalize()} photo.jpg: Fixture outcome", activity)
+                if other in warnings:
+                    self.assertIn("1 metadata warning(s)", activity)
+                else:
+                    self.assertNotIn("metadata warning(s)", activity)
+                report = json.loads((window.outputs[0] / "processing-report.json").read_text(encoding="utf-8"))
+                self.assertEqual(report["files"][0]["warnings"], warnings)
+                self.assertEqual(report["summary"]["warnings"], len(warnings))
+                self.assertEqual(report["summary"]["suppressed_warnings"], warnings.count(minor))
+                self.assertEqual(report["summary"]["status"], expected)
 
     def test_completion_issues_are_in_visible_and_accessible_summary(self):
         window = self.window
