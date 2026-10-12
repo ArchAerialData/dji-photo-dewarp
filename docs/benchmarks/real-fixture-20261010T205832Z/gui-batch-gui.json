@@ -1,0 +1,79 @@
+{
+  "elapsed_seconds": 7.4200860999990255,
+  "events": [
+    {
+      "event": "folder_done",
+      "index": 0,
+      "folder": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS",
+      "output": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\outputs\\gui-batch\\Conan CS - Dewarped Photos",
+      "total": 12,
+      "completed": 12,
+      "applied": 12,
+      "already": 0,
+      "skipped": 0,
+      "failed": 0,
+      "warnings": 24,
+      "status": "Completed with issues",
+      "error": null,
+      "elapsed_seconds": 2.6169233999680728
+    },
+    {
+      "event": "folder_done",
+      "index": 1,
+      "folder": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Gorgon LGL",
+      "output": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\outputs\\gui-batch\\Gorgon LGL - Dewarped Photos",
+      "total": 12,
+      "completed": 12,
+      "applied": 12,
+      "already": 0,
+      "skipped": 0,
+      "failed": 0,
+      "warnings": 24,
+      "status": "Completed with issues",
+      "error": null,
+      "elapsed_seconds": 2.2586646999698132
+    },
+    {
+      "event": "folder_done",
+      "index": 2,
+      "folder": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL",
+      "output": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\outputs\\gui-batch\\Neptune LGL - Dewarped Photos",
+      "total": 12,
+      "completed": 12,
+      "applied": 12,
+      "already": 0,
+      "skipped": 0,
+      "failed": 0,
+      "warnings": 24,
+      "status": "Completed with issues",
+      "error": null,
+      "elapsed_seconds": 2.3961792999180034
+    },
+    {
+      "event": "batch_done",
+      "cancelled": false,
+      "total": 36,
+      "completed": 36,
+      "applied": 36,
+      "already": 0,
+      "skipped": 0,
+      "failed": 0,
+      "warnings": 72,
+      "elapsed": 7.282524300040677,
+      "folders_total": 3,
+      "folders_completed": 3,
+      "folders_failed": 0
+    }
+  ],
+  "statuses": {
+    "0": "Completed with issues",
+    "1": "Completed with issues",
+    "2": "Completed with issues"
+  },
+  "batch_total": 36,
+  "batch_completed": 36,
+  "batch_bar": 100,
+  "start_enabled": true,
+  "cancel_enabled": false,
+  "errors": []
+}

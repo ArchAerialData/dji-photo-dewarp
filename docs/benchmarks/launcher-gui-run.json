@@ -1,0 +1,34 @@
+{
+  "result": {
+    "command": [
+      "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "-NoLogo",
+      "-NoProfile",
+      "-ExecutionPolicy",
+      "Bypass",
+      "-File",
+      "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\audit_launcher.ps1",
+      "-OutputFile",
+      "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\launcher-gui-audit.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 3.3117222000146285,
+    "timeout": null,
+    "wall_limit_seconds": 60,
+    "stall_limit_seconds": 35,
+    "tail": [
+      "PASS: GUI process belongs to the actual CMD descendant tree",
+      "PASS: Native GUI window is visible",
+      "PASS: Expected main-window title",
+      "PASS: Start batch is exposed once as a native accessible button",
+      "PASS: Start button is visible inside the launched window",
+      "PASS: Native title-bar theme matches current Windows app appearance",
+      "PASS: Root launcher exits successfully",
+      "PASS: Owned GUI closes gracefully without processing",
+      "PASS: New GUI error log exists and is empty",
+      "PASS: No owned GUI process remains"
+    ]
+  },
+  "scratch_removed": true,
+  "photos_accessed": false
+}

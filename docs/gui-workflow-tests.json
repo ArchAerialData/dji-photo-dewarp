@@ -1,0 +1,41 @@
+{
+  "command": [
+    "C:\\Program Files\\Python313\\python.exe",
+    "-u",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_gui_qt.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 3.611693299957551,
+  "timeout": null,
+  "wall_limit_seconds": 120,
+  "stall_limit_seconds": 60,
+  "tail": [
+    "test_cancel_and_close_wait_for_worker_exit (test_gui_qt.GuiTests.test_cancel_and_close_wait_for_worker_exit) ... ok",
+    "test_close_accepts_when_work_finishes_during_confirmation (test_gui_qt.GuiTests.test_close_accepts_when_work_finishes_during_confirmation) ... ok",
+    "test_completion_issues_are_in_visible_and_accessible_summary (test_gui_qt.GuiTests.test_completion_issues_are_in_visible_and_accessible_summary) ... ok",
+    "test_current_and_batch_progress_are_photo_weighted (test_gui_qt.GuiTests.test_current_and_batch_progress_are_photo_weighted) ... ok",
+    "test_enter_and_space_activate_focused_buttons (test_gui_qt.GuiTests.test_enter_and_space_activate_focused_buttons) ... ok",
+    "test_enter_in_output_path_does_not_start_processing (test_gui_qt.GuiTests.test_enter_in_output_path_does_not_start_processing) ... ok",
+    "test_footer_stays_visible_and_focus_scrolls_content (test_gui_qt.GuiTests.test_footer_stays_visible_and_focus_scrolls_content) ... ok",
+    "test_multiple_dropped_paths_preserve_spaces_braces_and_remove_selection (test_gui_qt.GuiTests.test_multiple_dropped_paths_preserve_spaces_braces_and_remove_selection) ... ok",
+    "test_parent_without_direct_photos_finishes_with_useful_guidance (test_gui_qt.GuiTests.test_parent_without_direct_photos_finishes_with_useful_guidance) ... ok",
+    "test_primary_controls_expose_accessible_names_and_focus (test_gui_qt.GuiTests.test_primary_controls_expose_accessible_names_and_focus) ... ok",
+    "test_real_batch_destinations_progress_and_empty_folder (test_gui_qt.GuiTests.test_real_batch_destinations_progress_and_empty_folder) ... ok",
+    "test_removing_one_folder_preserves_other_results_and_output_links (test_gui_qt.GuiTests.test_removing_one_folder_preserves_other_results_and_output_links) ... ok",
+    "test_start_and_cancel_keyboard_shortcuts (test_gui_qt.GuiTests.test_start_and_cancel_keyboard_shortcuts) ... ok",
+    "test_system_font_changes_preserve_app_text_scale (test_gui_qt.GuiTests.test_system_font_changes_preserve_app_text_scale) ... ok",
+    "test_worker_error_marks_never_started_folders_not_processed (test_gui_qt.GuiTests.test_worker_error_marks_never_started_folders_not_processed) ... ok",
+    "",
+    "----------------------------------------------------------------------",
+    "Ran 15 tests in 2.927s",
+    "",
+    "OK"
+  ]
+}

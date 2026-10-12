@@ -1,0 +1,10 @@
+PASS: GUI process belongs to the actual CMD descendant tree
+PASS: Native GUI window is visible
+PASS: Expected main-window title
+PASS: Start batch is exposed once as a native accessible button
+PASS: Start button is visible inside the launched window
+PASS: Native title-bar theme matches current Windows app appearance
+PASS: Root launcher exits successfully
+PASS: Owned GUI closes gracefully without processing
+PASS: New GUI error log exists and is empty
+PASS: No owned GUI process remains

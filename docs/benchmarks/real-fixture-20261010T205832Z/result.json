@@ -1,0 +1,2816 @@
+{
+  "started_utc": "20261010T205832Z",
+  "source": "K:\\Temp-Dewarp-Test-Fixture\\Original Input JPGs",
+  "full_fixture": false,
+  "sample_per_folder": 12,
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "source_hashes": {
+    "dewarp_engine.py": "ee374ea47d04add43668af21a2f7dca64c2eb8a2b73ca13461a649d407838082",
+    "dewarp_gui.py": "b411b3d40e151f6c5b1d3e54332dba1a31667d63e9097a6e8b392b91cd190656",
+    "dewarp.py": "2a0ef698ea82a8e07a1b240fe31fd7cd3809526e981b98d0c3496ca1e920d077"
+  },
+  "settings": {
+    "workers": 2,
+    "alpha": 0,
+    "copy_xmp": true,
+    "jpeg_quality": 95,
+    "jpeg_subsampling": 0
+  },
+  "scenarios": [
+    {
+      "name": "cli-single",
+      "process_wall_seconds": 3.1917813000036404,
+      "folder_timings": [
+        {
+          "folder": "Conan CS",
+          "photos": 12,
+          "elapsed_seconds": 2.601481099962257,
+          "photos_per_second": 4.612756940718923
+        }
+      ],
+      "folder_time_sum_seconds": 2.601481099962257,
+      "validated": [
+        {
+          "folder": "Conan CS",
+          "verified_photos": 12
+        }
+      ],
+      "pixel_exact_reference_comparisons": 1,
+      "metadata_diagnostics": [
+        {
+          "source": "Conan CS/DJI_20261005152139_0001_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152224_0035_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152309_0068_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152353_0101_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152438_0134_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152523_0167_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152609_0201_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152654_0234_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152739_0267_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152824_0300_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152908_0333_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152953_0366_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        }
+      ]
+    },
+    {
+      "name": "cli-batch",
+      "process_wall_seconds": 7.899920399999246,
+      "folder_timings": [
+        {
+          "folder": "Conan CS",
+          "photos": 12,
+          "elapsed_seconds": 2.606029100017622,
+          "photos_per_second": 4.60470683152343
+        },
+        {
+          "folder": "Gorgon LGL",
+          "photos": 12,
+          "elapsed_seconds": 2.2937699001049623,
+          "photos_per_second": 5.231562241465843
+        },
+        {
+          "folder": "Neptune LGL",
+          "photos": 12,
+          "elapsed_seconds": 2.347070000017993,
+          "photos_per_second": 5.1127576083832205
+        }
+      ],
+      "folder_time_sum_seconds": 7.2468690001405776,
+      "validated": [
+        {
+          "folder": "Conan CS",
+          "verified_photos": 12
+        },
+        {
+          "folder": "Gorgon LGL",
+          "verified_photos": 12
+        },
+        {
+          "folder": "Neptune LGL",
+          "verified_photos": 12
+        }
+      ],
+      "pixel_exact_reference_comparisons": 3,
+      "metadata_diagnostics": [
+        {
+          "source": "Conan CS/DJI_20261005152139_0001_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152224_0035_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152309_0068_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152353_0101_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152438_0134_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152523_0167_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152609_0201_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152654_0234_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152739_0267_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152824_0300_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152908_0333_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152953_0366_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002122812_0001_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002122842_0024_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002122912_0046_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002122940_0067_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123010_0089_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123040_0111_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123110_0133_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123140_0155_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123210_0177_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123238_0198_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123311_0220_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123341_0242_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094440_0001_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094510_0024_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094541_0047_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094611_0069_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094641_0091_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094711_0113_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094742_0136_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094812_0158_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094842_0180_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094912_0202_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094943_0225_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007095013_0247_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        }
+      ]
+    },
+    {
+      "name": "gui-single",
+      "process_wall_seconds": 3.695928300032392,
+      "folder_timings": [
+        {
+          "folder": "Conan CS",
+          "photos": 12,
+          "elapsed_seconds": 2.6302340000402182,
+          "photos_per_second": 4.562331716423905
+        }
+      ],
+      "folder_time_sum_seconds": 2.6302340000402182,
+      "validated": [
+        {
+          "folder": "Conan CS",
+          "verified_photos": 12
+        }
+      ],
+      "pixel_exact_reference_comparisons": 1,
+      "metadata_diagnostics": [
+        {
+          "source": "Conan CS/DJI_20261005152139_0001_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152224_0035_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152309_0068_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152353_0101_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152438_0134_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152523_0167_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152609_0201_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152654_0234_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152739_0267_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152824_0300_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152908_0333_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152953_0366_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        }
+      ]
+    },
+    {
+      "name": "gui-batch",
+      "process_wall_seconds": 8.361895499983802,
+      "folder_timings": [
+        {
+          "folder": "Conan CS",
+          "photos": 12,
+          "elapsed_seconds": 2.6169233999680728,
+          "photos_per_second": 4.585537352811475
+        },
+        {
+          "folder": "Gorgon LGL",
+          "photos": 12,
+          "elapsed_seconds": 2.2586646999698132,
+          "photos_per_second": 5.312873575329874
+        },
+        {
+          "folder": "Neptune LGL",
+          "photos": 12,
+          "elapsed_seconds": 2.3961792999180034,
+          "photos_per_second": 5.007972483699628
+        }
+      ],
+      "folder_time_sum_seconds": 7.271767399855889,
+      "validated": [
+        {
+          "folder": "Conan CS",
+          "verified_photos": 12
+        },
+        {
+          "folder": "Gorgon LGL",
+          "verified_photos": 12
+        },
+        {
+          "folder": "Neptune LGL",
+          "verified_photos": 12
+        }
+      ],
+      "pixel_exact_reference_comparisons": 3,
+      "metadata_diagnostics": [
+        {
+          "source": "Conan CS/DJI_20261005152139_0001_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152224_0035_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152309_0068_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152353_0101_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152438_0134_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152523_0167_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152609_0201_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152654_0234_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152739_0267_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152824_0300_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152908_0333_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Conan CS/DJI_20261005152953_0366_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002122812_0001_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002122842_0024_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002122912_0046_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002122940_0067_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123010_0089_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123040_0111_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123110_0133_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123140_0155_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123210_0177_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123238_0198_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123311_0220_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Gorgon LGL/DJI_20261002123341_0242_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094440_0001_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094510_0024_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094541_0047_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094611_0069_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094641_0091_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094711_0113_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094742_0136_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094812_0158_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094842_0180_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094912_0202_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007094943_0225_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        },
+        {
+          "source": "Neptune LGL/DJI_20261007095013_0247_V.JPG",
+          "source_warnings": [
+            "Invalid value for IFD1 tag 0x0103 Compression",
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+            "[minor] Unknown APP8 'DJI-CERT' segment",
+            "[minor] Unknown APP8 'DJI-SIG' segment",
+            "[minor] Unknown APP8 'PADDING' segment"
+          ],
+          "processing_warnings": [
+            "[minor] Possibly incorrect maker notes offsets (fix by -452?)"
+          ],
+          "output_warnings": [
+            "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+            "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+            "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+          ],
+          "maker_notes_fields_preserved": 14
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "name": "hash-before",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "snapshot",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\sources-before.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.459227999905124,
+      "timeout": null,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "Hashed 64 source files",
+        "Hashed 128 source files",
+        "Hashed 192 source files",
+        "Hashed 256 source files",
+        "Hashed 320 source files",
+        "Hashed 384 source files",
+        "Hashed 448 source files",
+        "Hashed 512 source files",
+        "Hashed 576 source files",
+        "Hashed 640 source files",
+        "Hashed 704 source files",
+        "Hashed 768 source files",
+        "Hashed 832 source files",
+        "Hashed all 867 source files"
+      ]
+    },
+    {
+      "name": "characterize",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "characterize",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\source-characterization.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.266864000004716,
+      "timeout": null,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "Characterized Conan CS/DJI_20261005152609_0201_V.JPG",
+        "Characterized Conan CS/DJI_20261005152654_0234_V.JPG",
+        "Characterized Conan CS/DJI_20261005152739_0267_V.JPG",
+        "Characterized Conan CS/DJI_20261005152824_0300_V.JPG",
+        "Characterized Conan CS/DJI_20261005152908_0333_V.JPG",
+        "Characterized Conan CS/DJI_20261005152953_0366_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002122812_0001_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002122842_0024_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002122912_0046_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002122940_0067_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002123010_0089_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002123040_0111_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002123110_0133_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002123140_0155_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002123210_0177_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002123238_0198_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002123311_0220_V.JPG",
+        "Characterized Gorgon LGL/DJI_20261002123341_0242_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094440_0001_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094510_0024_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094541_0047_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094611_0069_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094641_0091_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094711_0113_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094742_0136_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094812_0158_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094842_0180_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094912_0202_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007094943_0225_V.JPG",
+        "Characterized Neptune LGL/DJI_20261007095013_0247_V.JPG"
+      ]
+    },
+    {
+      "name": "stage",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "stage",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\unused.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.4491284999530762,
+      "timeout": null,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "Staged Conan CS\\DJI_20261005152609_0201_V.JPG",
+        "Staged Conan CS\\DJI_20261005152654_0234_V.JPG",
+        "Staged Conan CS\\DJI_20261005152739_0267_V.JPG",
+        "Staged Conan CS\\DJI_20261005152824_0300_V.JPG",
+        "Staged Conan CS\\DJI_20261005152908_0333_V.JPG",
+        "Staged Conan CS\\DJI_20261005152953_0366_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002122812_0001_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002122842_0024_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002122912_0046_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002122940_0067_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002123010_0089_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002123040_0111_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002123110_0133_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002123140_0155_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002123210_0177_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002123238_0198_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002123311_0220_V.JPG",
+        "Staged Gorgon LGL\\DJI_20261002123341_0242_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094440_0001_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094510_0024_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094541_0047_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094611_0069_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094641_0091_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094711_0113_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094742_0136_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094812_0158_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094842_0180_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094912_0202_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007094943_0225_V.JPG",
+        "Staged Neptune LGL\\DJI_20261007095013_0247_V.JPG"
+      ]
+    },
+    {
+      "name": "cli-single",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\dewarp.py",
+        "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS",
+        "--output",
+        "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\outputs\\cli-single",
+        "--copy-xmp",
+        "--report",
+        "--workers",
+        "2"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.1917813000036404,
+      "timeout": null,
+      "wall_limit_seconds": 600,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "[APPLIED] DJI_20261005152353_0101_V.JPG - Dewarped (4/12)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS\\DJI_20261005152353_0101_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-jvizf4s3.jpg",
+        "[APPLIED] DJI_20261005152438_0134_V.JPG - Dewarped (5/12)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS\\DJI_20261005152438_0134_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-3vxkwwhc.jpg",
+        "[APPLIED] DJI_20261005152523_0167_V.JPG - Dewarped (6/12)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS\\DJI_20261005152523_0167_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-xxzzgit3.jpg",
+        "[APPLIED] DJI_20261005152609_0201_V.JPG - Dewarped (7/12)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS\\DJI_20261005152609_0201_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-dnmjmqnj.jpg",
+        "[APPLIED] DJI_20261005152654_0234_V.JPG - Dewarped (8/12)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS\\DJI_20261005152654_0234_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-hx82cll9.jpg",
+        "[APPLIED] DJI_20261005152739_0267_V.JPG - Dewarped (9/12)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS\\DJI_20261005152739_0267_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-gt2s3vwd.jpg",
+        "[APPLIED] DJI_20261005152824_0300_V.JPG - Dewarped (10/12)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS\\DJI_20261005152824_0300_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-zamkzztd.jpg",
+        "[APPLIED] DJI_20261005152908_0333_V.JPG - Dewarped (11/12)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS\\DJI_20261005152908_0333_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-zgdv4u5t.jpg",
+        "[APPLIED] DJI_20261005152953_0366_V.JPG - Dewarped (12/12)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS\\DJI_20261005152953_0366_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-ussjcc5_.jpg",
+        "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS: Completed with issues; 12 dewarped, 0 already corrected, 0 skipped, 0 failed; 2.6s.",
+        "",
+        "Finished: 12/12 photos; 12 dewarped, 0 already corrected, 0 skipped, 0 failed; 2.6s."
+      ]
+    },
+    {
+      "name": "cli-single-verify",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "verify",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\cli-single-verification.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.0070754000917077,
+      "timeout": null,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "Verified Conan CS/DJI_20261005152139_0001_V.JPG",
+        "Verified Conan CS/DJI_20261005152224_0035_V.JPG",
+        "Verified Conan CS/DJI_20261005152309_0068_V.JPG",
+        "Verified Conan CS/DJI_20261005152353_0101_V.JPG",
+        "Verified Conan CS/DJI_20261005152438_0134_V.JPG",
+        "Verified Conan CS/DJI_20261005152523_0167_V.JPG",
+        "Verified Conan CS/DJI_20261005152609_0201_V.JPG",
+        "Verified Conan CS/DJI_20261005152654_0234_V.JPG",
+        "Verified Conan CS/DJI_20261005152739_0267_V.JPG",
+        "Verified Conan CS/DJI_20261005152824_0300_V.JPG",
+        "Verified Conan CS/DJI_20261005152908_0333_V.JPG",
+        "Verified Conan CS/DJI_20261005152953_0366_V.JPG"
+      ]
+    },
+    {
+      "name": "cli-batch",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\dewarp.py",
+        "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS",
+        "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Gorgon LGL",
+        "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL",
+        "--output",
+        "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\outputs\\cli-batch",
+        "--copy-xmp",
+        "--report",
+        "--workers",
+        "2"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.899920399999246,
+      "timeout": null,
+      "wall_limit_seconds": 600,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "[APPLIED] DJI_20261007094611_0069_V.JPG - Dewarped (28/36)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL\\DJI_20261007094611_0069_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-batch/Neptune LGL - Dewarped Photos/.dewarp-lcvver3u.jpg",
+        "[APPLIED] DJI_20261007094641_0091_V.JPG - Dewarped (29/36)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL\\DJI_20261007094641_0091_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-batch/Neptune LGL - Dewarped Photos/.dewarp-u61l735z.jpg",
+        "[APPLIED] DJI_20261007094711_0113_V.JPG - Dewarped (30/36)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL\\DJI_20261007094711_0113_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-batch/Neptune LGL - Dewarped Photos/.dewarp-z_ilvr5b.jpg",
+        "[APPLIED] DJI_20261007094742_0136_V.JPG - Dewarped (31/36)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL\\DJI_20261007094742_0136_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-batch/Neptune LGL - Dewarped Photos/.dewarp-9r78ifxg.jpg",
+        "[APPLIED] DJI_20261007094812_0158_V.JPG - Dewarped (32/36)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL\\DJI_20261007094812_0158_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-batch/Neptune LGL - Dewarped Photos/.dewarp-43fj3qde.jpg",
+        "[APPLIED] DJI_20261007094842_0180_V.JPG - Dewarped (33/36)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL\\DJI_20261007094842_0180_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-batch/Neptune LGL - Dewarped Photos/.dewarp-umwpeygs.jpg",
+        "[APPLIED] DJI_20261007094912_0202_V.JPG - Dewarped (34/36)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL\\DJI_20261007094912_0202_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-batch/Neptune LGL - Dewarped Photos/.dewarp-6x0anoo6.jpg",
+        "[APPLIED] DJI_20261007094943_0225_V.JPG - Dewarped (35/36)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL\\DJI_20261007094943_0225_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-batch/Neptune LGL - Dewarped Photos/.dewarp-d37gyq5y.jpg",
+        "[APPLIED] DJI_20261007095013_0247_V.JPG - Dewarped (36/36)",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL\\DJI_20261007095013_0247_V.JPG",
+        "  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3/outputs/cli-batch/Neptune LGL - Dewarped Photos/.dewarp-02ey15st.jpg",
+        "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Neptune LGL: Completed with issues; 12 dewarped, 0 already corrected, 0 skipped, 0 failed; 2.3s.",
+        "",
+        "Finished: 36/36 photos; 36 dewarped, 0 already corrected, 0 skipped, 0 failed; 7.3s."
+      ]
+    },
+    {
+      "name": "cli-batch-verify",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "verify",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\cli-batch-verification.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.322103400016204,
+      "timeout": null,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "Verified Conan CS/DJI_20261005152609_0201_V.JPG",
+        "Verified Conan CS/DJI_20261005152654_0234_V.JPG",
+        "Verified Conan CS/DJI_20261005152739_0267_V.JPG",
+        "Verified Conan CS/DJI_20261005152824_0300_V.JPG",
+        "Verified Conan CS/DJI_20261005152908_0333_V.JPG",
+        "Verified Conan CS/DJI_20261005152953_0366_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002122812_0001_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002122842_0024_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002122912_0046_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002122940_0067_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123010_0089_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123040_0111_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123110_0133_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123140_0155_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123210_0177_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123238_0198_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123311_0220_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123341_0242_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094440_0001_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094510_0024_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094541_0047_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094611_0069_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094641_0091_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094711_0113_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094742_0136_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094812_0158_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094842_0180_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094912_0202_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094943_0225_V.JPG",
+        "Verified Neptune LGL/DJI_20261007095013_0247_V.JPG"
+      ]
+    },
+    {
+      "name": "gui-single",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "gui",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "unused"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.695928300032392,
+      "timeout": null,
+      "wall_limit_seconds": 600,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 1, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 2, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 3, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 4, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 5, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 6, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 7, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 8, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 9, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 10, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 11, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 12, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"folder_done\", \"index\": 0, \"completed\": 12, \"total\": 12, \"status\": \"Completed with issues\"}",
+        "{\"event\": \"batch_done\", \"completed\": 12, \"total\": 12}",
+        "GUI workflow validated"
+      ]
+    },
+    {
+      "name": "gui-single-verify",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "verify",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\gui-single-verification.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.0064182999776676,
+      "timeout": null,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "Verified Conan CS/DJI_20261005152139_0001_V.JPG",
+        "Verified Conan CS/DJI_20261005152224_0035_V.JPG",
+        "Verified Conan CS/DJI_20261005152309_0068_V.JPG",
+        "Verified Conan CS/DJI_20261005152353_0101_V.JPG",
+        "Verified Conan CS/DJI_20261005152438_0134_V.JPG",
+        "Verified Conan CS/DJI_20261005152523_0167_V.JPG",
+        "Verified Conan CS/DJI_20261005152609_0201_V.JPG",
+        "Verified Conan CS/DJI_20261005152654_0234_V.JPG",
+        "Verified Conan CS/DJI_20261005152739_0267_V.JPG",
+        "Verified Conan CS/DJI_20261005152824_0300_V.JPG",
+        "Verified Conan CS/DJI_20261005152908_0333_V.JPG",
+        "Verified Conan CS/DJI_20261005152953_0366_V.JPG"
+      ]
+    },
+    {
+      "name": "gui-batch",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "gui",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "unused"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.361895499983802,
+      "timeout": null,
+      "wall_limit_seconds": 600,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "{\"event\": \"photo_done\", \"index\": 0, \"completed\": 12, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"folder_done\", \"index\": 0, \"completed\": 12, \"total\": 12, \"status\": \"Completed with issues\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 1, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 2, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 3, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 4, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 5, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 6, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 7, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 8, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 9, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 10, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 11, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 1, \"completed\": 12, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"folder_done\", \"index\": 1, \"completed\": 12, \"total\": 12, \"status\": \"Completed with issues\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 1, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 2, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 3, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 4, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 5, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 6, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 7, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 8, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 9, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 10, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 11, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"photo_done\", \"index\": 2, \"completed\": 12, \"total\": 12, \"status\": \"applied\"}",
+        "{\"event\": \"folder_done\", \"index\": 2, \"completed\": 12, \"total\": 12, \"status\": \"Completed with issues\"}",
+        "{\"event\": \"batch_done\", \"completed\": 36, \"total\": 36}",
+        "GUI workflow validated"
+      ]
+    },
+    {
+      "name": "gui-batch-verify",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "verify",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\gui-batch-verification.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.402879699948244,
+      "timeout": null,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "Verified Conan CS/DJI_20261005152609_0201_V.JPG",
+        "Verified Conan CS/DJI_20261005152654_0234_V.JPG",
+        "Verified Conan CS/DJI_20261005152739_0267_V.JPG",
+        "Verified Conan CS/DJI_20261005152824_0300_V.JPG",
+        "Verified Conan CS/DJI_20261005152908_0333_V.JPG",
+        "Verified Conan CS/DJI_20261005152953_0366_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002122812_0001_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002122842_0024_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002122912_0046_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002122940_0067_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123010_0089_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123040_0111_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123110_0133_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123140_0155_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123210_0177_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123238_0198_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123311_0220_V.JPG",
+        "Verified Gorgon LGL/DJI_20261002123341_0242_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094440_0001_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094510_0024_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094541_0047_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094611_0069_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094641_0091_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094711_0113_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094742_0136_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094812_0158_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094842_0180_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094912_0202_V.JPG",
+        "Verified Neptune LGL/DJI_20261007094943_0225_V.JPG",
+        "Verified Neptune LGL/DJI_20261007095013_0247_V.JPG"
+      ]
+    },
+    {
+      "name": "cleanup",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "cleanup",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\unused.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.5457508000545204,
+      "timeout": null,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "Owned scratch directory removed"
+      ]
+    },
+    {
+      "name": "hash-after",
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "-u",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\test_real_fixture.py",
+        "--internal",
+        "snapshot",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\run-config.json",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\benchmarks\\real-fixture-20261010T205832Z\\sources-after.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.047213300014846,
+      "timeout": null,
+      "wall_limit_seconds": 180,
+      "stall_limit_seconds": 60,
+      "tail": [
+        "Hashed 64 source files",
+        "Hashed 128 source files",
+        "Hashed 192 source files",
+        "Hashed 256 source files",
+        "Hashed 320 source files",
+        "Hashed 384 source files",
+        "Hashed 448 source files",
+        "Hashed 512 source files",
+        "Hashed 576 source files",
+        "Hashed 640 source files",
+        "Hashed 704 source files",
+        "Hashed 768 source files",
+        "Hashed 832 source files",
+        "Hashed all 867 source files"
+      ]
+    }
+  ],
+  "errors": [],
+  "originals_unchanged": true,
+  "scratch_removed": true,
+  "scratch_path": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3",
+  "source_files": 867,
+  "source_bytes": 4862154278,
+  "selected_photos": {
+    "Conan CS": 12,
+    "Gorgon LGL": 12,
+    "Neptune LGL": 12
+  },
+  "runtime": {
+    "opencv": "4.12.0",
+    "pillow": "12.3.0",
+    "pyside6": "6.10.2",
+    "exiftool": "13.30",
+    "logical_cpus": 24
+  },
+  "passed": true
+}

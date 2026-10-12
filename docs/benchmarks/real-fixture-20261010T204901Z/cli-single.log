@@ -1,0 +1,30 @@
+
+Processing: K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS
+Output: K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\outputs\cli-single\Conan CS - Dewarped Photos
+[APPLIED] DJI_20261005152139_0001_V.JPG - Dewarped (1/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152139_0001_V.JPG
+[APPLIED] DJI_20261005152224_0035_V.JPG - Dewarped (2/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152224_0035_V.JPG
+[APPLIED] DJI_20261005152309_0068_V.JPG - Dewarped (3/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152309_0068_V.JPG
+[APPLIED] DJI_20261005152353_0101_V.JPG - Dewarped (4/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152353_0101_V.JPG
+[APPLIED] DJI_20261005152438_0134_V.JPG - Dewarped (5/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152438_0134_V.JPG
+[APPLIED] DJI_20261005152523_0167_V.JPG - Dewarped (6/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152523_0167_V.JPG
+[APPLIED] DJI_20261005152609_0201_V.JPG - Dewarped (7/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152609_0201_V.JPG
+[APPLIED] DJI_20261005152654_0234_V.JPG - Dewarped (8/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152654_0234_V.JPG
+[APPLIED] DJI_20261005152739_0267_V.JPG - Dewarped (9/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152739_0267_V.JPG
+[APPLIED] DJI_20261005152824_0300_V.JPG - Dewarped (10/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152824_0300_V.JPG
+[APPLIED] DJI_20261005152908_0333_V.JPG - Dewarped (11/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152908_0333_V.JPG
+[APPLIED] DJI_20261005152953_0366_V.JPG - Dewarped (12/12)
+  Warning: Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS\DJI_20261005152953_0366_V.JPG
+K:\Temp-Dewarp-Test-Fixture\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\inputs\Conan CS: Completed with issues; 12 dewarped, 0 already corrected, 0 skipped, 0 failed; 3.6s.
+
+Finished: 12/12 photos; 12 dewarped, 0 already corrected, 0 skipped, 0 failed; 3.6s.

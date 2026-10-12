@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\tools\test_real_fixture.py", line 378, in <module>
+    internal(*sys.argv[2:])
+    ~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\tools\test_real_fixture.py", line 253, in internal
+    write_json(output_path, verify_scenario(config, config["active_scenario"]))
+                            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\tools\test_real_fixture.py", line 184, in verify_scenario
+    raise AssertionError(f"Output counts/status mismatch: {summary}")
+AssertionError: Output counts/status mismatch: {'index': 0, 'folder': 'K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\\inputs\\Conan CS', 'output': 'K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-8dea24a638d849b497b1c1b5ba693540\\outputs\\cli-single\\Conan CS - Dewarped Photos', 'total': 12, 'completed': 12, 'applied': 12, 'already': 0, 'skipped': 0, 'failed': 0, 'warnings': 12, 'status': 'Completed with issues', 'error': None, 'elapsed_seconds': 3.564163799979724}

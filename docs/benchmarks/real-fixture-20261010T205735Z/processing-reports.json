@@ -1,0 +1,141 @@
+[
+  {
+    "scenario": "cli-single",
+    "report": {
+      "version": 2,
+      "finished_utc": "2026-10-10T20:57:47.401829+00:00",
+      "options": {
+        "alpha": 0.0,
+        "workers": 2,
+        "copy_xmp": true,
+        "jpeg_quality": 95,
+        "jpeg_subsampling": 0
+      },
+      "summary": {
+        "index": 0,
+        "folder": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS",
+        "output": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\outputs\\cli-single\\Conan CS - Dewarped Photos",
+        "total": 12,
+        "completed": 12,
+        "applied": 12,
+        "already": 0,
+        "skipped": 0,
+        "failed": 0,
+        "warnings": 24,
+        "status": "Completed with issues",
+        "error": null,
+        "elapsed_seconds": 2.6502784000476822
+      },
+      "files": [
+        {
+          "name": "DJI_20261005152139_0001_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152139_0001_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-xfcms4de.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152224_0035_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152224_0035_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-hj61v125.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152309_0068_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152309_0068_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-ybosu4w_.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152353_0101_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152353_0101_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-hh5n1iyw.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152438_0134_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152438_0134_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-_q8g3uqb.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152523_0167_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152523_0167_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-9i_ajdce.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152609_0201_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152609_0201_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-qn6cvwf3.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152654_0234_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152654_0234_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-osbfpax1.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152739_0267_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152739_0267_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-jbcul75w.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152824_0300_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152824_0300_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-i2x740fb.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152908_0333_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152908_0333_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-dnm3ioez.jpg"
+          ]
+        },
+        {
+          "name": "DJI_20261005152953_0366_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f\\inputs\\Conan CS\\DJI_20261005152953_0366_V.JPG",
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-1t49zaml.jpg"
+          ]
+        }
+      ]
+    }
+  }
+]

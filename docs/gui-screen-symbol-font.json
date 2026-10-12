@@ -1,0 +1,119 @@
+{
+  "resolved_family": "Segoe MDL2 Assets",
+  "glyphs": {
+    "AcceptMedium": [
+      1378
+    ],
+    "Dash12": [
+      0
+    ],
+    "CheckMark": [
+      205
+    ],
+    "CaretLeftSolid8": [
+      1002
+    ],
+    "CaretRightSolid8": [
+      1003
+    ],
+    "CaretUpSolid8": [
+      1004
+    ],
+    "CaretDownSolid8": [
+      1005
+    ],
+    "ChevronDown": [
+      5
+    ],
+    "ChevronUp": [
+      117
+    ],
+    "ChevronUpMed": [
+      548
+    ],
+    "ChevronDownMed": [
+      549
+    ],
+    "ChevronLeftMed": [
+      550
+    ],
+    "ChevronRightMed": [
+      551
+    ],
+    "ChevronUpSmall": [
+      543
+    ],
+    "ChevronDownSmall": [
+      544
+    ],
+    "ChromeMinimize": [
+      441
+    ],
+    "ChromeMaximize": [
+      442
+    ],
+    "ChromeRestore": [
+      443
+    ],
+    "ChromeClose": [
+      349
+    ],
+    "More": [
+      118
+    ],
+    "Help": [
+      313
+    ],
+    "Clear": [
+      310
+    ]
+  },
+  "app_style": "windows11",
+  "window_color": "#1e1e1e",
+  "controls": [
+    {
+      "style": "windows11",
+      "font": "Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1",
+      "role": "CheckBox",
+      "name": "Preserve XMP"
+    },
+    {
+      "style": "windows11",
+      "font": "Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1",
+      "role": "ComboBox",
+      "name": "Framing"
+    },
+    {
+      "style": "windows11",
+      "font": "Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1",
+      "role": "SpinBox",
+      "name": "Parallel photos"
+    }
+  ],
+  "captured_utc": "2026-10-10T21:55:17.926009+00:00",
+  "missing_requested_font": "Segoe Fluent Icons",
+  "before_resolution": {
+    "family": "Tahoma",
+    "glyph_indexes": {
+      "check": 0,
+      "combo": 0,
+      "up": 0,
+      "down": 0
+    }
+  },
+  "supported_style_symbols": 21,
+  "style_symbols_tested": 22,
+  "limitation": "Dash12 (U+E629), used only by Qt for indeterminate/tristate checkbox state, is absent from this MDL2 font. This application uses two-state settings; 21 of 22 style-enum symbols were verified, not all 22.",
+  "method": "Bounded owned Qt process; inserted process-local family substitution before style creation; read QRawFont glyph indexes with NoFontMerging, rendered Settings, compared fonts/palette/style/accessibility roles. No Windows settings or font installation changed.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/qt/qtbase/v6.10.2/src/plugins/styles/modernwindows/qwindows11style.cpp",
+      "lines": "84-108 icon codepoints; 280-284 asset font and NoFontMerging; 395-408 spin arrows; 555-559 dropdown arrow; 861-889 checkbox symbols"
+    },
+    {
+      "url": "https://doc.qt.io/qt-6.10/qfont.html#insertSubstitution",
+      "detail": "Family substitution must precede constructing the affected QFont objects."
+    }
+  ],
+  "theme_source_sha256": "ec0ea9eea08313257610db27a50ee9d064b8377ffe99600232b40db530adcc36"
+}

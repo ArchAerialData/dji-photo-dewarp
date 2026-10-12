@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\tools\test_real_fixture.py", line 478, in <module>
+    internal(*sys.argv[2:])
+    ~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\tools\test_real_fixture.py", line 349, in internal
+    write_json(output_path, verify_scenario(config, config["active_scenario"]))
+                            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\tools\test_real_fixture.py", line 227, in verify_scenario
+    return _verify_scenario(config, scenario, session)
+  File "C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\tools\test_real_fixture.py", line 273, in _verify_scenario
+    raise AssertionError(f"New processing warnings for {relative}: {process_warnings - baseline_warnings}")
+AssertionError: New processing warnings for Conan CS/DJI_20261005152139_0001_V.JPG: {'[minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/.dewarp-validation-f05d85c19f794c8289ad5c740f07b28f/outputs/cli-single/Conan CS - Dewarped Photos/.dewarp-xfcms4de.jpg'}

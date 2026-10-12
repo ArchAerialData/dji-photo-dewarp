@@ -1,0 +1,464 @@
+﻿{
+    "captured_utc":  "2026-10-10T21:59:13.8685911Z",
+    "environment":  {
+                        "hwnd":  3619266,
+                        "python":  "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+                        "pyside6":  "6.10.2",
+                        "qt":  "6.10.2",
+                        "source_sha256":  "3bd29bc2192a6b17a077baacb18d3c73793e207e63994c482d5ab9e7fd92f5ce",
+                        "settings_source_sha256":  "a8a7ab7b3584e9b0d068e69043a99fbc8298211bb340948f86302cb898651b17",
+                        "scrolling_source_sha256":  "5f4f858a876ca82e9fd24cb82d23e58c05893c438b4b93acd43fd7cc128751db",
+                        "theme_source_sha256":  "ec0ea9eea08313257610db27a50ee9d064b8377ffe99600232b40db530adcc36",
+                        "device_pixel_ratio":  1.25,
+                        "dpi_awareness":  2,
+                        "per_monitor_v2":  true,
+                        "visible":  true,
+                        "running_state_simulated":  false,
+                        "page":  "setup",
+                        "photo_processing_started":  false,
+                        "expected_controls":  [
+                                                  {
+                                                      "attribute":  "add_button",
+                                                      "name":  "Add input folder",
+                                                      "type":  "ControlType.Button",
+                                                      "pattern":  "InvokePatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "remove_button",
+                                                      "name":  "Remove selected folders",
+                                                      "type":  "ControlType.Button",
+                                                      "pattern":  "InvokePatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "clear_button",
+                                                      "name":  "Clear folder queue",
+                                                      "type":  "ControlType.Button",
+                                                      "pattern":  "InvokePatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "folder_table",
+                                                      "name":  "Input folder queue",
+                                                      "type":  "ControlType.Table",
+                                                      "pattern":  "GridPatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "output_edit",
+                                                      "name":  "Output parent folder",
+                                                      "type":  "ControlType.Edit",
+                                                      "pattern":  "ValuePatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true,
+                                                      "value":  ""
+                                                  },
+                                                  {
+                                                      "attribute":  "output_browse_button",
+                                                      "name":  "Browse output location",
+                                                      "type":  "ControlType.Button",
+                                                      "pattern":  "InvokePatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "output_reset_button",
+                                                      "name":  "Use input folders for output",
+                                                      "type":  "ControlType.Button",
+                                                      "pattern":  "InvokePatternIdentifiers.Pattern",
+                                                      "enabled":  false,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "cancel_button",
+                                                      "name":  "Cancel batch",
+                                                      "type":  "ControlType.Button",
+                                                      "pattern":  "InvokePatternIdentifiers.Pattern",
+                                                      "enabled":  false,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "start_button",
+                                                      "name":  "Start batch",
+                                                      "type":  "ControlType.Button",
+                                                      "pattern":  "InvokePatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "footer_status",
+                                                      "name":  "Accessibility audit progress: 37%",
+                                                      "type":  "ControlType.Text"
+                                                  }
+                                              ]
+                    },
+    "checks":  [
+                   {
+                       "attribute":  "add_button",
+                       "name":  "Add input folder",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "remove_button",
+                       "name":  "Remove selected folders",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "clear_button",
+                       "name":  "Clear folder queue",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "folder_table",
+                       "name":  "Input folder queue",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "output_edit",
+                       "name":  "Output parent folder",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "output_browse_button",
+                       "name":  "Browse output location",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "output_reset_button",
+                       "name":  "Use input folders for output",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "cancel_button",
+                       "name":  "Cancel batch",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "start_button",
+                       "name":  "Start batch",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "footer_status",
+                       "name":  "Accessibility audit progress: 37%",
+                       "passed":  true,
+                       "matches":  1
+                   }
+               ],
+    "passed":  true,
+    "observed_descendant_count":  39,
+    "elements":  [
+                     {
+                         "name":  "Add input folder",
+                         "type":  "ControlType.Button",
+                         "class":  "ActionButton",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Remove selected folders",
+                         "type":  "ControlType.Button",
+                         "class":  "ActionButton",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Clear folder queue",
+                         "type":  "ControlType.Button",
+                         "class":  "ActionButton",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Input folder queue",
+                         "type":  "ControlType.Table",
+                         "class":  "_CompactTable",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "SelectionPatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "GridPatternIdentifiers.Pattern",
+                                          "TablePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "Input folder queue",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Input folder",
+                         "type":  "ControlType.Header",
+                         "class":  "",
+                         "keyboard_focusable":  false,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "SelectionItemPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Status",
+                         "type":  "ControlType.Header",
+                         "class":  "",
+                         "keyboard_focusable":  false,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "SelectionItemPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Processed",
+                         "type":  "ControlType.Header",
+                         "class":  "",
+                         "keyboard_focusable":  false,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "SelectionItemPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Photos",
+                         "type":  "ControlType.Header",
+                         "class":  "",
+                         "keyboard_focusable":  false,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "SelectionItemPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Output folder",
+                         "type":  "ControlType.Header",
+                         "class":  "",
+                         "keyboard_focusable":  false,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "SelectionItemPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Dewarp M3E JPGs",
+                         "type":  "ControlType.DataItem",
+                         "class":  "",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "GridItemPatternIdentifiers.Pattern",
+                                          "SelectionItemPatternIdentifiers.Pattern",
+                                          "TableItemPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Queued",
+                         "type":  "ControlType.DataItem",
+                         "class":  "",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "GridItemPatternIdentifiers.Pattern",
+                                          "SelectionItemPatternIdentifiers.Pattern",
+                                          "TableItemPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "0",
+                         "type":  "ControlType.DataItem",
+                         "class":  "",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "GridItemPatternIdentifiers.Pattern",
+                                          "SelectionItemPatternIdentifiers.Pattern",
+                                          "TableItemPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "—",
+                         "type":  "ControlType.DataItem",
+                         "class":  "",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "GridItemPatternIdentifiers.Pattern",
+                                          "SelectionItemPatternIdentifiers.Pattern",
+                                          "TableItemPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Assigned at start",
+                         "type":  "ControlType.DataItem",
+                         "class":  "",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "GridItemPatternIdentifiers.Pattern",
+                                          "SelectionItemPatternIdentifiers.Pattern",
+                                          "TableItemPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Output parent folder",
+                         "type":  "ControlType.Edit",
+                         "class":  "QLineEdit",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "TextPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Browse output location",
+                         "type":  "ControlType.Button",
+                         "class":  "ActionButton",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Use input folders for output",
+                         "type":  "ControlType.Button",
+                         "class":  "ActionButton",
+                         "keyboard_focusable":  true,
+                         "enabled":  false,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Accessibility audit progress: 37%",
+                         "type":  "ControlType.Text",
+                         "class":  "QLabel",
+                         "keyboard_focusable":  false,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  null,
+                         "range":  null
+                     },
+                     {
+                         "name":  "Cancel batch",
+                         "type":  "ControlType.Button",
+                         "class":  "ActionButton",
+                         "keyboard_focusable":  true,
+                         "enabled":  false,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Start batch",
+                         "type":  "ControlType.Button",
+                         "class":  "ActionButton",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     }
+                 ],
+    "limitation":  "UIA metadata and pattern checks; screen-reader speech and actual OS contrast themes are not tested."
+}

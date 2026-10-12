@@ -1,0 +1,36 @@
+{
+  "pil_size": [
+    320,
+    240
+  ],
+  "pil_info_keys": [
+    "jfif",
+    "jfif_version",
+    "jfif_unit",
+    "jfif_density",
+    "exif",
+    "xmp",
+    "icc_profile",
+    "dpi"
+  ],
+  "cv_default_shape": [
+    320,
+    240,
+    3
+  ],
+  "cv_ignore_orientation_shape": [
+    240,
+    320,
+    3
+  ],
+  "exiftool_read_median_s": 0.15819300001021475,
+  "exiftool_metadata": [
+    {
+      "SourceFile": ".work/review_fixtures/orientation_xmp.jpg",
+      "XMP-drone-dji:DewarpFlag": 0,
+      "XMP-drone-dji:DewarpData": "2026-01-01;200,200,0,0,-0.1,0.01,0,0,0"
+    }
+  ],
+  "exiftool_persistent_first_s": 0.1442045000148937,
+  "exiftool_persistent_warm_median_s": 0.0022982999216765165
+}

@@ -1,0 +1,94 @@
+{
+  "source_code_sha256": "ee374ea47d04add43668af21a2f7dca64c2eb8a2b73ca13461a649d407838082",
+  "checks": [
+    {
+      "folder": "Conan CS",
+      "applied": 1,
+      "source": {
+        "warnings": [
+          "Invalid value for IFD1 tag 0x0103 Compression",
+          "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+          "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+          "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+          "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+          "[minor] Unknown APP8 'DJI-CERT' segment",
+          "[minor] Unknown APP8 'DJI-SIG' segment",
+          "[minor] Unknown APP8 'PADDING' segment"
+        ],
+        "maker_fields": 14,
+        "maker_sha256": "66ca7f02eaf77a675c8c6234918027df5bc41f9703c4cc9f4ce7415e931e175c"
+      },
+      "output": {
+        "warnings": [
+          "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+          "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+          "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+        ],
+        "maker_fields": 14,
+        "maker_sha256": "66ca7f02eaf77a675c8c6234918027df5bc41f9703c4cc9f4ce7415e931e175c"
+      },
+      "new_warnings": [],
+      "vendor_values_equal": true
+    },
+    {
+      "folder": "Gorgon LGL",
+      "applied": 1,
+      "source": {
+        "warnings": [
+          "Invalid value for IFD1 tag 0x0103 Compression",
+          "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+          "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+          "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+          "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+          "[minor] Unknown APP8 'DJI-CERT' segment",
+          "[minor] Unknown APP8 'DJI-SIG' segment",
+          "[minor] Unknown APP8 'PADDING' segment"
+        ],
+        "maker_fields": 14,
+        "maker_sha256": "59149c70c5e884f99f54aa39d7d8fe901ef9189e60f81360c823d3d1136e5103"
+      },
+      "output": {
+        "warnings": [
+          "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+          "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+          "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+        ],
+        "maker_fields": 14,
+        "maker_sha256": "59149c70c5e884f99f54aa39d7d8fe901ef9189e60f81360c823d3d1136e5103"
+      },
+      "new_warnings": [],
+      "vendor_values_equal": true
+    },
+    {
+      "folder": "Neptune LGL",
+      "applied": 1,
+      "source": {
+        "warnings": [
+          "Invalid value for IFD1 tag 0x0103 Compression",
+          "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+          "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+          "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)",
+          "[minor] Possibly incorrect maker notes offsets (fix by -452?)",
+          "[minor] Unknown APP8 'DJI-CERT' segment",
+          "[minor] Unknown APP8 'DJI-SIG' segment",
+          "[minor] Unknown APP8 'PADDING' segment"
+        ],
+        "maker_fields": 14,
+        "maker_sha256": "18b227f4a5563c25420734c66187114afb372db0bde6433b82e2f08b143600fe"
+      },
+      "output": {
+        "warnings": [
+          "Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue",
+          "Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue",
+          "Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)"
+        ],
+        "maker_fields": 14,
+        "maker_sha256": "18b227f4a5563c25420734c66187114afb372db0bde6433b82e2f08b143600fe"
+      },
+      "new_warnings": [],
+      "vendor_values_equal": true
+    }
+  ],
+  "scratch_removed": true,
+  "originals_unchanged": true
+}

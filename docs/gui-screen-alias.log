@@ -1,0 +1,27 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+alias dewarp='python "/c/Users/rbake/Desktop/Functional Scripts/Dewarp M3E JPGs/scripts/dewarp.py"'
+usage: dewarp.py [-h] [--output OUTPUT_ROOT] [--workers {1,2,3,4}]
+                 [--copy-xmp] [--require-dewarp] [--alpha {0.0,1.0}]
+                 [--report]
+                 folders [folders ...]
+
+Dewarp DJI JPEGs with per-photo calibration and preserved EXIF.
+
+positional arguments:
+  folders               One or more folders containing JPEGs (non-recursive)
+
+options:
+  -h, --help            show this help message and exit
+  --output, --output-root OUTPUT_ROOT
+                        Output parent; default: inside each input folder.
+                        Existing outputs are never overwritten.
+  --workers {1,2,3,4}   Concurrent photos, 1-4 (default: 2; use 1 for less
+                        RAM)
+  --copy-xmp            Preserve full XMP using ExifTool (GUI default: on)
+  --require-dewarp      Compatibility option: missing/invalid calibration is
+                        always skipped
+  --alpha {0.0,1.0}     0: crop edges; 1: wider view, then valid-region crop
+                        (legacy behavior)
+  --report              Also print folder summaries; JSON reports are always
+                        saved

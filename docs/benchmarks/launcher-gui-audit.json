@@ -1,0 +1,100 @@
+﻿{
+    "captured_utc":  "2026-10-10T21:18:32.6811074Z",
+    "cwd":  "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.work\\.dewarp-validation-fec3f77185a34e9d8a835a3a3f1d35ed",
+    "launcher":  "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\Dewarp.cmd",
+    "checks":  [
+                   {
+                       "name":  "GUI process belongs to the actual CMD descendant tree",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Native GUI window is visible",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Expected main-window title",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Start batch is exposed once as a native accessible button",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Start button is visible inside the launched window",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Native title-bar theme matches current Windows app appearance",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Root launcher exits successfully",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "Owned GUI closes gracefully without processing",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "New GUI error log exists and is empty",
+                       "passed":  true
+                   },
+                   {
+                       "name":  "No owned GUI process remains",
+                       "passed":  true
+                   }
+               ],
+    "photos_accessed":  false,
+    "passed":  true,
+    "owned_ancestry":  [
+                           {
+                               "pid":  69680,
+                               "parent":  8900,
+                               "executable":  "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                               "command":  "powershell.exe  -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\scripts\\Launch.ps1\" "
+                           },
+                           {
+                               "pid":  82812,
+                               "parent":  69680,
+                               "executable":  "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.venv\\Scripts\\pythonw.exe",
+                               "command":  "\"C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.venv\\Scripts\\pythonw.exe\" -I -m dewarp "
+                           },
+                           {
+                               "pid":  84736,
+                               "parent":  82812,
+                               "executable":  "C:\\Program Files\\Python313\\pythonw.exe",
+                               "command":  "\"C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.venv\\Scripts\\pythonw.exe\" -I -m dewarp "
+                           }
+                       ],
+    "gui":  {
+                "pid":  84736,
+                "path":  "C:\\Program Files\\Python313\\pythonw.exe",
+                "hwnd":  5060522,
+                "title":  "DJI Photo Dewarp — Batch Processor",
+                "exit_code":  0
+            },
+    "start_button":  {
+                         "name":  "Start batch",
+                         "offscreen":  false,
+                         "enabled":  true,
+                         "x":  607,
+                         "y":  968,
+                         "width":  668,
+                         "height":  32
+                     },
+    "theme":  {
+                  "apps_use_light_theme":  0,
+                  "dwm_immersive_dark_mode":  1,
+                  "dwm_hresult":  0
+              },
+    "error_logs":  [
+                       {
+                           "path":  "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.local\\logs\\gui-20261010-161833-709.error.log",
+                           "bytes":  0,
+                           "content":  {
+
+                                       }
+                       }
+                   ],
+    "gui_process_removed":  true
+}

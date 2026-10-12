@@ -1,0 +1,41 @@
+{"event": "photo_done", "index": 0, "completed": 1, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 2, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 3, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 4, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 5, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 6, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 7, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 8, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 9, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 10, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 11, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 0, "completed": 12, "total": 12, "status": "applied"}
+{"event": "folder_done", "index": 0, "completed": 12, "total": 12, "status": "Completed with issues"}
+{"event": "photo_done", "index": 1, "completed": 1, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 2, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 3, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 4, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 5, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 6, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 7, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 8, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 9, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 10, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 11, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 1, "completed": 12, "total": 12, "status": "applied"}
+{"event": "folder_done", "index": 1, "completed": 12, "total": 12, "status": "Completed with issues"}
+{"event": "photo_done", "index": 2, "completed": 1, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 2, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 3, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 4, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 5, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 6, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 7, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 8, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 9, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 10, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 11, "total": 12, "status": "applied"}
+{"event": "photo_done", "index": 2, "completed": 12, "total": 12, "status": "applied"}
+{"event": "folder_done", "index": 2, "completed": 12, "total": 12, "status": "Completed with issues"}
+{"event": "batch_done", "completed": 36, "total": 36}
+GUI workflow validated

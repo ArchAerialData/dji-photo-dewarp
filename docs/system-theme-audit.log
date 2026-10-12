@@ -1,0 +1,5 @@
+{"state": "system", "scheme": "Dark", "checks": 15}
+{"state": "light", "scheme": "Light", "checks": 31}
+{"state": "dark", "scheme": "Dark", "checks": 46}
+{"state": "restored-system", "scheme": "Dark", "checks": 61}
+{"passed": true, "checks": 62}

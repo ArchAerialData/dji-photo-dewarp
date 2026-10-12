@@ -1,0 +1,93 @@
+{
+  "captured_utc": "2026-10-10T21:13:38.951139+00:00",
+  "source_sha256": "12cc46891dd31b851ca973b8970bae1876842c962ea1c264cda709ac4d845819",
+  "results": [
+    {
+      "command": [
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "tools/audit_gui_accessibility.ps1",
+        "-Python",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.venv\\Scripts\\python.exe",
+        "-OutputFile",
+        "docs/accessibility-after.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.7468712999252602,
+      "timeout": null,
+      "wall_limit_seconds": 240,
+      "stall_limit_seconds": 180,
+      "tail": [
+        "21/21 UIA control checks passed. Evidence: C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\accessibility-after.json"
+      ]
+    },
+    {
+      "command": [
+        "powershell.exe",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "tools/audit_gui_accessibility.ps1",
+        "-Python",
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.venv\\Scripts\\python.exe",
+        "-RunningState",
+        "-OutputFile",
+        "docs/accessibility-running.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.6570717999711633,
+      "timeout": null,
+      "wall_limit_seconds": 240,
+      "stall_limit_seconds": 180,
+      "tail": [
+        "21/21 UIA control checks passed. Evidence: C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\accessibility-running.json"
+      ]
+    },
+    {
+      "command": [
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.venv\\Scripts\\python.exe",
+        "tools/audit_qt_layout.py",
+        "--output",
+        "docs/gui-audit-after.json",
+        "--screenshots",
+        "docs/gui-audit-images"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 26.953908999916166,
+      "timeout": null,
+      "wall_limit_seconds": 240,
+      "stall_limit_seconds": 180,
+      "tail": [
+        "{",
+        "  \"cases\": 288,",
+        "  \"cases_with_critical_visibility_failures\": 0,",
+        "  \"cases_with_clipped_critical_button_text\": 0,",
+        "  \"cases_with_unreachable_actions\": 0,",
+        "  \"cases_with_label_issues\": 0,",
+        "  \"cases_with_short_queue_rows\": 0,",
+        "  \"processes_with_startup_frame_outside_workarea\": 0,",
+        "  \"cases_with_minimum_hint_exceeding_workarea\": 0,",
+        "  \"cases_with_client_size_changed_by_window_manager\": 16",
+        "}"
+      ]
+    },
+    {
+      "command": [
+        "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.venv\\Scripts\\python.exe",
+        "tools/audit_qt_terminal_states.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.5335439998889342,
+      "timeout": null,
+      "wall_limit_seconds": 30,
+      "stall_limit_seconds": 25,
+      "tail": [
+        "{\"cases\": 32, \"failed_cases\": 0, \"failures\": []}"
+      ]
+    }
+  ]
+}

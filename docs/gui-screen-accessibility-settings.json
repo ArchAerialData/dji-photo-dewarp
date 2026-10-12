@@ -1,0 +1,237 @@
+﻿{
+    "captured_utc":  "2026-10-10T21:59:18.2630912Z",
+    "environment":  {
+                        "hwnd":  2242910,
+                        "python":  "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+                        "pyside6":  "6.10.2",
+                        "qt":  "6.10.2",
+                        "source_sha256":  "3bd29bc2192a6b17a077baacb18d3c73793e207e63994c482d5ab9e7fd92f5ce",
+                        "settings_source_sha256":  "a8a7ab7b3584e9b0d068e69043a99fbc8298211bb340948f86302cb898651b17",
+                        "scrolling_source_sha256":  "5f4f858a876ca82e9fd24cb82d23e58c05893c438b4b93acd43fd7cc128751db",
+                        "theme_source_sha256":  "ec0ea9eea08313257610db27a50ee9d064b8377ffe99600232b40db530adcc36",
+                        "device_pixel_ratio":  1.25,
+                        "dpi_awareness":  2,
+                        "per_monitor_v2":  true,
+                        "visible":  true,
+                        "running_state_simulated":  false,
+                        "page":  "settings",
+                        "photo_processing_started":  false,
+                        "expected_controls":  [
+                                                  {
+                                                      "attribute":  "copy_xmp",
+                                                      "name":  "Preserve XMP",
+                                                      "type":  "ControlType.CheckBox",
+                                                      "pattern":  "TogglePatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "alpha_combo",
+                                                      "name":  "Framing",
+                                                      "type":  "ControlType.ComboBox",
+                                                      "pattern":  "ExpandCollapsePatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true,
+                                                      "value":  "Crop edges"
+                                                  },
+                                                  {
+                                                      "attribute":  "workers_spin",
+                                                      "name":  "Parallel photos",
+                                                      "type":  "ControlType.Spinner",
+                                                      "pattern":  "RangeValuePatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true,
+                                                      "range":  {
+                                                                    "value":  2,
+                                                                    "minimum":  1,
+                                                                    "maximum":  4
+                                                                }
+                                                  },
+                                                  {
+                                                      "attribute":  "defaults_button",
+                                                      "name":  "Restore default settings",
+                                                      "type":  "ControlType.Button",
+                                                      "pattern":  "InvokePatternIdentifiers.Pattern",
+                                                      "enabled":  false,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "cancel_button",
+                                                      "name":  "Cancel settings",
+                                                      "type":  "ControlType.Button",
+                                                      "pattern":  "InvokePatternIdentifiers.Pattern",
+                                                      "enabled":  true,
+                                                      "keyboard_focusable":  true
+                                                  },
+                                                  {
+                                                      "attribute":  "save_button",
+                                                      "name":  "Save settings",
+                                                      "type":  "ControlType.Button",
+                                                      "pattern":  "InvokePatternIdentifiers.Pattern",
+                                                      "enabled":  false,
+                                                      "keyboard_focusable":  true
+                                                  }
+                                              ]
+                    },
+    "checks":  [
+                   {
+                       "attribute":  "copy_xmp",
+                       "name":  "Preserve XMP",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "alpha_combo",
+                       "name":  "Framing",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "workers_spin",
+                       "name":  "Parallel photos",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "defaults_button",
+                       "name":  "Restore default settings",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "cancel_button",
+                       "name":  "Cancel settings",
+                       "passed":  true,
+                       "matches":  1
+                   },
+                   {
+                       "attribute":  "save_button",
+                       "name":  "Save settings",
+                       "passed":  true,
+                       "matches":  1
+                   }
+               ],
+    "passed":  true,
+    "observed_descendant_count":  17,
+    "elements":  [
+                     {
+                         "name":  "Preserve XMP",
+                         "type":  "ControlType.CheckBox",
+                         "class":  "QCheckBox",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "TogglePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Framing",
+                         "type":  "ControlType.Text",
+                         "class":  "QLabel",
+                         "keyboard_focusable":  false,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  null,
+                         "range":  null
+                     },
+                     {
+                         "name":  "Framing",
+                         "type":  "ControlType.ComboBox",
+                         "class":  "QComboBox",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "ExpandCollapsePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "Crop edges",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Parallel photos",
+                         "type":  "ControlType.Text",
+                         "class":  "QLabel",
+                         "keyboard_focusable":  false,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  null,
+                         "range":  null
+                     },
+                     {
+                         "name":  "Parallel photos",
+                         "type":  "ControlType.Spinner",
+                         "class":  "QSpinBox",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern",
+                                          "RangeValuePatternIdentifiers.Pattern",
+                                          "TextPatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "2",
+                         "range":  {
+                                       "value":  2,
+                                       "minimum":  1,
+                                       "maximum":  4
+                                   }
+                     },
+                     {
+                         "name":  "Restore default settings",
+                         "type":  "ControlType.Button",
+                         "class":  "ActionButton",
+                         "keyboard_focusable":  true,
+                         "enabled":  false,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Cancel settings",
+                         "type":  "ControlType.Button",
+                         "class":  "ActionButton",
+                         "keyboard_focusable":  true,
+                         "enabled":  true,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     },
+                     {
+                         "name":  "Save settings",
+                         "type":  "ControlType.Button",
+                         "class":  "ActionButton",
+                         "keyboard_focusable":  true,
+                         "enabled":  false,
+                         "offscreen":  false,
+                         "patterns":  [
+                                          "InvokePatternIdentifiers.Pattern",
+                                          "ValuePatternIdentifiers.Pattern"
+                                      ],
+                         "value":  "",
+                         "range":  null
+                     }
+                 ],
+    "limitation":  "UIA metadata and pattern checks; screen-reader speech and actual OS contrast themes are not tested."
+}

@@ -1,0 +1,1382 @@
+{
+  "source_sha256": "3bd29bc2192a6b17a077baacb18d3c73793e207e63994c482d5ab9e7fd92f5ce",
+  "settings_source_sha256": "a8a7ab7b3584e9b0d068e69043a99fbc8298211bb340948f86302cb898651b17",
+  "scrolling_source_sha256": "5f4f858a876ca82e9fd24cb82d23e58c05893c438b4b93acd43fd7cc128751db",
+  "theme_source_sha256": "ec0ea9eea08313257610db27a50ee9d064b8377ffe99600232b40db530adcc36",
+  "device_pixel_ratio": 1.25,
+  "cases": [
+    {
+      "state": "completed",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Finished \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "completed",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 461,
+      "footer_text": "Finished \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "issues",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 461,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "error",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Batch error",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 461,
+      "footer_text": "Batch error",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 461,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "empty",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "No JPEG photos",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 445,
+      "footer_text": "No JPEG photos",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "setup-mixed-feedback",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "1 added \u00b7 1 already queued \u00b7 1 unavailable",
+      "footer_label_contained": true,
+      "page": 0,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "mixed_add_events_verified": true
+    },
+    {
+      "state": "setup-mixed-feedback",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 355,
+      "footer_text": "1 added \u00b7 1 already queued \u00b7 1 unavailable",
+      "footer_label_contained": true,
+      "page": 0,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "mixed_add_events_verified": true
+    },
+    {
+      "state": "completed",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Finished \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "completed",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 293,
+      "footer_text": "Finished \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "issues",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 293,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "error",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Batch error",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 293,
+      "footer_text": "Batch error",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 293,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "empty",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "No JPEG photos",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 293,
+      "footer_text": "No JPEG photos",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "setup-mixed-feedback",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "1 added \u00b7 1 already queued \u00b7 1 unavailable",
+      "footer_label_contained": true,
+      "page": 0,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "mixed_add_events_verified": true
+    },
+    {
+      "state": "setup-mixed-feedback",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 201,
+      "footer_text": "1 added \u00b7 1 already queued \u00b7 1 unavailable",
+      "footer_label_contained": true,
+      "page": 0,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "mixed_add_events_verified": true
+    },
+    {
+      "state": "completed",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Finished \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "completed",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 973,
+      "footer_text": "Finished \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "issues",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 1005,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "error",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Batch error",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 973,
+      "footer_text": "Batch error",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 973,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "empty",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "No JPEG photos",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 973,
+      "footer_text": "No JPEG photos",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "setup-mixed-feedback",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "1 added \u00b7 1 already queued \u00b7 1 unavailable",
+      "footer_label_contained": true,
+      "page": 0,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "mixed_add_events_verified": true
+    },
+    {
+      "state": "setup-mixed-feedback",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 967,
+      "footer_text": "1 added \u00b7 1 already queued \u00b7 1 unavailable",
+      "footer_label_contained": true,
+      "page": 0,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "mixed_add_events_verified": true
+    },
+    {
+      "state": "completed",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Finished \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "completed",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 709,
+      "footer_text": "Finished \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "issues",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 741,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "error",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Batch error",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 709,
+      "footer_text": "Batch error",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 709,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "empty",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "No JPEG photos",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 677,
+      "footer_text": "No JPEG photos",
+      "footer_label_contained": true,
+      "page": 1,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Back to setup": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "return_to_setup": true
+    },
+    {
+      "state": "setup-mixed-feedback",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "1 added \u00b7 1 already queued \u00b7 1 unavailable",
+      "footer_label_contained": true,
+      "page": 0,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "mixed_add_events_verified": true
+    },
+    {
+      "state": "setup-mixed-feedback",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 651,
+      "footer_text": "1 added \u00b7 1 already queued \u00b7 1 unavailable",
+      "footer_label_contained": true,
+      "page": 0,
+      "page_contract_satisfied": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      },
+      "mixed_add_events_verified": true
+    }
+  ],
+  "failed_cases": 0
+}

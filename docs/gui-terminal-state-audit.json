@@ -1,0 +1,839 @@
+{
+  "source_sha256": "d424858dab1f072296983177d995aac3da3fdde60b67782621ed9bb3ce001ee5",
+  "device_pixel_ratio": 1.25,
+  "cases": [
+    {
+      "state": "issues",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 1197,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Batch error \u00b7 Ctrl+I for status",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 1197,
+      "footer_text": "Batch error \u00b7 Ctrl+I for status",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 1197,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Finished \u00b7 No JPEG photos found",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 100,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 1181,
+      "footer_text": "Finished \u00b7 No JPEG photos found",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 995,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Batch error \u00b7 Ctrl+I for status",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 995,
+      "footer_text": "Batch error \u00b7 Ctrl+I for status",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 995,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Finished \u00b7 No JPEG photos found",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 100,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 995,
+      "footer_text": "Finished \u00b7 No JPEG photos found",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 2505,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Batch error \u00b7 Ctrl+I for status",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 2505,
+      "footer_text": "Batch error \u00b7 Ctrl+I for status",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 2473,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 0,
+      "footer_text": "Finished \u00b7 No JPEG photos found",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 200,
+      "requested_size": [
+        320,
+        240
+      ],
+      "actual_size": [
+        320,
+        240
+      ],
+      "scroll": 2505,
+      "footer_text": "Finished \u00b7 No JPEG photos found",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "issues",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 1965,
+      "footer_text": "Finished with issues \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Batch error \u00b7 Ctrl+I for status",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "error",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 1933,
+      "footer_text": "Batch error \u00b7 Ctrl+I for status",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "cancelled",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 1933,
+      "footer_text": "Cancelled \u00b7 100%",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 0,
+      "footer_text": "Finished \u00b7 No JPEG photos found",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    },
+    {
+      "state": "empty",
+      "text_scale": 200,
+      "requested_size": [
+        480,
+        360
+      ],
+      "actual_size": [
+        480,
+        360
+      ],
+      "scroll": 1901,
+      "footer_text": "Finished \u00b7 No JPEG photos found",
+      "footer_label_contained": true,
+      "footer_label_text_fits": true,
+      "buttons": {
+        "Start batch": {
+          "contained": true,
+          "text_fits": true
+        },
+        "Cancel batch": {
+          "contained": true,
+          "text_fits": true
+        }
+      }
+    }
+  ],
+  "failed_cases": 0
+}

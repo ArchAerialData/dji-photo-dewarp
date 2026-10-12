@@ -1,0 +1,25 @@
+{
+  "command": [
+    "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.venv\\Scripts\\python.exe",
+    "-u",
+    "-c",
+    "import sys,unittest\nsys.path.insert(0,'tests')\nimport test_gui_qt as t\nold = t.dewarp_gui.DewarpApp._remove_selected\ndef traced(self):\n print('REMOVE',self.pages.currentIndex(),self._running,'rows',self._selected_rows(),'indexes',[(i.row(),i.column()) for i in self.folder_table.selectedIndexes()],'modifiers',t.QtWidgets.QApplication.keyboardModifiers(),flush=True)\n old(self)\nt.dewarp_gui.DewarpApp._remove_selected=traced\nsuite=unittest.TestSuite(t.GuiTests(name) for name in ['test_multiple_dropped_paths_preserve_spaces_braces_and_remove_selection','test_removing_one_folder_preserves_other_results_and_output_links'])\nr=unittest.TextTestRunner(verbosity=2).run(suite)\nraise SystemExit(not r.wasSuccessful())\n"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.0851029000477865,
+  "timeout": null,
+  "wall_limit_seconds": 30,
+  "stall_limit_seconds": 20,
+  "tail": [
+    "test_multiple_dropped_paths_preserve_spaces_braces_and_remove_selection (test_gui_qt.GuiTests.test_multiple_dropped_paths_preserve_spaces_braces_and_remove_selection) ... REMOVE 0 False rows [1] indexes [(1, 0), (1, 1), (1, 2), (1, 3), (1, 4)] modifiers KeyboardModifier.NoModifier",
+    "ok",
+    "test_removing_one_folder_preserves_other_results_and_output_links (test_gui_qt.GuiTests.test_removing_one_folder_preserves_other_results_and_output_links) ... REMOVE 0 False rows [1] indexes [(1, 0), (1, 1), (1, 2), (1, 3), (1, 4)] modifiers KeyboardModifier.NoModifier",
+    "REMOVE 0 False rows [1] indexes [(1, 0), (1, 1), (1, 2), (1, 3), (1, 4)] modifiers KeyboardModifier.NoModifier",
+    "ok",
+    "",
+    "----------------------------------------------------------------------",
+    "Ran 2 tests in 0.399s",
+    "",
+    "OK"
+  ]
+}

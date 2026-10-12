@@ -1,0 +1,100 @@
+{
+  "source_validations": [
+    {
+      "folder": "Conan CS",
+      "name": "DJI_20261005152139_0001_V.JPG",
+      "sha256": "251e51de41aa736a10d81564e2f4c5d71091f6b396fdaca1146811c222028c3d",
+      "validation": "[ExifTool]      Validate                        : 8 Warnings (4 minor)\n[ExifTool]      Warning                         : Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue\n[ExifTool]      Warning                         : Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue\n[ExifTool]      Warning                         : [minor] Possibly incorrect maker notes offsets (fix by -452?)\n[ExifTool]      Warning                         : Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)\n[ExifTool]      Warning                         : [minor] Unknown APP8 'DJI-SIG' segment\n[ExifTool]      Warning                         : [minor] Unknown APP8 'DJI-CERT' segment\n[ExifTool]      Warning                         : [minor] Unknown APP8 'PADDING' segment\n[ExifTool]      Warning                         : Invalid value for IFD1 tag 0x0103 Compression\n",
+      "stderr": "",
+      "maker_fields": {},
+      "maker_stderr": "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/Original Input JPGs/Conan CS/DJI_20261005152139_0001_V.JPG\n",
+      "maker_bytes": 174,
+      "maker_sha256": "400c78136f7531ba37016603493364dc3371b0924b573ea43b4ecd5b1c1fea87"
+    },
+    {
+      "folder": "Gorgon LGL",
+      "name": "DJI_20261002122812_0001_V.JPG",
+      "sha256": "0543c94bc93e0a56aa72e4d0c892739a8add1872abf4f50a78f5cb435617ef44",
+      "validation": "[ExifTool]      Validate                        : 8 Warnings (4 minor)\n[ExifTool]      Warning                         : Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue\n[ExifTool]      Warning                         : Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue\n[ExifTool]      Warning                         : [minor] Possibly incorrect maker notes offsets (fix by -452?)\n[ExifTool]      Warning                         : Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)\n[ExifTool]      Warning                         : [minor] Unknown APP8 'DJI-SIG' segment\n[ExifTool]      Warning                         : [minor] Unknown APP8 'DJI-CERT' segment\n[ExifTool]      Warning                         : [minor] Unknown APP8 'PADDING' segment\n[ExifTool]      Warning                         : Invalid value for IFD1 tag 0x0103 Compression\n",
+      "stderr": "",
+      "maker_fields": {},
+      "maker_stderr": "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/Original Input JPGs/Gorgon LGL/DJI_20261002122812_0001_V.JPG\n",
+      "maker_bytes": 174,
+      "maker_sha256": "ac7d5eda356472209678c96495fcaf9ac0e6cd006c9de14a8089c2617767249a"
+    },
+    {
+      "folder": "Neptune LGL",
+      "name": "DJI_20261007094440_0001_V.JPG",
+      "sha256": "2334220256f039a95d9d73f6e04f0483d51841bc618d6921fafcbf832dba3f0b",
+      "validation": "[ExifTool]      Validate                        : 8 Warnings (4 minor)\n[ExifTool]      Warning                         : Non-standard format (rational64s) for ExifIFD 0x9202 ApertureValue\n[ExifTool]      Warning                         : Non-standard format (rational64s) for ExifIFD 0x9205 MaxApertureValue\n[ExifTool]      Warning                         : [minor] Possibly incorrect maker notes offsets (fix by -452?)\n[ExifTool]      Warning                         : Wrong IFD for 0xc614 UniqueCameraModel (should be IFD0 not ExifIFD)\n[ExifTool]      Warning                         : [minor] Unknown APP8 'DJI-SIG' segment\n[ExifTool]      Warning                         : [minor] Unknown APP8 'DJI-CERT' segment\n[ExifTool]      Warning                         : [minor] Unknown APP8 'PADDING' segment\n[ExifTool]      Warning                         : Invalid value for IFD1 tag 0x0103 Compression\n",
+      "stderr": "",
+      "maker_fields": {},
+      "maker_stderr": "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - K:/Temp-Dewarp-Test-Fixture/Original Input JPGs/Neptune LGL/DJI_20261007094440_0001_V.JPG\n",
+      "maker_bytes": 174,
+      "maker_sha256": "a463f65fadfec2072f46b1ce124809edd88e4ebdbec490f2398fb73cac13660c"
+    }
+  ],
+  "copy_comparison": {
+    "result": {
+      "index": 0,
+      "folder": "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.work\\.dewarp-validation-d91bca562223447496f10cacdfb89587\\input",
+      "output": "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.work\\.dewarp-validation-d91bca562223447496f10cacdfb89587\\outputs\\input - Dewarped Photos",
+      "total": 1,
+      "completed": 1,
+      "applied": 1,
+      "already": 0,
+      "skipped": 0,
+      "failed": 0,
+      "warnings": 1,
+      "status": "Completed with issues",
+      "error": null,
+      "elapsed_seconds": 0.7778251999989152
+    },
+    "output": {
+      "validation": "[ExifTool]      Validate                        : 17 Warnings (11 minor)\n[ExifTool]      Warning                         : Entries in IFD0 are out of order\n[ExifTool]      Warning                         : Tag ID 0x8769 ExifOffset out of sequence in IFD0\n[ExifTool]      Warning                         : Value for ExifIFD tag 0x829a ExposureTime overlaps IFD\n[ExifTool]      Warning                         : [minor] Possibly incorrect maker notes offsets (fix by -366?)\n[ExifTool]      Warning                         : [minor] Bad offset for MakerNotes tag 0x1001\n[ExifTool]      Warning                         : [minor] Bad offset for MakerNotes tag 0x1002\n[ExifTool]      Warning                         : [minor] Odd offset for ExifIFD tag 0xa432 LensInfo\n[ExifTool]      Warning                         : Entries in ExifIFD are out of order\n[ExifTool]      Warning                         : Tag ID 0xa005 InteropOffset out of sequence in ExifIFD\n[ExifTool]      Warning                         : [minor] Odd offset for GPS tag 0x0002 GPSLatitude\n[ExifTool]      Warning                         : Value for GPS tag 0x0002 GPSLatitude overlaps IFD\n[ExifTool]      Warning                         : [minor] Odd offset for GPS tag 0x0004 GPSLongitude\n[ExifTool]      Warning                         : [minor] Odd offset for GPS tag 0x0006 GPSAltitude\n[ExifTool]      Warning                         : [minor] Odd offset for GPS tag 0x0012 GPSMapDatum\n[ExifTool]      Warning                         : [minor] XMP is missing xpacket wrapper\n[ExifTool]      Warning                         : [minor] IFD0 tag 0x0100 ImageWidth is not allowed in JPEG\n[ExifTool]      Warning                         : [minor] IFD0 tag 0x0101 ImageHeight is not allowed in JPEG\n",
+      "stderr": "",
+      "maker_fields": {},
+      "maker_stderr": "Warning: [minor] Possibly incorrect maker notes offsets (fix by -366?) - C:/Users/rbake/Desktop/Functional Scripts/Dewarp M3E JPGs/.work/.dewarp-validation-d91bca562223447496f10cacdfb89587/outputs/input - Dewarped Photos/DJI_20261005152139_0001_V.JPG\nWarning: [minor] Bad offset for MakerNotes tag 0x1001 - C:/Users/rbake/Desktop/Functional Scripts/Dewarp M3E JPGs/.work/.dewarp-validation-d91bca562223447496f10cacdfb89587/outputs/input - Dewarped Photos/DJI_20261005152139_0001_V.JPG\nWarning: [minor] Bad offset for MakerNotes tag 0x1002 - C:/Users/rbake/Desktop/Functional Scripts/Dewarp M3E JPGs/.work/.dewarp-validation-d91bca562223447496f10cacdfb89587/outputs/input - Dewarped Photos/DJI_20261005152139_0001_V.JPG\n",
+      "maker_bytes": 174,
+      "maker_sha256": "400c78136f7531ba37016603493364dc3371b0924b573ea43b4ecd5b1c1fea87"
+    },
+    "report": {
+      "version": 2,
+      "finished_utc": "2026-10-10T20:51:15.436599+00:00",
+      "options": {
+        "alpha": 0.0,
+        "workers": 1,
+        "copy_xmp": true,
+        "jpeg_quality": 95,
+        "jpeg_subsampling": 0
+      },
+      "summary": {
+        "index": 0,
+        "folder": "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.work\\.dewarp-validation-d91bca562223447496f10cacdfb89587\\input",
+        "output": "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.work\\.dewarp-validation-d91bca562223447496f10cacdfb89587\\outputs\\input - Dewarped Photos",
+        "total": 1,
+        "completed": 1,
+        "applied": 1,
+        "already": 0,
+        "skipped": 0,
+        "failed": 0,
+        "warnings": 1,
+        "status": "Completed with issues",
+        "error": null,
+        "elapsed_seconds": 0.7778251999989152
+      },
+      "files": [
+        {
+          "name": "DJI_20261005152139_0001_V.JPG",
+          "status": "applied",
+          "message": "Dewarped",
+          "warnings": [
+            "Warning: [minor] Possibly incorrect maker notes offsets (fix by -452?) - C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.work\\.dewarp-validation-d91bca562223447496f10cacdfb89587\\input\\DJI_20261005152139_0001_V.JPG"
+          ]
+        }
+      ]
+    }
+  },
+  "scratch_removed": true,
+  "originals_unchanged": true
+}

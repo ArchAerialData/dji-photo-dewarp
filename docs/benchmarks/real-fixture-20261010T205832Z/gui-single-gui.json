@@ -1,0 +1,45 @@
+{
+  "elapsed_seconds": 2.733805699972436,
+  "events": [
+    {
+      "event": "folder_done",
+      "index": 0,
+      "folder": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\inputs\\Conan CS",
+      "output": "K:\\Temp-Dewarp-Test-Fixture\\.dewarp-validation-30af743617c24ad59b8b5756df3ecdc3\\outputs\\gui-single\\Conan CS - Dewarped Photos",
+      "total": 12,
+      "completed": 12,
+      "applied": 12,
+      "already": 0,
+      "skipped": 0,
+      "failed": 0,
+      "warnings": 24,
+      "status": "Completed with issues",
+      "error": null,
+      "elapsed_seconds": 2.6302340000402182
+    },
+    {
+      "event": "batch_done",
+      "cancelled": false,
+      "total": 12,
+      "completed": 12,
+      "applied": 12,
+      "already": 0,
+      "skipped": 0,
+      "failed": 0,
+      "warnings": 24,
+      "elapsed": 2.6321174000622705,
+      "folders_total": 1,
+      "folders_completed": 1,
+      "folders_failed": 0
+    }
+  ],
+  "statuses": {
+    "0": "Completed with issues"
+  },
+  "batch_total": 12,
+  "batch_completed": 12,
+  "batch_bar": 100,
+  "start_enabled": true,
+  "cancel_enabled": false,
+  "errors": []
+}

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "-NoLogo",
+    "-NoProfile",
+    "-ExecutionPolicy",
+    "Bypass",
+    "-File",
+    "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\scripts\\Setup.ps1"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.2158813000423834,
+  "timeout": null,
+  "wall_limit_seconds": 60,
+  "stall_limit_seconds": 40,
+  "tail": [
+    "Dewarp setup: C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs",
+    "Log: C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.local\\logs\\setup-20261010-161335.log",
+    "Environment already ready; no dependencies changed."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "fixture": "1001 synthetic 160x100 JPEGs; source photos untouched",
+  "copy_xmp": true,
+  "workers": 2,
+  "elapsed_seconds": 31.5308336999733,
+  "completed": 1001,
+  "applied": 1001,
+  "failed": 0,
+  "skipped": 0,
+  "warnings": 0,
+  "report_records": 1001,
+  "monotonic_progress": true,
+  "note": "Reliability smoke only; tiny synthetic files are not representative of production dewarping speed."
+}

@@ -1,0 +1,22 @@
+{
+  "captured_utc": "2026-10-10T22:00:09.200572+00:00",
+  "source_sha256": {
+    "app/src/dewarp/gui/window.py": "3bd29bc2192a6b17a077baacb18d3c73793e207e63994c482d5ab9e7fd92f5ce",
+    "app/src/dewarp/gui/settings.py": "a8a7ab7b3584e9b0d068e69043a99fbc8298211bb340948f86302cb898651b17",
+    "app/src/dewarp/gui/scrolling.py": "5f4f858a876ca82e9fd24cb82d23e58c05893c438b4b93acd43fd7cc128751db",
+    "app/src/dewarp/gui/theme.py": "ec0ea9eea08313257610db27a50ee9d064b8377ffe99600232b40db530adcc36",
+    "app/src/dewarp/gui/buttons.py": "ece9bae4d5acbf1fbc9f8fdac6b6d1eaeb60d7388ffedf40f22d16af5cc5e945",
+    "app/src/dewarp/core/engine.py": "ee374ea47d04add43668af21a2f7dca64c2eb8a2b73ca13461a649d407838082",
+    "scripts/dewarp.py": "5fc8f6c0d0e34b64477b14b8bf0ae8ea0caaee204569ada6a1f33b85d9ded59c",
+    "Dewarp.cmd": "a27e57789ddbfadc65e7ab827ac249bd282649a64375500cbb50e809b8f62189"
+  },
+  "full_suite": "docs/gui-screen-tests.json",
+  "native_audits": "docs/gui-screen-audits.json",
+  "alias_check": "docs/gui-screen-alias.json",
+  "real_photo_fixture_used": false,
+  "engine_unchanged": true,
+  "tests_passed": 84,
+  "layout_cases_passed": 576,
+  "native_accessibility_checks_passed": 40,
+  "terminal_cases_passed": 48
+}

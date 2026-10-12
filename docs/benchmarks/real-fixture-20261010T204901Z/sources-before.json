@@ -1,0 +1,5212 @@
+{
+  "source": "K:\\Temp-Dewarp-Test-Fixture\\Original Input JPGs",
+  "directories": [
+    "Conan CS",
+    "Gorgon LGL",
+    "Neptune LGL"
+  ],
+  "files": [
+    {
+      "path": "Conan CS/DJI_20261005152139_0001_V.JPG",
+      "size": 5074944,
+      "mtime_ns": 1791581621235164200,
+      "sha256": "251e51de41aa736a10d81564e2f4c5d71091f6b396fdaca1146811c222028c3d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152140_0002_D.MRK",
+      "size": 48439,
+      "mtime_ns": 1791581622544164100,
+      "sha256": "137824b55e52945a2423cafa33ee22b1d72b0b151bffe0dc39fe38d1a7cd6e51"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152140_0002_D.NAV",
+      "size": 35848,
+      "mtime_ns": 1791581630894662900,
+      "sha256": "7c48c7095ea0664eabed4b6ec26e1aabb4152eb699f6773c71f588ee93131346"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152140_0002_D.OBS",
+      "size": 26217534,
+      "mtime_ns": 1791581633923664800,
+      "sha256": "72398bcdeb7af2c5dab00e1576367805a81dc1f952b041c2ef5fd4c6998d5670"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152140_0002_D.RTK",
+      "size": 2591898,
+      "mtime_ns": 1791581631862164200,
+      "sha256": "9fe840734a57ebf54f13c0fc5c93c49657be6e276ebdc61d8af0257746557333"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152140_0003_V.JPG",
+      "size": 4960256,
+      "mtime_ns": 1791581626264663700,
+      "sha256": "ce70dc58e9461033aac32bf213f809862ef111954d5e7f2b2dba87443508c498"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152142_0004_V.JPG",
+      "size": 4878336,
+      "mtime_ns": 1791581625040162400,
+      "sha256": "d2236bb523756c9ba8ae4f6237634545c77af312cb1863bcd4509e3fbf1f08a0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152143_0005_V.JPG",
+      "size": 4702208,
+      "mtime_ns": 1791581630340162400,
+      "sha256": "5d3f72881c18b51a075207713619ece8769becaa8691dead96d56259fd977d48"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152144_0006_V.JPG",
+      "size": 4534272,
+      "mtime_ns": 1791581628393166300,
+      "sha256": "736e49db577dc7ab55350eb8750e174f4ea9120ca1a388f947cc07399e24310d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152146_0007_V.JPG",
+      "size": 4481024,
+      "mtime_ns": 1791581628315837600,
+      "sha256": "8127ed7da27d5caa6e8ae86e601cd8fb2437c225b0e3bd5322e959d5c88f8e3d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152147_0008_V.JPG",
+      "size": 4468736,
+      "mtime_ns": 1791581629539165400,
+      "sha256": "9c1365ecd8ad9782c02c27877a0e77fcd63d694f8f9f2750883b2b29761e0bc3"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152148_0009_V.JPG",
+      "size": 4526080,
+      "mtime_ns": 1791581628883163300,
+      "sha256": "05d3b351ac9cf70ab79f28a91a3d58d8b8d449b97414c97e83c3fd74508bd203"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152150_0010_V.JPG",
+      "size": 4583424,
+      "mtime_ns": 1791581621280664800,
+      "sha256": "0c12bc7e80e92621107537569b2ef6faf6f172227f0663c3b86870773f981996"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152151_0011_V.JPG",
+      "size": 4624384,
+      "mtime_ns": 1791581633962163700,
+      "sha256": "de6e6aef1690652b903fe9f5c629044b67bdd420c6d5170de5b07c1e261d8b66"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152153_0012_V.JPG",
+      "size": 4718592,
+      "mtime_ns": 1791581634000662400,
+      "sha256": "05982a39d4a526113c85a2c1299c13c2bb9e8b780bbf31f3e470c38be267653f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152154_0013_V.JPG",
+      "size": 4816896,
+      "mtime_ns": 1791581632646663700,
+      "sha256": "ed914ca35714f893128902199c2e72399ee34046c6dc3096d17d3741a7bbd0dd"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152155_0014_V.JPG",
+      "size": 4902912,
+      "mtime_ns": 1791581621438165500,
+      "sha256": "2407857c70750a93ea8ef848789e6572492e5e1c5f945bdc5ffe0ed9d2f57a05"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152157_0015_V.JPG",
+      "size": 4968448,
+      "mtime_ns": 1791581622079663200,
+      "sha256": "cf2f8f1e26e067a52d4edaab67338d4c287f7c2c174342734922046b1b8bd424"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152158_0016_V.JPG",
+      "size": 5046272,
+      "mtime_ns": 1791581620874163400,
+      "sha256": "edaa5e70ad9aefe976b221ccbec02c57663c507d8dc8af0929eac4f8a68195cb"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152159_0017_V.JPG",
+      "size": 5115904,
+      "mtime_ns": 1791581633711170900,
+      "sha256": "278bffb37b0b50d787274ee02e58245bd7dedac693d550d31f0734bec81f3230"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152201_0018_V.JPG",
+      "size": 5042176,
+      "mtime_ns": 1791581629738663000,
+      "sha256": "876957f8ef0d40faac900a1ada5b827295acdf59397a41475724a3dbd00bd243"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152202_0019_V.JPG",
+      "size": 5001216,
+      "mtime_ns": 1791581622653163100,
+      "sha256": "6fa7e3f5883c57c5537904e0a4d0b9023466b1cc17cdc5429cc5ec60564e5630"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152203_0020_V.JPG",
+      "size": 4960256,
+      "mtime_ns": 1791581631255162700,
+      "sha256": "1cc129e06609a9183d3e2df5a77dc93ddc25e177cde1b67e8580a9665a30e5b3"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152205_0021_V.JPG",
+      "size": 4907008,
+      "mtime_ns": 1791581623385162700,
+      "sha256": "0440c9051d512511b5a5221fe74b0088a3a46c549e15a1e9070e403e7c4c438b"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152206_0022_V.JPG",
+      "size": 4866048,
+      "mtime_ns": 1791581628920662600,
+      "sha256": "52397841a91dfeb949a2fc0e6ed8d8c01f02ffffd57d663d78225a4f6516f2f6"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152207_0023_V.JPG",
+      "size": 4812800,
+      "mtime_ns": 1791581626002162500,
+      "sha256": "023e3ec69b5ef991d408b58b7193abd7f45bafe143895a70b08d84cf0b652fc1"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152209_0024_V.JPG",
+      "size": 4739072,
+      "mtime_ns": 1791581633277663800,
+      "sha256": "630de04f4bbd910062f9913a5da8bea9dc6044f464b276d516f31cc755ff59ea"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152210_0025_V.JPG",
+      "size": 4726784,
+      "mtime_ns": 1791581627991664400,
+      "sha256": "bb198811cec906bb35febae937738603e789da082676ccf80c88c1fe14701268"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152212_0026_V.JPG",
+      "size": 4718592,
+      "mtime_ns": 1791581627914665500,
+      "sha256": "40858cfbfd01efbd2286b66f39c6e9d58fd2a09c8a8b39863b166f8a3a766e39"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152213_0027_V.JPG",
+      "size": 4444160,
+      "mtime_ns": 1791581626852664000,
+      "sha256": "370cbe7bb9c86735f0600ef4f8622925219490f203013e321792b7dbac3a5ae0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152214_0028_V.JPG",
+      "size": 4595712,
+      "mtime_ns": 1791581631290163600,
+      "sha256": "004aa0910d413bebdeb7ea68e292f8cc2c635c1200a8b6844fa39b8b287fc519"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152216_0029_V.JPG",
+      "size": 4403200,
+      "mtime_ns": 1791581629889662500,
+      "sha256": "d008dc4ef0eebf44820e73d8a7c4ebdb773a9f287e78cb9f7a4eca70e9bae973"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152217_0030_V.JPG",
+      "size": 4763648,
+      "mtime_ns": 1791581621552662600,
+      "sha256": "097019b8bd3352342057db24ff103645836c4ec2dba01a43fa119bfa2ef39e0d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152218_0031_V.JPG",
+      "size": 4841472,
+      "mtime_ns": 1791581620949662500,
+      "sha256": "2f7fb7756a97d0334bfa7b496319dcceaf2594e4608ec6dec2bd811e8c12ef23"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152220_0032_V.JPG",
+      "size": 4894720,
+      "mtime_ns": 1791581621860663100,
+      "sha256": "345a1b21c7c82b75fb7b96221f31f17c1342be803214b268ceadee43189a1502"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152221_0033_V.JPG",
+      "size": 4919296,
+      "mtime_ns": 1791581632797664600,
+      "sha256": "e9f4d21cac5650ab94c528c468aa6eb48a7303bc2617f39b9909066f576b0b83"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152222_0034_V.JPG",
+      "size": 4890624,
+      "mtime_ns": 1791581627617662700,
+      "sha256": "411b81a5a11c9fef1dd316270c36e5f540f8b977e370d56bf7786d74e7f0fa4e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152224_0035_V.JPG",
+      "size": 4935680,
+      "mtime_ns": 1791581633672662900,
+      "sha256": "7b30f78ce1071ef164873c687bb6eb4c44810507668911e21af670a3e65ba262"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152225_0036_V.JPG",
+      "size": 5033984,
+      "mtime_ns": 1791581622525663500,
+      "sha256": "4657e48f3bba18d6195d3fd50e8f889d06081b0bd76d107bc39055369e58aabd"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152226_0037_V.JPG",
+      "size": 5079040,
+      "mtime_ns": 1791581630228664600,
+      "sha256": "4961facf1be59fcbb3faf8a8cb4fd5e330185c57f0c436f3cc114ff442de9596"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152228_0038_V.JPG",
+      "size": 5103616,
+      "mtime_ns": 1791581633055663200,
+      "sha256": "5ef5d50ab960c4902957a054a355cd0e8bf429508b8ddab840bb0e88f2f7f190"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152229_0039_V.JPG",
+      "size": 5062656,
+      "mtime_ns": 1791581622191664500,
+      "sha256": "924da33f8dc54febd4d854fb32ef0c1e511dd987f0cfcb6a978f923b6eb85385"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152231_0040_V.JPG",
+      "size": 5050368,
+      "mtime_ns": 1791581632193664600,
+      "sha256": "da647332235deb5f66dcd1e4f65e8e48f6aa9c28abe77aad4dca7ffe87c2ca6f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152232_0041_V.JPG",
+      "size": 5033984,
+      "mtime_ns": 1791581626115664000,
+      "sha256": "99596f52e7d8277757626331f82d5ad2c66d82a49b93487600097f28a64bfc6f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152233_0042_V.JPG",
+      "size": 4943872,
+      "mtime_ns": 1791581627875665000,
+      "sha256": "d1c82a6f1b3f246be0def3b6bc21d84505df290075df5ec6fc98870ddd5468b2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152235_0043_V.JPG",
+      "size": 4780032,
+      "mtime_ns": 1791581621323163900,
+      "sha256": "37c55644e63301336ba081536cec02f2c05e3b57eaa27d2f25b9afeb72ca4c37"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152236_0044_V.JPG",
+      "size": 4714496,
+      "mtime_ns": 1791581628845663800,
+      "sha256": "a8ff4b12284daf1cdab24187d0ce973da3c15223450d1b5c23617364090b2a4a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152237_0045_V.JPG",
+      "size": 4624384,
+      "mtime_ns": 1791581625929664600,
+      "sha256": "e9e22908c2ee0ff6ea5c527ff0b37996befb13deafb0e5c425210303abe18892"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152239_0046_V.JPG",
+      "size": 4599808,
+      "mtime_ns": 1791581632274664200,
+      "sha256": "c1842686e77e5d6f29e3078b9064a1b281cfc9f2d30607a99b0d45a97c9661bb"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152240_0047_V.JPG",
+      "size": 4526080,
+      "mtime_ns": 1791581634035664400,
+      "sha256": "d129be4d37bd2aa5c7c10ca952cbb4ef3838b445c8fe3cc5c73c74b435de77dc"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152241_0048_V.JPG",
+      "size": 4550656,
+      "mtime_ns": 1791581632979664800,
+      "sha256": "d2a3cb0194ef4a6cd1e51e79f97db469421baf68605dd1fdfa08ad9d496a50ca"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152243_0049_V.JPG",
+      "size": 4636672,
+      "mtime_ns": 1791581634242162600,
+      "sha256": "a4a62f73bf2ef5e429edf32092b4ce0bd2f771351d82cb30eb5b726e3edbc1a8"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152244_0050_V.JPG",
+      "size": 4792320,
+      "mtime_ns": 1791581628241163100,
+      "sha256": "0dc44022471787c189e139618f229161e74e5da8649f3175a191f7d680660366"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152245_0051_V.JPG",
+      "size": 4943872,
+      "mtime_ns": 1791581627469663900,
+      "sha256": "189bda1697a9830f3748cf2fe1a5a4e8058d4dc699cceaa9105d4a7a328d69eb"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152247_0052_V.JPG",
+      "size": 5009408,
+      "mtime_ns": 1791581627393163300,
+      "sha256": "d91c5cf7d22b746e2761c773d368e776001e6f1e08ca77c71d47e9adc1751d30"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152248_0053_V.JPG",
+      "size": 4845568,
+      "mtime_ns": 1791581626746663000,
+      "sha256": "c4cb48ea05a686d7f7fa2a906aea9206e5924f190089b9606c86978ed0769f4e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152250_0054_V.JPG",
+      "size": 5087232,
+      "mtime_ns": 1791581629622663100,
+      "sha256": "5ed81b82c6d6cf7643e1b355baf6556f7a66dfbb544db62f85ccc498b878dcd9"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152251_0055_V.JPG",
+      "size": 4849664,
+      "mtime_ns": 1791581626406162500,
+      "sha256": "ee25635e36dbc34d8ed7c178c2492a666ad19967d2c6f7f19e0f9a7ab49c1499"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152252_0056_V.JPG",
+      "size": 4947968,
+      "mtime_ns": 1791581631831663600,
+      "sha256": "9ae2cc42c24084978525d99721231a2c86782e500982662228e2eba36fa6f83b"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152254_0057_V.JPG",
+      "size": 4804608,
+      "mtime_ns": 1791581624367162500,
+      "sha256": "d38041e48f1f65f8187b692e2c54fef4f95e1ea48e77c850c46635be500cd088"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152255_0058_V.JPG",
+      "size": 4657152,
+      "mtime_ns": 1791581625078164200,
+      "sha256": "abde69254450f6510e114afeebe71165dc96724e2f52aa5ff21633943337c3e2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152256_0059_V.JPG",
+      "size": 4575232,
+      "mtime_ns": 1791581633350662500,
+      "sha256": "a1633dd2c04b66f81680dab7f55492c366de98ffe4d46c095f5d9263ac6093ba"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152258_0060_V.JPG",
+      "size": 4616192,
+      "mtime_ns": 1791581622834162500,
+      "sha256": "a3f85464acbff8f5c33eb31b17fd759190a8f34c11c442fcea304521728b1891"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152259_0061_V.JPG",
+      "size": 4784128,
+      "mtime_ns": 1791581632463664000,
+      "sha256": "6b71efa13aca5bfae1d688f8e56760c2b851cff2d5609c46d68e114fa5101092"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152300_0062_V.JPG",
+      "size": 4825088,
+      "mtime_ns": 1791581621477163600,
+      "sha256": "baa6ce25ee59eb2bb3732b3254d83cc2b098f34a750f0e09c3c4c3373a65eb20"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152302_0063_V.JPG",
+      "size": 4820992,
+      "mtime_ns": 1791581621898663600,
+      "sha256": "bfa0f456a3f15ffdb50fc38e8961b86976f8c27bdcadd5c11dc60a998717f135"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152303_0064_V.JPG",
+      "size": 4886528,
+      "mtime_ns": 1791581631434162500,
+      "sha256": "a0c20eede1e99111dd73f07a579a22710a5d512c5de52cdf1ff992ae0c4dbdbb"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152304_0065_V.JPG",
+      "size": 4919296,
+      "mtime_ns": 1791581633238162400,
+      "sha256": "0345b7fb0b80abb6f316f8fab3b2ae6a113f7d5ba5a2768fbf54c7b3d84f0c18"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152306_0066_V.JPG",
+      "size": 4919296,
+      "mtime_ns": 1791581633128662500,
+      "sha256": "aef6604328f7209598a15d946f654dad4b0eba237fe6814aed193f788c7dc3e3"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152307_0067_V.JPG",
+      "size": 4837376,
+      "mtime_ns": 1791581622299162500,
+      "sha256": "65e5ed069e5e042624508a9f0cf598301c8d508a8fc4bf85431c966644cc0bcb"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152309_0068_V.JPG",
+      "size": 4800512,
+      "mtime_ns": 1791581625304162400,
+      "sha256": "fd356be256c00214d7a754bccd70998a6016fbefc0f6f03de23bf91744a577a0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152310_0069_V.JPG",
+      "size": 4829184,
+      "mtime_ns": 1791581623855662000,
+      "sha256": "05f15915d6c8cac9284e1fc9151348155da60671e21c46b822a1099f6b8e7ac5"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152311_0070_V.JPG",
+      "size": 4825088,
+      "mtime_ns": 1791581628658164100,
+      "sha256": "b506d8149e203ede9b4b2d0517c3923a05421b9b5c8212f872c0c476b935ee4b"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152313_0071_V.JPG",
+      "size": 4804608,
+      "mtime_ns": 1791581628279664500,
+      "sha256": "a6544f7c089e6ad1eb177033013656665417f3130d611c7579c8cec82a03ad46"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152314_0072_V.JPG",
+      "size": 4808704,
+      "mtime_ns": 1791581631075664000,
+      "sha256": "24af9e26ccce409f06e1628d00162c160c8baf265beab0b0b1bdcb24fbd6d05e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152315_0073_V.JPG",
+      "size": 4804608,
+      "mtime_ns": 1791581624551162500,
+      "sha256": "6e3bd3386bfcf475e3cc7a369ba651db7f80c9a3cf8f936dd325900092204da1"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152317_0074_V.JPG",
+      "size": 4837376,
+      "mtime_ns": 1791581626556663100,
+      "sha256": "1fdcb4bb3147091ec30ff00802fcd858f0ef16bc904952f81219086fb8cb169a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152318_0075_V.JPG",
+      "size": 4820992,
+      "mtime_ns": 1791581626926164300,
+      "sha256": "5f9c3d108940c885138246f972ae37235058e896dfa8acbc10ba3a27ef94a994"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152319_0076_V.JPG",
+      "size": 4755456,
+      "mtime_ns": 1791581629061663500,
+      "sha256": "ea25ac61c7be369029ae07ed7a268ea1957940b993634c799fdff59d447f4699"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152321_0077_V.JPG",
+      "size": 4755456,
+      "mtime_ns": 1791581629700162600,
+      "sha256": "524e162d90c37b44d834596dc07b9ee61091891a02d5ddfab7653c5167001367"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152322_0078_V.JPG",
+      "size": 4718592,
+      "mtime_ns": 1791581631654163200,
+      "sha256": "86b3713ad0e86f744277d14b313c6a1af9c948f6db6246e3f505dbe22c484c8e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152323_0079_V.JPG",
+      "size": 4489216,
+      "mtime_ns": 1791581623707162500,
+      "sha256": "b07a9f6a16d56bbdcd87ad7ed713199be86b32eeacb0cf7dde36e3c4249a467e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152325_0080_V.JPG",
+      "size": 4661248,
+      "mtime_ns": 1791581632311164800,
+      "sha256": "110638d1383b169db01e0bfa370e28018e08ba83f812f27cbea4a661220e496e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152326_0081_V.JPG",
+      "size": 4460544,
+      "mtime_ns": 1791581626370163700,
+      "sha256": "1a7625b5c84faf417bb9d11e121b0aca58f0f2459da48b9223f92aee8863f3cf"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152328_0082_V.JPG",
+      "size": 4751360,
+      "mtime_ns": 1791581632685163100,
+      "sha256": "d5dc18ded87a6b2d4299dcb7bea012ec4870fe95b4e81d61f0c8635e10f15a55"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152329_0083_V.JPG",
+      "size": 4841472,
+      "mtime_ns": 1791581623162162500,
+      "sha256": "efab6e0b41fe4e26aede736019b8ed56c61d21b2c4cab8c0863005f02eed3b87"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152330_0084_V.JPG",
+      "size": 4853760,
+      "mtime_ns": 1791581625532164800,
+      "sha256": "6f29dde21f0517d679320baf4506955e596feb4786f3cabb73001f906542a2d1"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152332_0085_V.JPG",
+      "size": 4788224,
+      "mtime_ns": 1791581627655163100,
+      "sha256": "f71d28de20e2213715bab30393e3d731ed620c37f0f5fbc966cdb251008be330"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152333_0086_V.JPG",
+      "size": 4681728,
+      "mtime_ns": 1791581628432662800,
+      "sha256": "2f506314474aa7bf1a6491403f0d47772608c19d44c9e99517d82223bca3053d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152334_0087_V.JPG",
+      "size": 4624384,
+      "mtime_ns": 1791581631115163100,
+      "sha256": "f47ed5a7ad38d3ecd8049405ca7aedabc55e3b89481a5227e86cf31bc0221063"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152336_0088_V.JPG",
+      "size": 4632576,
+      "mtime_ns": 1791581624185164000,
+      "sha256": "ff3201965e45564037b5261f9c18d7d1651edc276fe57e992f35a9e8a400b43d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152337_0089_V.JPG",
+      "size": 4579328,
+      "mtime_ns": 1791581630874164200,
+      "sha256": "34462bac6333200308f85bfff60ae636a0245d09c8188a26349d60f4e84bfa83"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152338_0090_V.JPG",
+      "size": 4554752,
+      "mtime_ns": 1791581632834663600,
+      "sha256": "7413a32c9047df95d8f4339093a5301d296b809beaea62c9586e4d055f993209"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152340_0091_V.JPG",
+      "size": 4509696,
+      "mtime_ns": 1791581625856162900,
+      "sha256": "46f3a7fb5c0066c7b663e4591bdf101fea66b8226a11adc5eb4641cc10715ac8"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152341_0092_V.JPG",
+      "size": 4612096,
+      "mtime_ns": 1791581628027664800,
+      "sha256": "421acbf372a61a60f041460077be41789007c17ad25b715e5e5f3bf86e848a16"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152343_0093_V.JPG",
+      "size": 4734976,
+      "mtime_ns": 1791581629099162600,
+      "sha256": "8cbdf3c24b56210ec968036e9be5970c65044392d7a45034975107ffa7c21b5f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152344_0094_V.JPG",
+      "size": 4763648,
+      "mtime_ns": 1791581629206662300,
+      "sha256": "2acaa2245a74b853033cd7a7de7b40c1c8c47fe76cafadeb881efe7e96854f50"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152345_0095_V.JPG",
+      "size": 4767744,
+      "mtime_ns": 1791581626041163000,
+      "sha256": "b2b2419d50f47811fa7a95a2c21b215b7f593de9de3d5b7a7a38cc694527ac73"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152347_0096_V.JPG",
+      "size": 4767744,
+      "mtime_ns": 1791581626152662800,
+      "sha256": "ba2b1d43f89c2a48acd0caf017b6a43ffafcffecff12221a117f432bf027da31"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152348_0097_V.JPG",
+      "size": 4800512,
+      "mtime_ns": 1791581625705663400,
+      "sha256": "df4ee9b43aa707d0f4e5b7dd5a89e38e087f316c17c1df9cfa0e9b2dfb1fa19d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152349_0098_V.JPG",
+      "size": 4829184,
+      "mtime_ns": 1791581626520162900,
+      "sha256": "a9297c9cf689da478e3538eee4fb753dd555082cd5854f19cbcd7294bbdad0e6"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152351_0099_V.JPG",
+      "size": 4624384,
+      "mtime_ns": 1791581631327164300,
+      "sha256": "c682b766baf55d214f5469cf3cd8612ccd82aa90093c03d69c5c36310b5434a3"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152352_0100_V.JPG",
+      "size": 4538368,
+      "mtime_ns": 1791581620835162600,
+      "sha256": "a38107c9854ea047ae616a6bd2330abe242d8647fa143a4e8433519ccce83007"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152353_0101_V.JPG",
+      "size": 4636672,
+      "mtime_ns": 1791581633787163400,
+      "sha256": "25c2061969576d4311eb7c180c538a77c696875ea679c84d66d00f23860f7d28"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152355_0102_V.JPG",
+      "size": 4734976,
+      "mtime_ns": 1791581625568662400,
+      "sha256": "c950b2cd9d251557a7f0d9929f0e908ace3a95b87baa2522f3c76fac0da9d3b4"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152356_0103_V.JPG",
+      "size": 4874240,
+      "mtime_ns": 1791581632500662300,
+      "sha256": "a8ba162a22b4c7af27f6e57c5b72e53298be488d5b34d8a5278d0b613418b6cb"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152357_0104_V.JPG",
+      "size": 4976640,
+      "mtime_ns": 1791581621783663000,
+      "sha256": "0b81ee9be5dd2189b2d5a7922459d80fffad22d66cfa3580dcf4b29dfccaa691"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152359_0105_V.JPG",
+      "size": 4841472,
+      "mtime_ns": 1791581630038163300,
+      "sha256": "eb801423c8faae59c5800a943a0a55cc0bbba3313c1c15b46618604ee5c9d528"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152400_0106_V.JPG",
+      "size": 4907008,
+      "mtime_ns": 1791581625380663700,
+      "sha256": "dce6592ba9b662d40bf7e142486e9224a6b12bce4ebfbfa88e01b5801adbdca0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152402_0107_V.JPG",
+      "size": 4784128,
+      "mtime_ns": 1791581624222162900,
+      "sha256": "f0a0748cdccb4742be48dcde42d4237e80a60939189f66254f4cc0bf4883b02a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152403_0108_V.JPG",
+      "size": 4923392,
+      "mtime_ns": 1791581625188662600,
+      "sha256": "99cf2dfc25bd950c75d85a15eebaf48d3dd27fa818f97f24a5b284ebfa1ce3fa"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152404_0109_V.JPG",
+      "size": 4935680,
+      "mtime_ns": 1791581627268164800,
+      "sha256": "2ebe65d7c6d33613de03f18f2f586d298bba4d518c38e025c873e9d072e2464c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152406_0110_V.JPG",
+      "size": 4853760,
+      "mtime_ns": 1791581623961164900,
+      "sha256": "fc86dbc90323f0e463ddc61cfc2627cd652e08d4d8c913fd1648f8be9bfdb17e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152407_0111_V.JPG",
+      "size": 4788224,
+      "mtime_ns": 1791581631934664200,
+      "sha256": "d3a8d2501deea04794877ed5a679f6cccb03439a3ae61980f5e5d0ac8a726196"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152408_0112_V.JPG",
+      "size": 4820992,
+      "mtime_ns": 1791581632426162600,
+      "sha256": "4df67700fb9bca165699d5fec6ed20e1d9f7c7b7645c10adf307c0a21048144d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152410_0113_V.JPG",
+      "size": 4968448,
+      "mtime_ns": 1791581622117163100,
+      "sha256": "c510f16fe56c08160e74d221eac9adea7a22c75292665a05c08e76dbeecec03d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152411_0114_V.JPG",
+      "size": 4935680,
+      "mtime_ns": 1791581631581663900,
+      "sha256": "89cf06f3a5bcd4aa9f8388aabac4ae1946f91d0e39831c7aa1953ff01af2c078"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152412_0115_V.JPG",
+      "size": 4829184,
+      "mtime_ns": 1791581626965164100,
+      "sha256": "ff5c9c864dacb95285a04a6484601c92c88f86fa86df8c5d2d4a2de023de53fd"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152414_0116_V.JPG",
+      "size": 4710400,
+      "mtime_ns": 1791581633314662400,
+      "sha256": "e24be3a05d8b86c5e1178bb9aef86be4ac5db58f44bbe07b4d4dee39067b8ae3"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152415_0117_V.JPG",
+      "size": 4603904,
+      "mtime_ns": 1791581622228163200,
+      "sha256": "0533853f83f21d7aa4b6e5b8545844f93d24e32b17a3df011c91bcd53c36763a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152416_0118_V.JPG",
+      "size": 4476928,
+      "mtime_ns": 1791581624146162700,
+      "sha256": "9c6a8200946a8e725ea5ea25d03356928f34e0ea5e84d22192b0703f6d910a8f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152418_0119_V.JPG",
+      "size": 4259840,
+      "mtime_ns": 1791581633421164500,
+      "sha256": "8114d56d58c5a6089eea6ad9ab5b4f6f2c065baa96762d63b5832036bf56d574"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152419_0120_V.JPG",
+      "size": 4001792,
+      "mtime_ns": 1791581626781665800,
+      "sha256": "1dc29536ee42399801242ecd018333cf377c6f10b669ea56f9c5a3e59318e74c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152421_0121_V.JPG",
+      "size": 4050944,
+      "mtime_ns": 1791581627503663100,
+      "sha256": "f35b97f43ac4bbd86fb058108527ccb3691d04d736fe63570b21ef1e4e02dc3e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152422_0122_V.JPG",
+      "size": 4104192,
+      "mtime_ns": 1791581632536162500,
+      "sha256": "fa26f954403c72405300b73edb2a506e4b3b069c58a899e8e713764af8fec0aa"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152423_0123_V.JPG",
+      "size": 4284416,
+      "mtime_ns": 1791581623055162400,
+      "sha256": "0dade82f64594932d7fad0ac33ada0af1aa8f71a269b6c88008e4cb8d33a0a5c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152425_0124_V.JPG",
+      "size": 4374528,
+      "mtime_ns": 1791581627728163800,
+      "sha256": "2eb9a3cede7033ba4d9c19364f95964ac8e85ee5313946cb749fadc113f2da68"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152426_0125_V.JPG",
+      "size": 4534272,
+      "mtime_ns": 1791581623817162400,
+      "sha256": "a29fc7794731eec13d62278271515260a40552a304a9ac9926c6295bb034ba9b"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152427_0126_V.JPG",
+      "size": 4759552,
+      "mtime_ns": 1791581632349663900,
+      "sha256": "90619dfbbcdde720deadd8ad7cb6e3a540c1d691c72df1ba8c5e97d011629edc"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152429_0127_V.JPG",
+      "size": 4874240,
+      "mtime_ns": 1791581627227663400,
+      "sha256": "e5894266d5e196e6de7cc04d4bbe00e762a83c5a0a33bd4419e62a45cbb1221b"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152430_0128_V.JPG",
+      "size": 4882432,
+      "mtime_ns": 1791581633597662500,
+      "sha256": "b429d46953fc8fad9df9f351dd2bca4723d678b65e4d26b43ed7bcb168785b66"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152431_0129_V.JPG",
+      "size": 4866048,
+      "mtime_ns": 1791581620987162400,
+      "sha256": "b60b7b1fdca2d6eb5a674cb461f10422716d90da34a6d9242a095ef8215a212f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152433_0130_V.JPG",
+      "size": 4734976,
+      "mtime_ns": 1791581624072163500,
+      "sha256": "4ce1b7880ed305802ea4bf4c2e02df5a60a0ea297b4907db40444133a211b8cb"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152434_0131_V.JPG",
+      "size": 4489216,
+      "mtime_ns": 1791581626225663700,
+      "sha256": "66ec73b5066408840c9da88a69adb105ac6729d3e34811cd3fbd730c6c8063e3"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152435_0132_V.JPG",
+      "size": 4702208,
+      "mtime_ns": 1791581627766163400,
+      "sha256": "3f29f9c4c4687590422fcd5afa280c3735d8b1a30e66ea6fbc716516ee01e258"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152437_0133_V.JPG",
+      "size": 4644864,
+      "mtime_ns": 1791581629242664300,
+      "sha256": "2fcf823010e92de4a670176d1e7781d4c28907d8caa06c84e30286cedfd20b14"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152438_0134_V.JPG",
+      "size": 4812800,
+      "mtime_ns": 1791581630933662500,
+      "sha256": "071262a82c1afee39ccbb5a577eb4cf29faba38c27a82f950ac31848ddc98d86"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152440_0135_V.JPG",
+      "size": 4960256,
+      "mtime_ns": 1791581623274165300,
+      "sha256": "48834dd4ec2ee15565e563a8578a2bfb4c67ed93e112954801f275de10283785"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152441_0136_V.JPG",
+      "size": 4919296,
+      "mtime_ns": 1791581632871663100,
+      "sha256": "769973bea9d2042732daba8f3358742bc991f11e0d5ed47e5ca844b0400f8088"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152442_0137_V.JPG",
+      "size": 4845568,
+      "mtime_ns": 1791581625781663500,
+      "sha256": "bef33d764ee204fb4844f990eca1673e068e63e6fb8184bd5a54be12f2ce4a1c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152444_0138_V.JPG",
+      "size": 4587520,
+      "mtime_ns": 1791581621513662400,
+      "sha256": "f4f961f67d30dfcee1a4763aeee30f9f81e8df0f340f6a99a491e14d40b952a5"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152445_0139_V.JPG",
+      "size": 4362240,
+      "mtime_ns": 1791581634169662900,
+      "sha256": "51462bde0d45d39444decbc3cd09a25f811107adcfc48f86ef69d4ad26dd18b9"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152446_0140_V.JPG",
+      "size": 4263936,
+      "mtime_ns": 1791581624260163200,
+      "sha256": "fb0be889c9f450b23286b7ae0a307a39493fa6f7e1a2662efea41ad7cf3e3ff2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152448_0141_V.JPG",
+      "size": 4001792,
+      "mtime_ns": 1791581633016164600,
+      "sha256": "696e31f83c3fa7807ec33e62fa450e60776be12dcfd3ef14b81d72cc084b4d6d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152449_0142_V.JPG",
+      "size": 3874816,
+      "mtime_ns": 1791581621189663200,
+      "sha256": "f91ec5ad372e4f6e49d5ee00d865bdb16808e9fdda7dbac018ba37eca9ac2077"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152450_0143_V.JPG",
+      "size": 3727360,
+      "mtime_ns": 1791581626297162400,
+      "sha256": "33b75e1f0014388e91d617b3a39477dfbbbddce4846b2142e416d32a2a7f561e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152452_0144_V.JPG",
+      "size": 3784704,
+      "mtime_ns": 1791581625112164200,
+      "sha256": "56f5676774ca4aa37b1330d6f0fbf85729bdde60652b742a78bc5b3eb92dcc12"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152453_0145_V.JPG",
+      "size": 4104192,
+      "mtime_ns": 1791581630375664300,
+      "sha256": "276ae59002c3610a69a863ab407fca8ffa4fe8ab9ee0ae1661d689396e1872bc"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152454_0146_V.JPG",
+      "size": 4308992,
+      "mtime_ns": 1791581628471227100,
+      "sha256": "8028b4f912fd06016688509e52ced5caa1f18a5267c1ece965e6541953487385"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152456_0147_V.JPG",
+      "size": 4481024,
+      "mtime_ns": 1791581628354663500,
+      "sha256": "0cbbc7a74a3669abfbf8631163a2e41ef72661308d1077101a8318d68fe0769d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152457_0148_V.JPG",
+      "size": 4661248,
+      "mtime_ns": 1791581629501662600,
+      "sha256": "4521cf2a877ad758c74924593c5f1990b6f78f53c22919712b78e1f12f9da4a7"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152459_0149_V.JPG",
+      "size": 4874240,
+      "mtime_ns": 1791581623311663000,
+      "sha256": "c48f68a8df05926f8e8b6c31b612d7fb7f77a28ba24751896558864667a02d55"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152500_0150_V.JPG",
+      "size": 5148672,
+      "mtime_ns": 1791581629928664400,
+      "sha256": "6aff8bd771819d969c6291c5cf9e4771ddcd0113c759c495ebdc47c918023729"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152501_0151_V.JPG",
+      "size": 5029888,
+      "mtime_ns": 1791581624935162900,
+      "sha256": "ff9ae96e384e9d977185aa3b1c7b64e192f60db8b07ecc0e89ae8f4772cbbcdf"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152503_0152_V.JPG",
+      "size": 4907008,
+      "mtime_ns": 1791581624761664700,
+      "sha256": "a1b9bcaf10ea076dc3f7494aeca36bb5cece8859fc30e9361b6b9f6003f6c93b"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152504_0153_V.JPG",
+      "size": 4931584,
+      "mtime_ns": 1791581627188662600,
+      "sha256": "0ad5524551e5aacea327869c9b24a2320529bc1f48b3af21ea702276e1f4e19d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152505_0154_V.JPG",
+      "size": 4988928,
+      "mtime_ns": 1791581630683662400,
+      "sha256": "0c3145770e9297b135726ee8e1c8ca24b46ad5ee32938eb60aad8f4e54239289"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152507_0155_V.JPG",
+      "size": 5001216,
+      "mtime_ns": 1791581630722163800,
+      "sha256": "1f52e27187a6ea2561edc6d304f1761c8ed25481eaec44f4b1bfb16f8d4eba25"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152508_0156_V.JPG",
+      "size": 4980736,
+      "mtime_ns": 1791581630111663800,
+      "sha256": "d41b11300afef884c548442ebae63fe8189e94b377f1dd13d3f81c814b71325f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152509_0157_V.JPG",
+      "size": 4857856,
+      "mtime_ns": 1791581625150163800,
+      "sha256": "388759c6b0d89d4058c9a46d7dece1b237c64e1b4b80471027ec51d6152fac00"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152511_0158_V.JPG",
+      "size": 5079040,
+      "mtime_ns": 1791581627003162800,
+      "sha256": "a68b9b5209829838519c8324ee687509111f1050cae5ff80382546ad06c74023"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152512_0159_V.JPG",
+      "size": 5050368,
+      "mtime_ns": 1791581631544662700,
+      "sha256": "f611e05332da2c3ac363ce2b16da146413bda3cd72c45f4fca9dde35b534c3ad"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152514_0160_V.JPG",
+      "size": 4956160,
+      "mtime_ns": 1791581622797162300,
+      "sha256": "b1696c8ef3569da5048e80912f89162f18985c428faaeaf0d7fb04fb5fd4b119"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152515_0161_V.JPG",
+      "size": 5181440,
+      "mtime_ns": 1791581632239165700,
+      "sha256": "86ecbb1fd47fd8f4f633ab03bfa02526f09c7dfaa45432aa0471c26f5e77c6ea"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152516_0162_V.JPG",
+      "size": 5201920,
+      "mtime_ns": 1791581626596163900,
+      "sha256": "97acbadc1e3f8d14d210269b7ffc1d604c44e9cde8186300c346d964072db6cf"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152518_0163_V.JPG",
+      "size": 5218304,
+      "mtime_ns": 1791581632609662200,
+      "sha256": "3774ae90bf6957322610018d3d6cbb9d5bd97352bad4e07831c1eabe42fd4c74"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152519_0164_V.JPG",
+      "size": 5357568,
+      "mtime_ns": 1791581621593162700,
+      "sha256": "1cd934e85eae671aa42dce608583d8117447db8b59c5dda25e58895ffe4a4c38"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152520_0165_V.JPG",
+      "size": 5443584,
+      "mtime_ns": 1791581630416662500,
+      "sha256": "d69e8f7db25e8f53e078bdbadf56468a0b5848c2ae4f2b8ae035249664615231"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152522_0166_V.JPG",
+      "size": 5181440,
+      "mtime_ns": 1791581630151663000,
+      "sha256": "dc9b1f34bd4b06ac12d7668950fdd432ca26e8f3f1585098fd3796e64bef90d0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152523_0167_V.JPG",
+      "size": 4943872,
+      "mtime_ns": 1791581625228162700,
+      "sha256": "2430578366de651590575bb67166e13a2c38551bfd7c117035a034d61b498508"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152524_0168_V.JPG",
+      "size": 4632576,
+      "mtime_ns": 1791581629385164000,
+      "sha256": "24362f23b5a7d2e8cd57458f0431a9e288d982eb040164d530f4b443d1d14e88"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152526_0169_V.JPG",
+      "size": 4358144,
+      "mtime_ns": 1791581627691663400,
+      "sha256": "ad5e7022f451c64d88e3a8e3c9e468bf8f06adbec6f6103f193965ef7b9120dd"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152527_0170_V.JPG",
+      "size": 4083712,
+      "mtime_ns": 1791581623088662800,
+      "sha256": "d331e498294f4f95cdb41504175d542834ec345b67dd13187bdc7bb2bff05582"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152528_0171_V.JPG",
+      "size": 3719168,
+      "mtime_ns": 1791581622686662800,
+      "sha256": "61b93c48c1b7e362a4868217759d988c8e7cd237599ac02e408e7c3b430a9d37"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152530_0172_V.JPG",
+      "size": 3485696,
+      "mtime_ns": 1791581634066661800,
+      "sha256": "5eee50521d7d855b78f57ada8a82d6de703a52644cae1b7a6edcfefe91c31fcf"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152531_0173_V.JPG",
+      "size": 3440640,
+      "mtime_ns": 1791581621086662400,
+      "sha256": "c81b9e10e7e0e7d906a44defbae4694c689f0e860254eae2ea93e7cecdaa8eac"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152533_0174_V.JPG",
+      "size": 3600384,
+      "mtime_ns": 1791581623887662400,
+      "sha256": "8d6b8b00e202ae63a66814066c702ed120036516dd958441ddef58327943fce6"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152534_0175_V.JPG",
+      "size": 3842048,
+      "mtime_ns": 1791581622006162800,
+      "sha256": "d9df492a6c7f3e93a49bb2f86d2f17942ca085a02d46078e03b7f9bb17b68cea"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152535_0176_V.JPG",
+      "size": 4067328,
+      "mtime_ns": 1791581634204662400,
+      "sha256": "a3fb12cd9a17d61b3f8acf19434a3849c93e3530a709d9e0d85e73494335eef2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152537_0177_V.JPG",
+      "size": 4321280,
+      "mtime_ns": 1791581632943162400,
+      "sha256": "c10085c029cd5d4719f4f485c18b49a32b3040afc7c55894200d4c4ad89637f0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152538_0178_V.JPG",
+      "size": 4677632,
+      "mtime_ns": 1791581621706665500,
+      "sha256": "cf1d206cae2ad0b798fb6d6654ba0de10f86204fb61f8673afbb1105c7565f91"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152539_0179_V.JPG",
+      "size": 4841472,
+      "mtime_ns": 1791581634317162700,
+      "sha256": "d3d38d87553164e649fc3a61017d3c48daade78a21a63468fb5d184f440506bd"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152541_0180_V.JPG",
+      "size": 4931584,
+      "mtime_ns": 1791581621936162500,
+      "sha256": "e61a2b2d6f9594e9739c889b9ccd763960d6a9c840c706a5ed5268b7bbcf54c8"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152542_0181_V.JPG",
+      "size": 4952064,
+      "mtime_ns": 1791581630574662900,
+      "sha256": "a9f3ff2ee5ff6cf9a804a249f85b6a73c8f02f827537cb5ff1aba26317fd02c3"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152543_0182_V.JPG",
+      "size": 4755456,
+      "mtime_ns": 1791581624109666100,
+      "sha256": "43edc75cce9fe88fe2e017b7594acb37d64252a489b5502c03269d54742613e8"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152545_0183_V.JPG",
+      "size": 4493312,
+      "mtime_ns": 1791581632010665800,
+      "sha256": "bd5d191cdeff2da071aa0de9ff50f524a68e68f99640c035c611903c4911dd48"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152546_0184_V.JPG",
+      "size": 4722688,
+      "mtime_ns": 1791581624798163500,
+      "sha256": "1fa3f30cf0308c062bd5484753c168c528f4b426ce39377c036aaf69dfc3a2f3"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152547_0185_V.JPG",
+      "size": 4612096,
+      "mtime_ns": 1791581629776165100,
+      "sha256": "2423f7f703f6cee6c1489637717d5f177ec48942a12534f5c833fe10e3af8f29"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152549_0186_V.JPG",
+      "size": 4747264,
+      "mtime_ns": 1791581621820662200,
+      "sha256": "516e7d86fefff2758507bcdc6130901b36923f553bdfd994e0a5bab063a1545c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152550_0187_V.JPG",
+      "size": 4939776,
+      "mtime_ns": 1791581627115162500,
+      "sha256": "12b084cb146ef6fe41e89a3a31b65c9be437760d12a3fc889ec29bba850df7ca"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152552_0188_V.JPG",
+      "size": 4849664,
+      "mtime_ns": 1791581627953664300,
+      "sha256": "496cc32a8ac16b6be8e452f86529609d4a783011d13f9591ff8d62b679715fbd"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152553_0189_V.JPG",
+      "size": 4739072,
+      "mtime_ns": 1791581626888662600,
+      "sha256": "e600865d62d952665046a6067ce4b62f10462463c8c8c156170b5b4b27c7d299"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152554_0190_V.JPG",
+      "size": 4452352,
+      "mtime_ns": 1791581620797163000,
+      "sha256": "115aa5f26f77fb6b4874ec23f9f2e703bd7a9c1f84d60de061c6ac39e1726499"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152556_0191_V.JPG",
+      "size": 4263936,
+      "mtime_ns": 1791581622579662800,
+      "sha256": "33abb825f1227719d9a82b27e3146c377f7cb8178d26c7929c6a07346f481b4f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152557_0192_V.JPG",
+      "size": 4136960,
+      "mtime_ns": 1791581633559662900,
+      "sha256": "14be068cbd5f2bafb641e3145fda364105d495b7781a2c0587b36c32f1a2d4ad"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152558_0193_V.JPG",
+      "size": 3919872,
+      "mtime_ns": 1791581634099664800,
+      "sha256": "dcd9d5f97f3ab2f35036b445263caa66131b8debb1bfcb71da9f52628f8bc29d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152600_0194_V.JPG",
+      "size": 3776512,
+      "mtime_ns": 1791581624831164300,
+      "sha256": "445333e0a776e162eb443480a0e676e9bcffe52313b26f2a4c23703c0d5b555e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152601_0195_V.JPG",
+      "size": 3727360,
+      "mtime_ns": 1791581630000662500,
+      "sha256": "f80dc05e0c34cfe0720aaf3bf740368f90836be48d036a36a5793cecbb7a9d0f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152602_0196_V.JPG",
+      "size": 3780608,
+      "mtime_ns": 1791581621119162500,
+      "sha256": "0a57761642a794e3359afacbd1065bef3f3d124232a27450be51c4282b4ed30e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152604_0197_V.JPG",
+      "size": 4116480,
+      "mtime_ns": 1791581628061664600,
+      "sha256": "9387d95e4c907e198bab06677ff7059514bc995bf02eb79fb85ff84c5780bc6f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152605_0198_V.JPG",
+      "size": 4366336,
+      "mtime_ns": 1791581629169665900,
+      "sha256": "a9011eb29356436811c927f266d78fcf60f3fa508b732937c2146aba0beae1e5"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152606_0199_V.JPG",
+      "size": 4653056,
+      "mtime_ns": 1791581622723664900,
+      "sha256": "52c3ebe6c3d7f2c0e3a5d2b2fc7536aa61e99d72e644ae8b43319d9248a069fa"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152608_0200_V.JPG",
+      "size": 4919296,
+      "mtime_ns": 1791581633633663700,
+      "sha256": "5f6ebf3117842880c0ad74c07000ded0c318c935067ec0a31ac72b49b4edd3c8"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152609_0201_V.JPG",
+      "size": 5238784,
+      "mtime_ns": 1791581622448163500,
+      "sha256": "d1ed23105c5079d9e72032f7923113663eb210b3162e779f68188f5f71104440"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152611_0202_V.JPG",
+      "size": 5541888,
+      "mtime_ns": 1791581631974664400,
+      "sha256": "df08ecc8d2993119bb5ea786107475455f8d966f3b99befc59d08904aeafd0f6"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152612_0203_V.JPG",
+      "size": 5513216,
+      "mtime_ns": 1791581626709664800,
+      "sha256": "f015ee531017d09bdbaae69e9b92002689ab5668ccb1d52f21f06d64f04f90d0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152613_0204_V.JPG",
+      "size": 5357568,
+      "mtime_ns": 1791581629854162400,
+      "sha256": "910eb3d9b96971d95c367c66ade2a939989a8d959cbb7c9d735bfdc18be6e730"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152615_0205_V.JPG",
+      "size": 5271552,
+      "mtime_ns": 1791581623236662300,
+      "sha256": "8a8cc866c408c884fcab3cef99183349c5fea64af7eabbcdffa1e51b978124e0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152616_0206_V.JPG",
+      "size": 5197824,
+      "mtime_ns": 1791581628100162900,
+      "sha256": "b89a65517d0a3575dec3f9b2769786152a70323ef3fcbc447092724cb01b4eaa"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152617_0207_V.JPG",
+      "size": 5095424,
+      "mtime_ns": 1791581627075163500,
+      "sha256": "55d68b6eec279802916174e6f2d419f5613a223664270d560a056383925be158"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152619_0208_V.JPG",
+      "size": 5013504,
+      "mtime_ns": 1791581623778165100,
+      "sha256": "ba7f300a4de67d44e8b941c918c24dd9e6484437475ef29eabf5d483ad1b72a8"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152620_0209_V.JPG",
+      "size": 4841472,
+      "mtime_ns": 1791581629422662400,
+      "sha256": "3be563a0b17795a9d6210d10bd0131a1c121da0aecd66e53e664687143ead65a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152621_0210_V.JPG",
+      "size": 5140480,
+      "mtime_ns": 1791581623635663200,
+      "sha256": "edccc14cd3afb82f49601164fe3fb4a9502d31e22048030cad55c2f153b8c928"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152623_0211_V.JPG",
+      "size": 5140480,
+      "mtime_ns": 1791581622979162900,
+      "sha256": "6e48ff2d64bd0ff13923074c466579168265aea70eac99650dc705389c240cf1"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152624_0212_V.JPG",
+      "size": 4997120,
+      "mtime_ns": 1791581622487162500,
+      "sha256": "5ddf93a59e7312b5b5ea4a0447e1501b74d0164851eefc7156c2ad4d8cf55f6d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152625_0213_V.JPG",
+      "size": 5058560,
+      "mtime_ns": 1791581633525163800,
+      "sha256": "8f70e4f217794da6a233f1eb5817bd0dcdb941c8ae9bc270a087c7c1045d95bb"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152627_0214_V.JPG",
+      "size": 5099520,
+      "mtime_ns": 1791581632388663100,
+      "sha256": "8a8afbf600bad419857608a16ec04f58579a747242acdbab4961c458eb5569cf"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152628_0215_V.JPG",
+      "size": 5136384,
+      "mtime_ns": 1791581632726162400,
+      "sha256": "87cf889eda87625618148b5e0131b1d6e26a70892c0773d2a58866c67ae236e5"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152630_0216_V.JPG",
+      "size": 5287936,
+      "mtime_ns": 1791581621633162900,
+      "sha256": "0c798c5e52faf99129b1619eb2181526ee5f15ecd97c06d0d71e33844a4711f9"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152631_0217_V.JPG",
+      "size": 5427200,
+      "mtime_ns": 1791581634396164100,
+      "sha256": "2ace1261ae4bb9c7c311baecff5a5dfae6af322d867d548915a3fb3594b28740"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152632_0218_V.JPG",
+      "size": 5443584,
+      "mtime_ns": 1791581630268662500,
+      "sha256": "f5dc168d4f0baf453a9eb85f9fa51603e0f0c816099f7430106b2ba63dabbd63"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152634_0219_V.JPG",
+      "size": 5255168,
+      "mtime_ns": 1791581623020663100,
+      "sha256": "ada0710da810baa79b2f40d7f393e41dfb6462e9d18d104cb34fd1cdb31aa380"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152635_0220_V.JPG",
+      "size": 5054464,
+      "mtime_ns": 1791581630760165400,
+      "sha256": "df14b4392919edb5d42e0df7316107f256df7d41c4df11e90a20b079fc2ec8d2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152636_0221_V.JPG",
+      "size": 4837376,
+      "mtime_ns": 1791581621362162500,
+      "sha256": "2f9ea19471a561f7bf6e78f1367ea2de0b4e6218248a58da1a351fe3eaad7dd6"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152638_0222_V.JPG",
+      "size": 4612096,
+      "mtime_ns": 1791581630971162600,
+      "sha256": "384784ac4462534e12cfa035fe41d4e1b5fbe14c981afcbfa8127c907807651f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152639_0223_V.JPG",
+      "size": 4288512,
+      "mtime_ns": 1791581624586662700,
+      "sha256": "c523726155e054227630a4185b7835bb412a7278e8649d6c9ce980b1f8870d22"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152640_0224_V.JPG",
+      "size": 4067328,
+      "mtime_ns": 1791581624620162500,
+      "sha256": "7ef95f6aabace9f6bd2123972876478e2535d7cf58e4004235e5e9f11a37bec0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152642_0225_V.JPG",
+      "size": 3969024,
+      "mtime_ns": 1791581624967664500,
+      "sha256": "64f578056df26ea8dab7322085541edcffcfd3ada575a6ad8f2dd1663debb053"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152643_0226_V.JPG",
+      "size": 3944448,
+      "mtime_ns": 1791581631218663800,
+      "sha256": "7db12200d12a851f83ecc7a83e6415e0b4eb06fbbe1bc785a7b004835435b0e2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152645_0227_V.JPG",
+      "size": 4087808,
+      "mtime_ns": 1791581623526162800,
+      "sha256": "ab9b5beaeada8e22c0292e03d7dbce6def0bf10a5e1c2005e246594629f86473"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152646_0228_V.JPG",
+      "size": 4239360,
+      "mtime_ns": 1791581626076665700,
+      "sha256": "63eefc6ebb48c46bd97f749f43afdca85853550848c32f4d49e7dc014059b314"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152647_0229_V.JPG",
+      "size": 4280320,
+      "mtime_ns": 1791581629458162500,
+      "sha256": "f1be85ab1159d10344f916b59b6fce38de945e3d4d70447375423e1c0fff6877"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152649_0230_V.JPG",
+      "size": 4501504,
+      "mtime_ns": 1791581626189662800,
+      "sha256": "c7ea42040310045dc24b0b13eff38c5bacad270525cfff58efb726ed8f4f8522"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152650_0231_V.JPG",
+      "size": 4681728,
+      "mtime_ns": 1791581620761163100,
+      "sha256": "559cefe19f89d45f69b2e000fdcc0067545f0cbec28d151fc0dd8c28624030ee"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152651_0232_V.JPG",
+      "size": 4734976,
+      "mtime_ns": 1791581633456662900,
+      "sha256": "ad1eb5daed5ef9db3f0a4a2f464af796ed790f5374d92dad6b7ffc40a4319938"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152653_0233_V.JPG",
+      "size": 4820992,
+      "mtime_ns": 1791581633749663500,
+      "sha256": "039d396093389fefc5ca15021897de8c86ee54b8212a53fd363d6d127b6dde2b"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152654_0234_V.JPG",
+      "size": 4726784,
+      "mtime_ns": 1791581634279164600,
+      "sha256": "f1bd32de6abcf59c52cef1a4474914995b83529f8c26441a63e2718be73a3f41"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152655_0235_V.JPG",
+      "size": 4591616,
+      "mtime_ns": 1791581621744167700,
+      "sha256": "4655cf998bfc019ad443509c42cf85ddda42af17018ff4e25ef2e3521ec362ed"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152657_0236_V.JPG",
+      "size": 4509696,
+      "mtime_ns": 1791581621668664300,
+      "sha256": "f1c9b65dc6c8f7ed6df29cdb89747b47ef0cf4cb6836171ddb7b777180462a23"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152658_0237_V.JPG",
+      "size": 4591616,
+      "mtime_ns": 1791581621155164700,
+      "sha256": "7d185a29c43f83e140184086193b0a837b6696b20c50b3dca532c33d972ae992"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152659_0238_V.JPG",
+      "size": 4616192,
+      "mtime_ns": 1791581621972662700,
+      "sha256": "117b20d3a5487dc1128f2670992a222dd3c112bd79dcbabe5d554f58eb4c060c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152701_0239_V.JPG",
+      "size": 4767744,
+      "mtime_ns": 1791581627542665000,
+      "sha256": "6b2cc8f0a02a552b0f1618f9222b9d1f9131a79c4f47beda9f9b82bcdcc7104c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152702_0240_V.JPG",
+      "size": 4677632,
+      "mtime_ns": 1791581631472663600,
+      "sha256": "b49e1d3bcf61292fd2d48d2bfe964b6a38bc80c87569b86ebc8f6b8e17d0f01f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152704_0241_V.JPG",
+      "size": 4608000,
+      "mtime_ns": 1791581624655662500,
+      "sha256": "65da253e9035ab87fdc9303cb8cde6fb287d3bb2ec2a6ccbef3e323afd4afcac"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152705_0242_V.JPG",
+      "size": 4427776,
+      "mtime_ns": 1791581629965663200,
+      "sha256": "5c56b66f99577e4c23711d9399a50e2277f1a74187771108ec231985cdc54a72"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152706_0243_V.JPG",
+      "size": 4235264,
+      "mtime_ns": 1791581622153162600,
+      "sha256": "ab5db608a70f00d284fcf5e279918b86c00f105e76a62947d55cc893ac09fb64"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152708_0244_V.JPG",
+      "size": 4325376,
+      "mtime_ns": 1791581628586162400,
+      "sha256": "1aedfc1273b7471cb800e91aa6d294b523d5cdc2c8b27d17c8c537ef2933e67e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152709_0245_V.JPG",
+      "size": 4108288,
+      "mtime_ns": 1791581625602162500,
+      "sha256": "0d2ca8820600c7935085e8a227be281e934399233f556d3c16062b77a784afe6"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152710_0246_V.JPG",
+      "size": 4149248,
+      "mtime_ns": 1791581622041162800,
+      "sha256": "38e17e41d7f4d8bb60ed769b788221d9574e4a5c242539fa6f2b457b405758d0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152712_0247_V.JPG",
+      "size": 4210688,
+      "mtime_ns": 1791581621398662500,
+      "sha256": "57e9b8dcbe1633f79b7d2847463ac71bc38d18871a7a9cfc772916487d6d9f0a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152713_0248_V.JPG",
+      "size": 4325376,
+      "mtime_ns": 1791581622335163000,
+      "sha256": "6dec93b81c51f469801c602537793c6789f5cf302e5e828da267108ce3121d56"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152714_0249_V.JPG",
+      "size": 4608000,
+      "mtime_ns": 1791581623348162900,
+      "sha256": "c95fbe5651eeb51890298fbfe804dce26d0e80e8f3e0310d8062002b59cda493"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152716_0250_V.JPG",
+      "size": 4788224,
+      "mtime_ns": 1791581626669162700,
+      "sha256": "f1c05c993674701cbdd9d6f90b10fbca6761bae8cea6b0de8cff18d81282874a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152717_0251_V.JPG",
+      "size": 4956160,
+      "mtime_ns": 1791581627580663900,
+      "sha256": "3a8eac2b4b5a3de5e8e7cf51f88710c8add68c5e7a124f0d227c24e40cb681ba"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152718_0252_V.JPG",
+      "size": 5074944,
+      "mtime_ns": 1791581628808163200,
+      "sha256": "9bb02d39cca1a0a35f6f3b5a612256ae46ca1eb2cc0cee99ebe4493737382b2c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152720_0253_V.JPG",
+      "size": 5181440,
+      "mtime_ns": 1791581629582162800,
+      "sha256": "c42a2a874d87890e75a0989dd67e8f70031606b5d07fd7420cafa4f4929202e9"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152721_0254_V.JPG",
+      "size": 5251072,
+      "mtime_ns": 1791581624405662700,
+      "sha256": "a14f7fa63ffc1885d2a9b29e7ae780013c92f8277a0fcf8b8dacee63ed2ee38a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152723_0255_V.JPG",
+      "size": 5144576,
+      "mtime_ns": 1791581625267162700,
+      "sha256": "a654be370db0224613eeaa42b60d96b69884ced1ea5440b0233868a39cfce68e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152724_0256_V.JPG",
+      "size": 4993024,
+      "mtime_ns": 1791581625460664800,
+      "sha256": "b242b587c4139fa96ecbdd43b7ee0976cbf5207893e3a6b13b53e501946a22d8"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152725_0257_V.JPG",
+      "size": 4923392,
+      "mtime_ns": 1791581628512163500,
+      "sha256": "8138a64d7d28e49158b690f0796126e53360165aabdabc4b0e057eb7e405b5fd"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152727_0258_V.JPG",
+      "size": 4894720,
+      "mtime_ns": 1791581626444664000,
+      "sha256": "4e9e39eac938fa8c1b973d6bd1eef8325959c100e8f68ad6e007f66d075dade8"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152728_0259_V.JPG",
+      "size": 4902912,
+      "mtime_ns": 1791581625742663600,
+      "sha256": "ae5530e9ddc76d7e50632795ba46298ca2b7de39112f44c8f8fff97c723d09c5"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152729_0260_V.JPG",
+      "size": 4890624,
+      "mtime_ns": 1791581634355662300,
+      "sha256": "4fe39bcf1672f149f49f9e2ebb6ffce10d1ad9f1ae514c87637428ce91f6acb2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152731_0261_V.JPG",
+      "size": 4927488,
+      "mtime_ns": 1791581623458665600,
+      "sha256": "7cdca3510a4bc76a0e73d4145c795f2dceeef283ba442b9bb45fb3b1449c2153"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152732_0262_V.JPG",
+      "size": 4562944,
+      "mtime_ns": 1791581628696665100,
+      "sha256": "77b0728f1b87a70e8a3ee70f12e51e9f9df49706466acf5f6e33a8333749bfa0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152733_0263_V.JPG",
+      "size": 5009408,
+      "mtime_ns": 1791581625820163200,
+      "sha256": "c62bffe95bf4d355699365df2434fb79cd6c530e29e890c30c2bc458b1146e78"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152735_0264_V.JPG",
+      "size": 4935680,
+      "mtime_ns": 1791581632048663600,
+      "sha256": "5641ef6eae42d289b34865d401bcf6600efe3e31056d4804db59cbae80d2207a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152736_0265_V.JPG",
+      "size": 4784128,
+      "mtime_ns": 1791581626817662800,
+      "sha256": "3d319ad5fb98668bc0f613183fc9a9115714164cb5c326166c837463b0907324"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152737_0266_V.JPG",
+      "size": 4763648,
+      "mtime_ns": 1791581629279162700,
+      "sha256": "e1c6591162819197c36e63bc0bb4d0f09f9ad0f5535305b0d13e9589c185a4d3"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152739_0267_V.JPG",
+      "size": 4730880,
+      "mtime_ns": 1791581623672162400,
+      "sha256": "31ddd37f25995a9ee1c45622ad633d5caa99893276957e589a5615176dcbf1bc"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152740_0268_V.JPG",
+      "size": 4616192,
+      "mtime_ns": 1791581634135662400,
+      "sha256": "11d61b625dea9689e57f43819cc477294e7d6d6f957de4ad8730ba2df9100b2e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152742_0269_V.JPG",
+      "size": 4698112,
+      "mtime_ns": 1791581633165662900,
+      "sha256": "018655014897bd8ddf501697730b9ed1e1a81513e19a1262b9cb15aeeb29b5d4"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152743_0270_V.JPG",
+      "size": 4788224,
+      "mtime_ns": 1791581624444663300,
+      "sha256": "9c163e8989053ffeb48b0cd5095bb94966824f190ae74e73ff8dffe7c8afd6cd"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152744_0271_V.JPG",
+      "size": 4878336,
+      "mtime_ns": 1791581626335164500,
+      "sha256": "c0bc084ab6d5d25bf95bb41015da7ac53d0301d1963563f0ec4413a7950e9920"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152746_0272_V.JPG",
+      "size": 4931584,
+      "mtime_ns": 1791581626482663700,
+      "sha256": "e95218ac5f603c7a6c0d2a8aadd6d55bf267ea8913b561fbaa06920ba6d7b655"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152747_0273_V.JPG",
+      "size": 4919296,
+      "mtime_ns": 1791581629662663600,
+      "sha256": "e54dcbc260a1e319dfddd43898100a0c2409bc1ea44e0a9dab3af5f1e0865ff0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152748_0274_V.JPG",
+      "size": 4898816,
+      "mtime_ns": 1791581630836162500,
+      "sha256": "2876b76d4c94bd95e4bd272780db7d4676001c5f51964eca209ea55e476818f1"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152750_0275_V.JPG",
+      "size": 4820992,
+      "mtime_ns": 1791581627310162200,
+      "sha256": "8e2f493d53066f1bf4abc683dbfa736c08eb7088d0801011f691bb6cf5cb6972"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152751_0276_V.JPG",
+      "size": 4648960,
+      "mtime_ns": 1791581628550163200,
+      "sha256": "4208a0a47aa0b5ab3fdb72fcac0629e1d38e6079a7208877aff7101e5c9d24f9"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152752_0277_V.JPG",
+      "size": 4460544,
+      "mtime_ns": 1791581622905663300,
+      "sha256": "d17004503ca2e02bfeb2e9986249d17b298f651635714f86dce745c7e946c8e2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152754_0278_V.JPG",
+      "size": 4255744,
+      "mtime_ns": 1791581624330163300,
+      "sha256": "76812d9ed72a3e351ccdb140bf1e58173b56122876180fb7189f32cf670ea055"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152755_0279_V.JPG",
+      "size": 4145152,
+      "mtime_ns": 1791581631006162300,
+      "sha256": "f109d27ef091f932c894c4c8bcc36eafc496233b09aeac058b4071f77f689ac8"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152756_0280_V.JPG",
+      "size": 4075520,
+      "mtime_ns": 1791581625635662600,
+      "sha256": "7220c2806853deaca3d7c358b63d0369e7cc5fe4aed0648b3950a6bac80ad2cc"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152758_0281_V.JPG",
+      "size": 4108288,
+      "mtime_ns": 1791581631897163600,
+      "sha256": "addaab69b6203428831dcd0bffdb320c4b5be33f11bf6a423c20656bfea15e81"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152759_0282_V.JPG",
+      "size": 4059136,
+      "mtime_ns": 1791581622759663700,
+      "sha256": "85e1484a451327ebf13864428a14f52fcd6e15366cc28d6adf509bacbfeb44f2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152801_0283_V.JPG",
+      "size": 4153344,
+      "mtime_ns": 1791581634431163600,
+      "sha256": "998bf03cf9fd9c9d73022e0b835dedaa7bb45607051529fe09920a492cd44601"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152802_0284_V.JPG",
+      "size": 4255744,
+      "mtime_ns": 1791581625669662400,
+      "sha256": "a857a58a335d0fdec98063fa27bdcde43bd3422ec4d31a5d1d552b3603106f6a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152803_0285_V.JPG",
+      "size": 4382720,
+      "mtime_ns": 1791581628733663000,
+      "sha256": "e8ac8540c94ffdb0c27de4f9eda0146a255edaa546c1936f19452a50c9b759e4"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152805_0286_V.JPG",
+      "size": 4521984,
+      "mtime_ns": 1791581620911663500,
+      "sha256": "994e394236375de38bea8178deff750ff1079c0d97bacd8879e5ab89e2e57942"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152806_0287_V.JPG",
+      "size": 4481024,
+      "mtime_ns": 1791581631151163000,
+      "sha256": "824a8cc6df451f44b221b1ee17acb3bd03ae53c95bfe2926b83fede87d72b2e2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152807_0288_V.JPG",
+      "size": 4308992,
+      "mtime_ns": 1791581630463662400,
+      "sha256": "469e442c342c6739979bbf1d87e33fa69b0ccba2b06a0af154fc1b69276f4eaa"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152809_0289_V.JPG",
+      "size": 4288512,
+      "mtime_ns": 1791581621021662900,
+      "sha256": "575ac348c8bd0513edfbbb01d1159aa672e55183c73ee03b84351a315744de66"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152810_0290_V.JPG",
+      "size": 4210688,
+      "mtime_ns": 1791581623492162400,
+      "sha256": "516191be069196553d8d4d319283f3f9591f5fa8eb66b05df1961d48ba1c1c6a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152811_0291_V.JPG",
+      "size": 4300800,
+      "mtime_ns": 1791581631363162400,
+      "sha256": "63dea9719c6109ce0fc628cc19e189b011f09f2559356b80d34098b21228637d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152813_0292_V.JPG",
+      "size": 4399104,
+      "mtime_ns": 1791581631507662700,
+      "sha256": "386bab936a4bca86274a6db924ec009cf79654730a47fb60b7a67db65e58f275"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152814_0293_V.JPG",
+      "size": 4272128,
+      "mtime_ns": 1791581633091201900,
+      "sha256": "852f7c1eba2cc0de751a20bf295e0b3b6b699892170e5b2b912509d2a885904d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152816_0294_V.JPG",
+      "size": 4108288,
+      "mtime_ns": 1791581632153662400,
+      "sha256": "083e086d31f01cc30695457b679e01b64685f9ae951b5b1a95e6584e36c7d7ec"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152817_0295_V.JPG",
+      "size": 3973120,
+      "mtime_ns": 1791581622613662600,
+      "sha256": "a24b162489ecb83224d3aad388ce6caa095b84c02a1ea9a89d7dcd1d8a905c51"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152818_0296_V.JPG",
+      "size": 3989504,
+      "mtime_ns": 1791581623740162600,
+      "sha256": "040a8dcc33d299d1fdf12cb9c4224dae4e1b9b6d50bc618982868d8ff63cdd44"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152820_0297_V.JPG",
+      "size": 4018176,
+      "mtime_ns": 1791581623996662400,
+      "sha256": "1dc5233e3261f2c0da9424b9b8e9d31576080699060e0318e076c825d1d69c0c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152821_0298_V.JPG",
+      "size": 4104192,
+      "mtime_ns": 1791581623197162600,
+      "sha256": "e59975d149fde2802426f37a93f9a5d1084c836577be21a6b24f7beb40c8b8ac"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152822_0299_V.JPG",
+      "size": 4222976,
+      "mtime_ns": 1791581629024667000,
+      "sha256": "7619f6d0f290d4f13cc57c8c18a54be4dd7be64e735d19882789a88869b428ba"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152824_0300_V.JPG",
+      "size": 4448256,
+      "mtime_ns": 1791581622371162400,
+      "sha256": "de0c1c3a5652012fe4a1d0c3871f34808d9fad48482f861927d2625c745b9912"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152825_0301_V.JPG",
+      "size": 4567040,
+      "mtime_ns": 1791581633386164600,
+      "sha256": "d05ed9a3d4856e183f9919bd7a824f36e9f34e67f15df904def95bac89a164ed"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152826_0302_V.JPG",
+      "size": 4751360,
+      "mtime_ns": 1791581624481162500,
+      "sha256": "b9cba332cc5766527fddf98d49ec8520d49f14dab06b0cdd32f63b194e90e99e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152828_0303_V.JPG",
+      "size": 4775936,
+      "mtime_ns": 1791581632908163400,
+      "sha256": "8e524a12a100ebd368f8d37cbca2af61dfb7734903d96998c90bbf7780d54414"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152829_0304_V.JPG",
+      "size": 4784128,
+      "mtime_ns": 1791581623421163000,
+      "sha256": "fcdc639021c58f432982895b8b25ec4181e2818f6911e2d0832f04ad850acffa"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152830_0305_V.JPG",
+      "size": 4755456,
+      "mtime_ns": 1791581625419662600,
+      "sha256": "7b3e44fc277be2192800f8731c008004724962743508c4882da122f9481ec328"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152832_0306_V.JPG",
+      "size": 4603904,
+      "mtime_ns": 1791581625342663200,
+      "sha256": "141ff150fdfcef26fb070fa792e147ca51f47472a2bf91bf03abac913738a3e9"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152833_0307_V.JPG",
+      "size": 4550656,
+      "mtime_ns": 1791581630611164400,
+      "sha256": "b929be614a70fa3aef2f909920afd5958b30a968d4b43490c05d52b9f70715ed"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152835_0308_V.JPG",
+      "size": 4390912,
+      "mtime_ns": 1791581631616662400,
+      "sha256": "bf49b1e35f1062b5f309065edd19dcc6ca1a5465d30624f8c2e6565c5572f9e1"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152836_0309_V.JPG",
+      "size": 4333568,
+      "mtime_ns": 1791581627430163600,
+      "sha256": "edebd2bbd5f9f8063199bb12e3f1177cd8586952635647576d16829309bfb7e3"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152837_0310_V.JPG",
+      "size": 4268032,
+      "mtime_ns": 1791581632119162300,
+      "sha256": "94ddafc18a20f11dea178a56fa1f9a56beab0034117b19c9f70a36431ea06cd4"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152839_0311_V.JPG",
+      "size": 4374528,
+      "mtime_ns": 1791581627351162700,
+      "sha256": "c963e754b2067d9db451431a9fb2a6a95a9a45141bbf00e1780dc3ae46f9236c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152840_0312_V.JPG",
+      "size": 4407296,
+      "mtime_ns": 1791581624035163000,
+      "sha256": "2cf648fc58460422e4198c802d2ded181a08494625d27dfe63f4b79684deeaae"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152841_0313_V.JPG",
+      "size": 4481024,
+      "mtime_ns": 1791581630795663600,
+      "sha256": "2a7ebae587ccb425d6238f126d2fe79b67406d9f9d3cfb92b62c6cf5a8c64d21"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152843_0314_V.JPG",
+      "size": 4538368,
+      "mtime_ns": 1791581628171664100,
+      "sha256": "ed32421ac5e5fa267f2ed7598ade9a4cad205b201b3d984dc64c209974053149"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152844_0315_V.JPG",
+      "size": 4472832,
+      "mtime_ns": 1791581629812664500,
+      "sha256": "9b2771a7f557d1b0916c1aef77588eb60e85c1b4c114a161c5f56c4a750d95ee"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152845_0316_V.JPG",
+      "size": 4239360,
+      "mtime_ns": 1791581624724665200,
+      "sha256": "eb4a75d26dd0b2c7123aa6068966ad97e1a465b2139203938f21cc61eb430284"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152847_0317_V.JPG",
+      "size": 4186112,
+      "mtime_ns": 1791581624865163300,
+      "sha256": "7c2d5164fef6c02bf95a3f1719f8d0b864ead6239971551737d0feb089fb24f6"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152848_0318_V.JPG",
+      "size": 4120576,
+      "mtime_ns": 1791581631039663100,
+      "sha256": "3fe3427a312373f0e9fc1836b608f691de681055177727f105e9b88de4998cce"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152849_0319_V.JPG",
+      "size": 4071424,
+      "mtime_ns": 1791581624514662500,
+      "sha256": "f134e2a38982027a96c17ac239effb5d144edc38cb01ba332c767b5d37332311"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152851_0320_V.JPG",
+      "size": 4038656,
+      "mtime_ns": 1791581633488662300,
+      "sha256": "c45f23c8f5c2acc4d6692006aaed83d500765c78c7829b2bc95821beab117eb8"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152852_0321_V.JPG",
+      "size": 4046848,
+      "mtime_ns": 1791581625002662400,
+      "sha256": "6db23bb586e9bb5aabb40cd3eb9d67aed167f087c4e68e8817131ae9bfa5a5f0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152854_0322_V.JPG",
+      "size": 4182016,
+      "mtime_ns": 1791581631688163900,
+      "sha256": "04eed09b704d12794b757350085374d6695f53bb55952d79a5499cca7cd08d9c"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152855_0323_V.JPG",
+      "size": 4231168,
+      "mtime_ns": 1791581623595162600,
+      "sha256": "6bc59afccf468f8bd056b4127f51ac321c7649b8a097b5b0de3218ba794c7999"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152856_0324_V.JPG",
+      "size": 4317184,
+      "mtime_ns": 1791581630503662500,
+      "sha256": "836ff64707cbb2a39140a28e94c27cc83f2806b6f0d612dc0375802d3261d213"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152858_0325_V.JPG",
+      "size": 4415488,
+      "mtime_ns": 1791581621056164100,
+      "sha256": "8d2d3f0aa45de25311aa5dfc8cdd81ebeac9c6a8cad9ea8eac06389e7dc2543f"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152859_0326_V.JPG",
+      "size": 4440064,
+      "mtime_ns": 1791581633200663600,
+      "sha256": "4d4c0c077a587829c7bcfc4de2171c72c57e11e38c330b40337e16b78dcf40a9"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152900_0327_V.JPG",
+      "size": 4403200,
+      "mtime_ns": 1791581622869663500,
+      "sha256": "b96930e10a609654616aca27a95b353ac22da7a62c38638cf3f2322194c4289e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152902_0328_V.JPG",
+      "size": 4395008,
+      "mtime_ns": 1791581632571662800,
+      "sha256": "91305d4891c3de02e4e59ea891476696ceed3a3fc89410a77d3f64cf215b5c01"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152903_0329_V.JPG",
+      "size": 4349952,
+      "mtime_ns": 1791581623123216600,
+      "sha256": "76307d541334de11495e9c6cc6b7f82caa65cd1d72caa1916014f4c1a1d83aa5"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152904_0330_V.JPG",
+      "size": 4186112,
+      "mtime_ns": 1791581625495164700,
+      "sha256": "663140cb2d3a7e1cac826e22b171b451f7a87d0c43aa83e06d80b80d9e686746"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152906_0331_V.JPG",
+      "size": 4042752,
+      "mtime_ns": 1791581624295163300,
+      "sha256": "7875880430a26c494ddcf0ecf96c49c284e7d19ddfe00e34fedb35a5c2c4ed9d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152907_0332_V.JPG",
+      "size": 3928064,
+      "mtime_ns": 1791581630537162900,
+      "sha256": "ef5bcf448a202349a29483bcde8984b9b02ce5b44b3f12874e5e5e80600db639"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152908_0333_V.JPG",
+      "size": 3862528,
+      "mtime_ns": 1791581630302162600,
+      "sha256": "b7f6a7ebe7c3e9cba40a082671846a9d27350995b72749645a0addde1bebc164"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152910_0334_V.JPG",
+      "size": 3870720,
+      "mtime_ns": 1791581624688662300,
+      "sha256": "17323bea11c6cb90e2e61799e2362cd6be26f01d4758504d8cd20d198f0386fd"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152911_0335_V.JPG",
+      "size": 3858432,
+      "mtime_ns": 1791581631396163000,
+      "sha256": "61b65f3cbc2605b4e1f983e486327714eed572d365cfda9513e51c802c646f5e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152913_0336_V.JPG",
+      "size": 3932160,
+      "mtime_ns": 1791581631184664100,
+      "sha256": "45dcf127eeda6167b687df81092c3c2639efa75bbcec9c471a44bdba3fbed9aa"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152914_0337_V.JPG",
+      "size": 4104192,
+      "mtime_ns": 1791581629133662900,
+      "sha256": "314c52599e167165f61ac76b90c88a011905b23e5a1ef2a189bc52bee79da158"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152915_0338_V.JPG",
+      "size": 4202496,
+      "mtime_ns": 1791581627803164600,
+      "sha256": "85ddfb9263bee78e3412069e08bdf5b70d1c5f94558fc5c57c58098f03238232"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152917_0339_V.JPG",
+      "size": 4251648,
+      "mtime_ns": 1791581629316663000,
+      "sha256": "7495db73e42ca9e9b175deb1e488239018fb9fe26f7f1bbd4a335044f6b37782"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152918_0340_V.JPG",
+      "size": 4096000,
+      "mtime_ns": 1791581628955663000,
+      "sha256": "c461ceb942aa47631d03de640c274dfbb57c906b987ef109d25afe8cd6d90932"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152919_0341_V.JPG",
+      "size": 4112384,
+      "mtime_ns": 1791581625890163200,
+      "sha256": "270b31197c080c784c6887c1da1fd61bae98c9b573f7ad00356a4383177de8a0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152921_0342_V.JPG",
+      "size": 3964928,
+      "mtime_ns": 1791581626633165000,
+      "sha256": "0689f4217c07d32e7ca7407d17c7b89583ea861243e531a725b2901402a9b698"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152922_0343_V.JPG",
+      "size": 4263936,
+      "mtime_ns": 1791581631759663000,
+      "sha256": "a8503d063dd4bffd50345e927ad9273fe4b353ebfe21ac1e01470f0490d2c770"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152923_0344_V.JPG",
+      "size": 4165632,
+      "mtime_ns": 1791581622405662600,
+      "sha256": "1988ada2d476f6dbdc501d99fd66f0a6c3e0d8a67b8dd5969398eb50d0f5faf2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152925_0345_V.JPG",
+      "size": 3997696,
+      "mtime_ns": 1791581628768162900,
+      "sha256": "33413ddf77c239e914042593a0c89a723dc4f87051a6a63e109b46154d6caebb"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152926_0346_V.JPG",
+      "size": 3887104,
+      "mtime_ns": 1791581623560663200,
+      "sha256": "6f23b6b28b62006bd70cbab5fb997144372f6e448fee1a30268e5d9420a367a2"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152927_0347_V.JPG",
+      "size": 3874816,
+      "mtime_ns": 1791581631722162500,
+      "sha256": "10f06157df9e909e39bafbfb67a5bbfadc746084eed7dca4762bfa0bf40f817a"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152929_0348_V.JPG",
+      "size": 3870720,
+      "mtime_ns": 1791581628204664300,
+      "sha256": "b41cb9bfe13d9ef748a15caeff6ebb9d6485522d407f3cfe8332772de226f4cb"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152930_0349_V.JPG",
+      "size": 3923968,
+      "mtime_ns": 1791581632759663200,
+      "sha256": "8d439b7e9366549b19b99be12d2e7ac8b3f2c15a989913f403c6f06383ba0b71"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152932_0350_V.JPG",
+      "size": 3948544,
+      "mtime_ns": 1791581630073162600,
+      "sha256": "d7724fc03e37206c3d4a9118fe93aa75f9c864f0f3e86300d0af6124c047bf98"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152933_0351_V.JPG",
+      "size": 3981312,
+      "mtime_ns": 1791581624897663000,
+      "sha256": "8243747b66371fc9237160e14686a5591ba1235aa92209ad912c4a85068eaab4"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152934_0352_V.JPG",
+      "size": 4091904,
+      "mtime_ns": 1791581625964162800,
+      "sha256": "aa01c902a064485a59206b3901f4fc8f4705e59aa7c52c5b4a77a0d86db12d5b"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152936_0353_V.JPG",
+      "size": 4194304,
+      "mtime_ns": 1791581627037163600,
+      "sha256": "b92cf335a3e4643f885ccf9f5010035a7148e502a7733a71727b0a0b0e65abff"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152937_0354_V.JPG",
+      "size": 4145152,
+      "mtime_ns": 1791581630645664100,
+      "sha256": "9ff1ecd378e858f39664f97e538e4f3b650f31c8c2d45db950592748d7261e1d"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152938_0355_V.JPG",
+      "size": 4239360,
+      "mtime_ns": 1791581630188662700,
+      "sha256": "4f4ac78bf70d54e1d1ef2d716a83d39cac69fa5beca760138d1297cd66dd3529"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152940_0356_V.JPG",
+      "size": 4194304,
+      "mtime_ns": 1791581623922662500,
+      "sha256": "93d83572bff55b78d27e8c5164b0483af644fb6bfa0ffdfe0af2a990ba4ef441"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152941_0357_V.JPG",
+      "size": 4145152,
+      "mtime_ns": 1791581632083163600,
+      "sha256": "df295afb442d83579559b752b976fd5cff4dd75b60537bf019631393cf4a3f12"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152942_0358_V.JPG",
+      "size": 4075520,
+      "mtime_ns": 1791581628989663300,
+      "sha256": "8e779fb3e479bc67b576f4affb82dc530ea9c95b7ec2cdf659e77e742d2aab57"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152944_0359_V.JPG",
+      "size": 3936256,
+      "mtime_ns": 1791581622261662900,
+      "sha256": "0e3a42a16ca164c4f2c4ff9d5330bda80aede5ff3ede80f86fbe1c3f12e32686"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152945_0360_V.JPG",
+      "size": 3891200,
+      "mtime_ns": 1791581627837664600,
+      "sha256": "3c42c47a85244ab8c8c87c33ec9289d73fe63baf5462925b9c7dc59c69ef47db"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152947_0361_V.JPG",
+      "size": 3858432,
+      "mtime_ns": 1791581629348663300,
+      "sha256": "e83639cd976ff1926080a08366071798a1954b934dc654304903616800113b1e"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152948_0362_V.JPG",
+      "size": 3768320,
+      "mtime_ns": 1791581628136662900,
+      "sha256": "35fe8996a0528181f92962640df8eb1c946b3ab0a59c3984b3df583ec39640ad"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152949_0363_V.JPG",
+      "size": 3842048,
+      "mtime_ns": 1791581627149663700,
+      "sha256": "201ebe9a505a88e2b5cdfb856264d8c8e85087f0d793ca8d54f11738189b0cc0"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152951_0364_V.JPG",
+      "size": 3887104,
+      "mtime_ns": 1791581628620163600,
+      "sha256": "b0b7964d8a4713e747d894479ce6afad51181969311f862973e236f06c3ec008"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152952_0365_V.JPG",
+      "size": 4009984,
+      "mtime_ns": 1791581622939662200,
+      "sha256": "94ca9e04d4ba64e6f5d02813684db48f8493dabfa208f1579cd8232fb924a673"
+    },
+    {
+      "path": "Conan CS/DJI_20261005152953_0366_V.JPG",
+      "size": 4059136,
+      "mtime_ns": 1791581631794165800,
+      "sha256": "ba1fd2e5bfd64f4819d4ca12bace0d99453899980346ce59d85486077eaf9752"
+    },
+    {
+      "path": "Conan CS/ppk_file_name.pbk",
+      "size": 29,
+      "mtime_ns": 1791581620724164200,
+      "sha256": "2887cc525056dfc82e221d603ca27f7af9e747aa7ed333b8749df1b13c56da8c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122812_0001_V.JPG",
+      "size": 6127616,
+      "mtime_ns": 1791215811642611700,
+      "sha256": "0543c94bc93e0a56aa72e4d0c892739a8add1872abf4f50a78f5cb435617ef44"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122814_0002_D.MRK",
+      "size": 32188,
+      "mtime_ns": 1791215823338878000,
+      "sha256": "becfb98e0bc50246f85d3efec308cec0b1ddeb29ab479eb814157a4ccc512c8e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122814_0002_D.NAV",
+      "size": 32932,
+      "mtime_ns": 1791215813345074400,
+      "sha256": "6fa101418d029c49dc496f746a1b55939a2683c82d52f6f005202e72311db073"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122814_0002_D.OBS",
+      "size": 22395957,
+      "mtime_ns": 1791215808793223500,
+      "sha256": "569332031e02de87bec6d58a6ce72986ad202afc286ef0fea935faafa8cd969a"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122814_0002_D.RTK",
+      "size": 2211323,
+      "mtime_ns": 1791215809246460700,
+      "sha256": "2c7dc2b718f154ac591c599f6aa2379179c98e536f4e8cf9f57c7af08c7c384c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122814_0003_V.JPG",
+      "size": 6180864,
+      "mtime_ns": 1791215818695415800,
+      "sha256": "0729072a66ef8c9f24f31bf4e9521438ee6fc36aa58efba3d65f13d585510ea4"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122815_0004_V.JPG",
+      "size": 6189056,
+      "mtime_ns": 1791215814452545100,
+      "sha256": "a499c3463bbee3b4f36c0957ccc905341f5cfba549d9e534e3ac3311dd360d0c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122816_0005_V.JPG",
+      "size": 6152192,
+      "mtime_ns": 1791215826831241900,
+      "sha256": "4f6907414125d87772519fdf3b7eaafe78884e1516e65439105ba3261f6659ae"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122818_0006_V.JPG",
+      "size": 6148096,
+      "mtime_ns": 1791215815244929500,
+      "sha256": "464dbf5bda710d8d5343d8346d1bb0dde5a2efbafe6b78735017518cb7a5fd4c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122819_0007_V.JPG",
+      "size": 6144000,
+      "mtime_ns": 1791215821242098800,
+      "sha256": "98ce752110a9b21f350cae4ca05f3cd4114a6efac16f8fe36fbd65f15aa0c307"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122820_0008_V.JPG",
+      "size": 6176768,
+      "mtime_ns": 1791215826478006200,
+      "sha256": "ce60591b0732cb76ba74e0a930f039151f98f5db1f9376f65978d4eacac72c66"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122822_0009_V.JPG",
+      "size": 6328320,
+      "mtime_ns": 1791215828124817000,
+      "sha256": "987ad71f9a6e35eda7155fb7465da363f0c4baaa8443dcaafa917d673c449c47"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122823_0010_V.JPG",
+      "size": 6221824,
+      "mtime_ns": 1791215815051909200,
+      "sha256": "79185a49c82247d9490eda3cba83cb0ca3b027bec16bedf5567e2de46ed1c568"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122824_0011_V.JPG",
+      "size": 6205440,
+      "mtime_ns": 1791215817180409100,
+      "sha256": "baf5d9d2c6ada796dd5c239c119ecca6b342ad1be3a7697a60ef39a3955f802f"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122826_0012_V.JPG",
+      "size": 6152192,
+      "mtime_ns": 1791215817667463000,
+      "sha256": "5a49693c976e400c0219c2858d448140f3616f45471699d423e12812f38c57f5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122827_0013_V.JPG",
+      "size": 6057984,
+      "mtime_ns": 1791215818893446900,
+      "sha256": "8263959643d80587a939b35eb8e4cc2ccf4d59ad645dd989f2da38fbf80921c1"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122828_0014_V.JPG",
+      "size": 5943296,
+      "mtime_ns": 1791215820547522200,
+      "sha256": "09ab64b3b820d744112767fea8f367d4947b26cf739d9be8060754051c512d90"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122830_0015_V.JPG",
+      "size": 5849088,
+      "mtime_ns": 1791215816436914200,
+      "sha256": "8ddbbb0a22c6d801b7dffa137fce99205d8b3ae672b5c8212a42ac94bcb87878"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122831_0016_V.JPG",
+      "size": 5763072,
+      "mtime_ns": 1791215818173465000,
+      "sha256": "9575c90ae986eb288cb59b049fe7fffb937b1e91ff96ac0ec14554a51f9c91ea"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122833_0017_V.JPG",
+      "size": 5713920,
+      "mtime_ns": 1791215819736941900,
+      "sha256": "9ff5aa2a55522bf3a46fc0a58c0dbe547a4a395ff55ef9809fac5cc131b4df30"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122834_0018_V.JPG",
+      "size": 5636096,
+      "mtime_ns": 1791215815134420300,
+      "sha256": "28cba7778ac1aa7a3fabf163d4429e091f03110b690d4281ed52ec947bcf3ff3"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122835_0019_V.JPG",
+      "size": 5550080,
+      "mtime_ns": 1791215820915453100,
+      "sha256": "6e247443577f3d0347854bdf7eafebb77379838a6c1ba92be4baf9fec05f5932"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122837_0020_V.JPG",
+      "size": 5545984,
+      "mtime_ns": 1791215824615550600,
+      "sha256": "ab6b9a34ceaf0e7ed2d03486348532318e8928628c0997f439612328dbbabec0"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122838_0021_V.JPG",
+      "size": 5550080,
+      "mtime_ns": 1791215825423671200,
+      "sha256": "1f51d973b0d3a34215c13ba70783300c26029b702fe59948c1aa647b9b5bcad5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122839_0022_V.JPG",
+      "size": 5484544,
+      "mtime_ns": 1791215810672560000,
+      "sha256": "ae23305761bac1ef0a636bb3c6d5032d834a0e641fe4ffc2fddb9423dc523850"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122841_0023_V.JPG",
+      "size": 5464064,
+      "mtime_ns": 1791215821951264800,
+      "sha256": "03e47052501900d51787930a81ffa75f6ef968869a2ad6a1fa7ca7f28d8728c5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122842_0024_V.JPG",
+      "size": 5550080,
+      "mtime_ns": 1791215810253519600,
+      "sha256": "83449d8d0a401c6303127aee0e3be89b7788074417810201127a3d2af7106326"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122843_0025_V.JPG",
+      "size": 5607424,
+      "mtime_ns": 1791215825830556200,
+      "sha256": "6d148db90309ba730c15480354ca519418a41b7ad19b60dce54b3b200595b196"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122845_0026_V.JPG",
+      "size": 5668864,
+      "mtime_ns": 1791215813827664300,
+      "sha256": "c2901bedd83d7bae666202e3440dd098537dc1326bb8e36058115881af15cd3a"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122846_0027_V.JPG",
+      "size": 5742592,
+      "mtime_ns": 1791215827775280600,
+      "sha256": "f0a53d268cbcd6b3055fa717981b86f38fe4df01cd5f5cd734cbc5d1b6813ccc"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122847_0028_V.JPG",
+      "size": 5615616,
+      "mtime_ns": 1791215826630219600,
+      "sha256": "f00b4a8558f213796b935cec008b33e47da366840d398714587c07dd81968905"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122849_0029_V.JPG",
+      "size": 6152192,
+      "mtime_ns": 1791215812776961800,
+      "sha256": "7b39ab5b4e0713819a56e2e3df8aed7b27a7e1b9f236cec8b79f53b43f90d376"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122850_0030_V.JPG",
+      "size": 5910528,
+      "mtime_ns": 1791215817497451900,
+      "sha256": "db350592d3a664b1c3117c7951ab6d49f8a8f215be14d546dfe1e1d9a92fa68d"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122852_0031_V.JPG",
+      "size": 5951488,
+      "mtime_ns": 1791215815809134400,
+      "sha256": "7cd058afd275e31349d987c57800c5ba4d44a8bcae53b6468ccbac74aeaf6f78"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122853_0032_V.JPG",
+      "size": 5857280,
+      "mtime_ns": 1791215818963955100,
+      "sha256": "fef0b04ce1f07569e966bc4ad8ed2fbc4aa0d1b839009ce8901a79fed483ecf1"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122854_0033_V.JPG",
+      "size": 5644288,
+      "mtime_ns": 1791215821073961700,
+      "sha256": "634e3f4fab6abbc559fdd8134c99593ff5cd923a55e2abf63b2c11edb1621ffb"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122856_0034_V.JPG",
+      "size": 5591040,
+      "mtime_ns": 1791215820221996700,
+      "sha256": "77d7a23c36569305c35c6bb2ecf4e9cc76040e31773af94bf27241cd0967c1ab"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122857_0035_V.JPG",
+      "size": 5701632,
+      "mtime_ns": 1791215816631931800,
+      "sha256": "4279b861e769db955ff02bd68d10f09be449c739c7139a8fb2c8596b00d93e1a"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122858_0036_V.JPG",
+      "size": 5672960,
+      "mtime_ns": 1791215817405441700,
+      "sha256": "5034f5671ade0ce9c96f0db156eaac72f01f86239f0c3d7e08819339c145bb8a"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122900_0037_V.JPG",
+      "size": 5746688,
+      "mtime_ns": 1791215808298152800,
+      "sha256": "c9f4dfa5dafa24b1cb0f7a1795d84756c13263a8738d2d747dbd6b3ef08a3e50"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122901_0038_V.JPG",
+      "size": 5783552,
+      "mtime_ns": 1791215807590315400,
+      "sha256": "f1534b81cc9673ce0c4d7e16468658520f01a518450f863d441e3e682fd5ec9b"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122902_0039_V.JPG",
+      "size": 5894144,
+      "mtime_ns": 1791215822112289000,
+      "sha256": "025dd6e08c1ddf13292d6a51ad9e2a98e6ae7a3d9c2ccafc9d860ad019d4b2ac"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122904_0040_V.JPG",
+      "size": 5951488,
+      "mtime_ns": 1791215810333028000,
+      "sha256": "269cff16d7e9469008ad524937f511f22887b34bc03152b6dd0624f570b193ee"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122905_0041_V.JPG",
+      "size": 6021120,
+      "mtime_ns": 1791215822990480300,
+      "sha256": "989352ebad6d1db565250fe4aa498c06aef919c9d729791eac690a66ce7488b2"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122906_0042_V.JPG",
+      "size": 6053888,
+      "mtime_ns": 1791215816049167700,
+      "sha256": "49b5c49c4d423f55ac55bbbe65504385a3427eb7d1ac1ac3636c8e25f2a348b5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122908_0043_V.JPG",
+      "size": 6127616,
+      "mtime_ns": 1791215823160844600,
+      "sha256": "02ead12b03bded41290c41503cde1d505dd5eb33db3388d2f334b5b37301d5b1"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122909_0044_V.JPG",
+      "size": 6164480,
+      "mtime_ns": 1791215808981879400,
+      "sha256": "1d01d7bcc4474d40ae94f23c03e6564234aa8503db8ce266cde0b447bbbc3782"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122911_0045_V.JPG",
+      "size": 6221824,
+      "mtime_ns": 1791215824717571500,
+      "sha256": "7e90b8a7364541630243b0838a60f351d4bd00eec24252b779831ec4f940f432"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122912_0046_V.JPG",
+      "size": 6221824,
+      "mtime_ns": 1791215817002969500,
+      "sha256": "ce7baf08490da713f9b63006a8fa3cdb6e6b33bc7ce1482d42708d20fdde3b6c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122913_0047_V.JPG",
+      "size": 6234112,
+      "mtime_ns": 1791215818608413300,
+      "sha256": "89b8ea5b5af02b24cd25bf967f89c3b87cab26c6ac4e7cfe1672953c363c78bd"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122915_0048_V.JPG",
+      "size": 6156288,
+      "mtime_ns": 1791215826720730000,
+      "sha256": "b8618ecaa184626949671876a013ad36eab3600d5c12f5c39abfd9ab70bb18fd"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122916_0049_V.JPG",
+      "size": 6008832,
+      "mtime_ns": 1791215814594072600,
+      "sha256": "6294f7e56304dbefe457000026dbd2c4e42eb704f26b4e51042f44e0be07a6ed"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122917_0050_V.JPG",
+      "size": 5939200,
+      "mtime_ns": 1791215828273328900,
+      "sha256": "30ffa31aa73c12b6d89f660b74ad640f847b0324c634cf41f079b5bd05b65ef6"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122919_0051_V.JPG",
+      "size": 5992448,
+      "mtime_ns": 1791215814191432600,
+      "sha256": "5d0c3778d2441ee64d10771898b60bd5655af7ba791b4d3874481a4e8eae995a"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122920_0052_V.JPG",
+      "size": 5984256,
+      "mtime_ns": 1791215826132091100,
+      "sha256": "bf2f8a3f423931c998e8cb04b28bddb6fa7564dac7b1bc59ae1fc1954851187e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122921_0053_V.JPG",
+      "size": 6045696,
+      "mtime_ns": 1791215808338114700,
+      "sha256": "33e5e302f07e83af78931e4225aff8a61a37e358b1b6889844da3ebb72c65515"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122923_0054_V.JPG",
+      "size": 6070272,
+      "mtime_ns": 1791215810127006600,
+      "sha256": "d69d2c2945216d2357481d02f0db7b2f34d38914150dc9997de981fae928e813"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122924_0055_V.JPG",
+      "size": 5718016,
+      "mtime_ns": 1791215807670825200,
+      "sha256": "f16f0fcc3ea0706d21ea09d20833f6d74ef33c108cae8af2b3b76a8ae3a0d378"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122925_0056_V.JPG",
+      "size": 5963776,
+      "mtime_ns": 1791215827184285800,
+      "sha256": "c96771c2ec8395bcb9e4eaf4fa0b9c065e18e959764507a014b164820744dfc5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122927_0057_V.JPG",
+      "size": 5861376,
+      "mtime_ns": 1791215827449260200,
+      "sha256": "1d92416680aa4ca4665b347e34af76d813e6f3fee66bfd20230558a8c1e3ecb0"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122928_0058_V.JPG",
+      "size": 5955584,
+      "mtime_ns": 1791215808505133800,
+      "sha256": "43a463f5ea3eb684a24f24a87b84273d10eb6a2a6550b6a72e237b4ec57d7d92"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122930_0059_V.JPG",
+      "size": 5844992,
+      "mtime_ns": 1791215825033105000,
+      "sha256": "10bb2097c0e6e7094e95961d9cba04edf58b15984bc67224d0a9f2094d1c90d1"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122931_0060_V.JPG",
+      "size": 5779456,
+      "mtime_ns": 1791215814050905800,
+      "sha256": "b14ba4f39b54d44a459d8300ee511925d27de290f308cb7edae25b2fb4e51688"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122932_0061_V.JPG",
+      "size": 5607424,
+      "mtime_ns": 1791215827848276800,
+      "sha256": "303fd68e89cca8602ee9936c89d6bd07b3066b1557c8a68487244a5ac3aaebfa"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122934_0062_V.JPG",
+      "size": 5599232,
+      "mtime_ns": 1791215816194682100,
+      "sha256": "8110960a90f9ec9e950f86cc433f9feb121d8f172682bc62116d1aef9f6b8485"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122935_0063_V.JPG",
+      "size": 5779456,
+      "mtime_ns": 1791215819566231700,
+      "sha256": "2bd443a23fd45ae5eabf047fe78698665be5a16acacfe88e505f007bcbc01bf3"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122936_0064_V.JPG",
+      "size": 5873664,
+      "mtime_ns": 1791215807893371100,
+      "sha256": "680c65f510b392b9caf755038d6a78096505d419a0406cf7b5c695ad4f4cd637"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122938_0065_V.JPG",
+      "size": 5890048,
+      "mtime_ns": 1791215820694034400,
+      "sha256": "50d4bd84157c220de7547d9c33464ebc6fd85c432ff938d1c49fec7330319800"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122939_0066_V.JPG",
+      "size": 5931008,
+      "mtime_ns": 1791215812974999200,
+      "sha256": "8877159825acbcee0bf9b699f3d015285eb6cef4bb1d16639045a7b2286a9f3a"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122940_0067_V.JPG",
+      "size": 5935104,
+      "mtime_ns": 1791215816348406000,
+      "sha256": "bb426742e037663dc40958b915630804cbb36e25f07d3de79b19b300bf3db628"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122942_0068_V.JPG",
+      "size": 5967872,
+      "mtime_ns": 1791215819655422600,
+      "sha256": "0b83028d0c8586bb87d848cb06aa665ebd6928614f68eeaf885c540632932709"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122943_0069_V.JPG",
+      "size": 5947392,
+      "mtime_ns": 1791215816112678300,
+      "sha256": "d8dd4acbe4534190f5ab312b5dfb002f19b80883e1ac6b539b86a4769deefdbf"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122944_0070_V.JPG",
+      "size": 5922816,
+      "mtime_ns": 1791215808261146100,
+      "sha256": "539a9fd57885c4dde32ab79c58baca067a6d4c2ac70a16d9666edda78c70d131"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122946_0071_V.JPG",
+      "size": 5898240,
+      "mtime_ns": 1791215808140635900,
+      "sha256": "68d37bb1295c7b5b8097f04a278e3b790b3a4200f6c40d83e54ccffff4b10d95"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122947_0072_V.JPG",
+      "size": 5812224,
+      "mtime_ns": 1791215826031579300,
+      "sha256": "12feb0c6fdb7f60c1fa422551e12ebfd0a3d3d968d369805aead5bd829287d1e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122949_0073_V.JPG",
+      "size": 5705728,
+      "mtime_ns": 1791215813714145500,
+      "sha256": "8ac7b40a9f3b3521dd0f63f9cd21105cb9fead2a33b246ed0a9a3d005eb2b7c1"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122950_0074_V.JPG",
+      "size": 5677056,
+      "mtime_ns": 1791215807630820800,
+      "sha256": "0513a74e61d239329e076f4b6dca5d3c5d05851cbbf0f1158c14febfeb17e24f"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122951_0075_V.JPG",
+      "size": 5603328,
+      "mtime_ns": 1791215827526771700,
+      "sha256": "075f75ea87c4dbfdb17731164fb59ff144eb90b18d1648bc80a197cbce2b559d"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122953_0076_V.JPG",
+      "size": 5652480,
+      "mtime_ns": 1791215827345231900,
+      "sha256": "760840038d10d1aa354742cc91a172b8b57504ebc31631d194f9635b5a347ce9"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122954_0077_V.JPG",
+      "size": 5582848,
+      "mtime_ns": 1791215825605180300,
+      "sha256": "0c7641d14cb9c94362e39bbfc11010aae841d7555b71d6f9bcba5ec12b006d72"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122955_0078_V.JPG",
+      "size": 5689344,
+      "mtime_ns": 1791215823626928300,
+      "sha256": "1f5ded21c0afcd5c37897d95379d23f536acb4ef646312f1c3c14329f56186b0"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122957_0079_V.JPG",
+      "size": 5951488,
+      "mtime_ns": 1791215825194142700,
+      "sha256": "7bee441ba171df09dcdf0e3e724dd45b60df8d6bc5d408eca947500aa6861ea4"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122958_0080_V.JPG",
+      "size": 6094848,
+      "mtime_ns": 1791215822031778700,
+      "sha256": "b6edbb81f87db440dbdf7aed348972f7ea3cb7b377fd989a14b59dc94c4941a8"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002122959_0081_V.JPG",
+      "size": 6197248,
+      "mtime_ns": 1791215811583096900,
+      "sha256": "285b2b8d164e0e1d5d1aca4975beb9dddef6ad132611334abc4c1404433ef18c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123001_0082_V.JPG",
+      "size": 6234112,
+      "mtime_ns": 1791215812384578700,
+      "sha256": "d31eeb39a0a611b1b1d439feb0a1444d2964538e0820b214cef97fc8484e04d4"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123002_0083_V.JPG",
+      "size": 6459392,
+      "mtime_ns": 1791215828590371800,
+      "sha256": "29d180f2579d71db9f24c2702c02a442e8f1d61fe859f1e0b3ebf0161b8fe80f"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123003_0084_V.JPG",
+      "size": 6328320,
+      "mtime_ns": 1791215810022608900,
+      "sha256": "00ec91c13e286b594c9390dde83d9f05a9aca3e0b81ec967dceed347c23cccfb"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123005_0085_V.JPG",
+      "size": 6373376,
+      "mtime_ns": 1791215820999456100,
+      "sha256": "0e9b15dcb49bc77f75c84a11a9f70fbdcf8be27b6be451afa5cc7e8dbe69893f"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123006_0086_V.JPG",
+      "size": 6184960,
+      "mtime_ns": 1791215807783337500,
+      "sha256": "b86c84e32c2d7b3a2859006566e9a588196346fb9693af95415b18f9bc55b3fb"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123008_0087_V.JPG",
+      "size": 5894144,
+      "mtime_ns": 1791215821314608600,
+      "sha256": "5b245bdca989f6805845d2b9f9dc15b0c18497082ff233ec7c5788e28da8a19e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123009_0088_V.JPG",
+      "size": 5738496,
+      "mtime_ns": 1791215822504409600,
+      "sha256": "7efd30b22abad3afb516dde798f9c0c7a1edea68937b17a2da7404080b626bc6"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123010_0089_V.JPG",
+      "size": 5783552,
+      "mtime_ns": 1791215824799576900,
+      "sha256": "13b3bbe06562d2803600a7ba866f0d0601a95c6d7156b9394f9d4f4684233a58"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123012_0090_V.JPG",
+      "size": 5718016,
+      "mtime_ns": 1791215819806451600,
+      "sha256": "f63e6df0fc71b2bd29870d6664dc45b334b76c087ece8dda5f0fc21be6c917c5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123013_0091_V.JPG",
+      "size": 5713920,
+      "mtime_ns": 1791215815964647900,
+      "sha256": "1466ff08fd9af09141139b48d0750548f31240cd4be4a9fa53a9147c7b1e4e6d"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123014_0092_V.JPG",
+      "size": 5767168,
+      "mtime_ns": 1791215814321026700,
+      "sha256": "489ffa00ddd1eb6910678b6d210c13ca95aa656b419aa3b43b39e1b4acecb024"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123016_0093_V.JPG",
+      "size": 5742592,
+      "mtime_ns": 1791215813584115300,
+      "sha256": "8a6db77d07d6049c8f1976f59a0288ff183284b0361256bea364af2c7563636c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123017_0094_V.JPG",
+      "size": 5709824,
+      "mtime_ns": 1791215819894454400,
+      "sha256": "af76f3d0cb91d777203344b553911137d793dc27a00a81637cba53815b4c7cb5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123018_0095_V.JPG",
+      "size": 5799936,
+      "mtime_ns": 1791215819225194100,
+      "sha256": "3fbd4399c741e053c7dbaac1cd1831de58a4ee75a4fa01d36e2c79036c590775"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123020_0096_V.JPG",
+      "size": 5824512,
+      "mtime_ns": 1791215818532903500,
+      "sha256": "8309b369ffa320ede8ce1f565297bdf3ee2f6df5f26884743349f0bff2ca8ad0"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123021_0097_V.JPG",
+      "size": 5844992,
+      "mtime_ns": 1791215817332428600,
+      "sha256": "33fdf93a63dc05443816d3925e6869a243c0117cdafbe506255bfb57581cba55"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123023_0098_V.JPG",
+      "size": 5808128,
+      "mtime_ns": 1791215818807438700,
+      "sha256": "e079889a2503baf148f1931dac56f8085c32c7e85d6e4758d3f9adbb35741208"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123024_0099_V.JPG",
+      "size": 5783552,
+      "mtime_ns": 1791215820628030900,
+      "sha256": "3393eff4828f0ea1a3feab06b42780e16e368370ae3fa0238808583d335a052d"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123025_0100_V.JPG",
+      "size": 5713920,
+      "mtime_ns": 1791215814966647700,
+      "sha256": "9eb44499c5fc5627bdca2fd9abd5298a3ce9e5ebc9446f381a16a9568d09d8e8"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123027_0101_V.JPG",
+      "size": 5599232,
+      "mtime_ns": 1791215812568130300,
+      "sha256": "ba95563e9aec95d30ffc4b0348372215346c0606fe3e7f5616e6947236133642"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123028_0102_V.JPG",
+      "size": 5533696,
+      "mtime_ns": 1791215815577974100,
+      "sha256": "892deee8e20c3ba0f74f9e2f5590614295a7c241a892f8677937fdb6adb73ed7"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123029_0103_V.JPG",
+      "size": 5349376,
+      "mtime_ns": 1791215821407117200,
+      "sha256": "722d04423e8a9baf49e877795e8a330daa46c32c429cc4c05e8e9ca389692d55"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123031_0104_V.JPG",
+      "size": 5128192,
+      "mtime_ns": 1791215811977644100,
+      "sha256": "a5c89c08d6a292c5ce066e6de91cb41e935933b4ef0f1b5bb9ea4f922d8fe381"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123032_0105_V.JPG",
+      "size": 5173248,
+      "mtime_ns": 1791215828709389900,
+      "sha256": "a9b89cae49652d7eb898568f919c86c331f5defb22da23c164ea0dc74ca84637"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123033_0106_V.JPG",
+      "size": 5357568,
+      "mtime_ns": 1791215808220148600,
+      "sha256": "5dd49e8289907d68ac290c6c9659d4b37927f268c5ae1938bc6f7f387c112b61"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123035_0107_V.JPG",
+      "size": 5488640,
+      "mtime_ns": 1791215820293999100,
+      "sha256": "be943ed30797c06347af6bd18d2ab754129ed458ac3e51cdaf722b5763fd1d4d"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123036_0108_V.JPG",
+      "size": 5701632,
+      "mtime_ns": 1791215823246361900,
+      "sha256": "aa6587895635ccda896e7f9ad0f17be720158d336058dac1d99017514e29832a"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123037_0109_V.JPG",
+      "size": 5824512,
+      "mtime_ns": 1791215810619558700,
+      "sha256": "b703694a1615f4866c5d1e8de278d00c56b766473da683d47264bff8bd2a5d37"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123039_0110_V.JPG",
+      "size": 5853184,
+      "mtime_ns": 1791215823412388400,
+      "sha256": "43653d19ff6660180c50f71542b15332fc7088b9a4e743b2295aa7ae812bdc4c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123040_0111_V.JPG",
+      "size": 5918720,
+      "mtime_ns": 1791215826538515600,
+      "sha256": "c8e738c3a3949bc194f3494c5bcba36d6fec373faea061144a66c46f5eb662fa"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123042_0112_V.JPG",
+      "size": 5726208,
+      "mtime_ns": 1791215826401615000,
+      "sha256": "c662d19f756221201726203b24c61466a7c85909ad0153755956b18c021600b7"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123043_0113_V.JPG",
+      "size": 5537792,
+      "mtime_ns": 1791215808456629200,
+      "sha256": "f8f2fae1c4aecf954e34c766c09317d0fe6a4791f213555bbddaed192b0200f5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123044_0114_V.JPG",
+      "size": 5378048,
+      "mtime_ns": 1791215808550687900,
+      "sha256": "6428e78337e6c8c7eaedfe1e090643e6abe7d993f82221e862b021aefd147444"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123046_0115_V.JPG",
+      "size": 5148672,
+      "mtime_ns": 1791215807708336900,
+      "sha256": "03bc714a6f46bb308bcf7b0d015575d0d6dc422258d526d5b4b4ab40fc15e97e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123047_0116_V.JPG",
+      "size": 5021696,
+      "mtime_ns": 1791215826911748500,
+      "sha256": "f8add06d3d286362b81a7a4fe08ac446f8a4afcc59d012b849c6a30a980cb831"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123048_0117_V.JPG",
+      "size": 5046272,
+      "mtime_ns": 1791215826241596700,
+      "sha256": "0fc8f5ebcedd4dda6cb8463a3dca9778b724459673419630287eaefaf6e4b68c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123050_0118_V.JPG",
+      "size": 5300224,
+      "mtime_ns": 1791215823330877500,
+      "sha256": "32b8f326c168c5c5798f95ec82ccd40ee733d433c446aa4373edf7f61e0388cd"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123051_0119_V.JPG",
+      "size": 5382144,
+      "mtime_ns": 1791215811052655300,
+      "sha256": "20c1d59c0764f76202554b7f4c60a7174d32e918d215cd49ac42750f3f5f6351"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123052_0120_V.JPG",
+      "size": 5558272,
+      "mtime_ns": 1791215827100771900,
+      "sha256": "553ee67cd5082ffb68e1481f48cccf4be43ac5c1a4db31de660b43f2f1dd7c42"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123054_0121_V.JPG",
+      "size": 5668864,
+      "mtime_ns": 1791215815655487200,
+      "sha256": "758eb9decdde80f3a7f85f37d34e83fda77f5249ff032810e9e3ca913362f1a5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123055_0122_V.JPG",
+      "size": 5767168,
+      "mtime_ns": 1791215819128685000,
+      "sha256": "4979653ca4295c7d334a21d068781393014672f237728ecc88c408ecb8b19f91"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123056_0123_V.JPG",
+      "size": 5853184,
+      "mtime_ns": 1791215810567048400,
+      "sha256": "0b13af9bb8bfccd15f66dd1196fea89b08eae1723e9f7a1a49eee75ba7ee8682"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123058_0124_V.JPG",
+      "size": 5787648,
+      "mtime_ns": 1791215822601923400,
+      "sha256": "eb00077140c99df35ef80ab0ee94fc112ca35d8ffe14a53c9c3a2161229b7692"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123059_0125_V.JPG",
+      "size": 5750784,
+      "mtime_ns": 1791215813332076800,
+      "sha256": "452e7e5745af538bcd666a00dd8587cf7b859675e3ae16aca920b2200f4d50b8"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123101_0126_V.JPG",
+      "size": 5644288,
+      "mtime_ns": 1791215810822608300,
+      "sha256": "e90fb84e601dfdd49ae96517ef5a8f4ab420581c0e62af8a5f86340522c4828e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123102_0127_V.JPG",
+      "size": 5505024,
+      "mtime_ns": 1791215817933435900,
+      "sha256": "a5d1d09a5da6decbfed7c8c43d2eeaf24602d010ef9751cf4bf2255ac61e9aff"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123103_0128_V.JPG",
+      "size": 5410816,
+      "mtime_ns": 1791215819367211600,
+      "sha256": "bafffe74ffa8e9f22a11c58f0396a45431879759623f9cfa87fb33eda1efb2fc"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123105_0129_V.JPG",
+      "size": 5353472,
+      "mtime_ns": 1791215809110948000,
+      "sha256": "2f8d41a22d6d80b62a5e992345e85f1d3000e7e6b406da7bee4529983638a861"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123106_0130_V.JPG",
+      "size": 5349376,
+      "mtime_ns": 1791215828199821000,
+      "sha256": "96a5355bd2bee45dd1a4d436480278f2183351926b95349fe7440a91695f50ee"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123107_0131_V.JPG",
+      "size": 5435392,
+      "mtime_ns": 1791215807931881500,
+      "sha256": "dd4293d7810f1492ebc5596c6f3b9cd48a6c4afd783935a0680256c99e01fca8"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123109_0132_V.JPG",
+      "size": 5447680,
+      "mtime_ns": 1791215822346894300,
+      "sha256": "eef6aeffc68d4ec94c2677f9b25ad55190647ba4b560787737c233be161ec862"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123110_0133_V.JPG",
+      "size": 5582848,
+      "mtime_ns": 1791215824512034800,
+      "sha256": "83cfdc8c7ac543351279968c66b8b6913defbaa91337d0d32071c6f7bc2a64fd"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123111_0134_V.JPG",
+      "size": 5967872,
+      "mtime_ns": 1791215807854366200,
+      "sha256": "8d7eadbf5afbd9b1fcd54a28f4d6686d5b8ad0337f7a941d0c745ad100412825"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123113_0135_V.JPG",
+      "size": 6209536,
+      "mtime_ns": 1791215808647199400,
+      "sha256": "83862f19875e1b808594d8d911519bea7a1f174d465e5a2a44f24e607c84ca20"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123114_0136_V.JPG",
+      "size": 6270976,
+      "mtime_ns": 1791215810214518800,
+      "sha256": "d6dc59eb6e8a583a35506e81a714e215a587a99ae396afa6fdb38a2695cf66bb"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123115_0137_V.JPG",
+      "size": 5971968,
+      "mtime_ns": 1791215825923066900,
+      "sha256": "a010d9472630321f43c5226181cbc9bae3d75424d7249eeebae1a00d82aa95cd"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123117_0138_V.JPG",
+      "size": 6111232,
+      "mtime_ns": 1791215809220461600,
+      "sha256": "d8bc1cdf0a2588fd62b813ce3da0c4ec9f89479a2a19b9b352496697222f42c1"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123118_0139_V.JPG",
+      "size": 5894144,
+      "mtime_ns": 1791215809882592000,
+      "sha256": "39554bee123ea821cbc705fea125512442b528e728172f6bea2d1e769cf3a087"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123120_0140_V.JPG",
+      "size": 6041600,
+      "mtime_ns": 1791215809780007300,
+      "sha256": "75ad1e93d802e447f8731f5c477ea06c42fec6cd2852b57429a2ba6f8304db5f"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123121_0141_V.JPG",
+      "size": 5791744,
+      "mtime_ns": 1791215824950593000,
+      "sha256": "90a1a89efe0d6e7054df536c78cae9ce58d79c833bb12bb4d78c59965225d4bc"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123122_0142_V.JPG",
+      "size": 5582848,
+      "mtime_ns": 1791215816936966600,
+      "sha256": "94fb6cc247e800364fe530f36ba6b8b39c1bcee1bd6dd69607dc7345c5c6ef0e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123124_0143_V.JPG",
+      "size": 5398528,
+      "mtime_ns": 1791215828375347500,
+      "sha256": "6d07986fc06578a66278021260e72fa1fd2d79d4fadf4931afd51e737d4a7150"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123125_0144_V.JPG",
+      "size": 5558272,
+      "mtime_ns": 1791215810076116300,
+      "sha256": "f95a0ea67d2e80b58e44344b5a9011a55599c21de11290fa3808c10a142f2926"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123126_0145_V.JPG",
+      "size": 5308416,
+      "mtime_ns": 1791215819489722300,
+      "sha256": "8fe380e5612467325ce340d3f2f7faf72c1391fb5a34ac63057d3392153d9ccb"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123128_0146_V.JPG",
+      "size": 5259264,
+      "mtime_ns": 1791215809297463800,
+      "sha256": "118b6c4e550729df9bd6ec51005b1019dbdff5fc44078050248712567600f897"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123129_0147_V.JPG",
+      "size": 5271552,
+      "mtime_ns": 1791215824133127500,
+      "sha256": "822086660bea62067d682371a214a8507594f986a70d8dae1127d9f574409f11"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123130_0148_V.JPG",
+      "size": 5439488,
+      "mtime_ns": 1791215815432465700,
+      "sha256": "e7c8f7a49ec7043f0efca53b8d1b129de5b76c6d26235c3267a8b8e8571627cb"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123132_0149_V.JPG",
+      "size": 5566464,
+      "mtime_ns": 1791215812058151900,
+      "sha256": "af307eafa667698ac3184bdd4c222ca5ed46e2b6843ece961f2d85659631c5cc"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123133_0150_V.JPG",
+      "size": 5652480,
+      "mtime_ns": 1791215827011771000,
+      "sha256": "733b61aa69405c3146d0eb840f503579e2175c6990c48e20b61535e7891c72b2"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123134_0151_V.JPG",
+      "size": 5652480,
+      "mtime_ns": 1791215822683430000,
+      "sha256": "9686d5cce5995ace848b59c5281a613259c130e540e188c2dbcc6c7b05e23b52"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123136_0152_V.JPG",
+      "size": 5783552,
+      "mtime_ns": 1791215823067991700,
+      "sha256": "6c362a82b7f7dae52828e72691928851ad8387620b7786301247281838c3692d"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123137_0153_V.JPG",
+      "size": 5730304,
+      "mtime_ns": 1791215810372028100,
+      "sha256": "e30c3e33f0b57b784f92bebe683e9da91d42cc0951198bb281547cc4b9c75f39"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123139_0154_V.JPG",
+      "size": 5689344,
+      "mtime_ns": 1791215822280797800,
+      "sha256": "2c2e2f05a8e65e54b59bedbad6c5c8f5bfd7536a1bb0c2d4871b62b2ee52d0ea"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123140_0155_V.JPG",
+      "size": 5562368,
+      "mtime_ns": 1791215819979963500,
+      "sha256": "47bddebb31db93473eb648c8e4a9c6290780c6ece683a40e398a5d6026f19b1d"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123141_0156_V.JPG",
+      "size": 5398528,
+      "mtime_ns": 1791215817072899600,
+      "sha256": "9e0b0fcb204f1430415f71bfff991a2819f451bc7cd35953dec7527b081a3a09"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123143_0157_V.JPG",
+      "size": 5259264,
+      "mtime_ns": 1791215816275895500,
+      "sha256": "ad41075d77394bee297c6e8c567b3dc34536a459e720e0093b2a92c8b7916a3f"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123144_0158_V.JPG",
+      "size": 5033984,
+      "mtime_ns": 1791215820374504500,
+      "sha256": "6a5074e30dc2abf6b9027890f4406a8aff75d7dd60a367b85f22641cd14dd7ae"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123145_0159_V.JPG",
+      "size": 4993024,
+      "mtime_ns": 1791215814678089300,
+      "sha256": "71dfc89ea3b66afa900c572e79b2a81ccc7c88b88d92e8e1d244974c361042de"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123147_0160_V.JPG",
+      "size": 5099520,
+      "mtime_ns": 1791215809660494800,
+      "sha256": "7897518e7e9bce08bc75291c6d3bdd163ed206fb944ac86a44fc724640515679"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123148_0161_V.JPG",
+      "size": 5197824,
+      "mtime_ns": 1791215810289520700,
+      "sha256": "c12981441fd564c50ed801e285459f2f7e5ef7e4868a665961bfe57f573660da"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123149_0162_V.JPG",
+      "size": 5431296,
+      "mtime_ns": 1791215822892463300,
+      "sha256": "c8449bd47bd5eacfc03987d11b1f0c0e6464f72ed3d33d1b3c64b0705db04ea1"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123151_0163_V.JPG",
+      "size": 5660672,
+      "mtime_ns": 1791215808100125100,
+      "sha256": "6f5674bf0c034567f080d3ad0fa2f5c95c12e58299be2fc2e72096a808f798ab"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123152_0164_V.JPG",
+      "size": 5718016,
+      "mtime_ns": 1791215819429722500,
+      "sha256": "489a08f5b47aa3625612b87214f88e6ece048d4c924b772e05111da3313e65a5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123154_0165_V.JPG",
+      "size": 5648384,
+      "mtime_ns": 1791215808870324300,
+      "sha256": "1a56d855547e63c1594d8a11b26887697053a9a1e4936bffe18162416c6b59cf"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123155_0166_V.JPG",
+      "size": 5500928,
+      "mtime_ns": 1791215827616277900,
+      "sha256": "9d797d8f5c711b953cad551d471631e92ac37e93739042acf467a074b7f948dc"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123156_0167_V.JPG",
+      "size": 5668864,
+      "mtime_ns": 1791215812477612900,
+      "sha256": "fd2733d97f822e5c7645aa7a50ea4e28d2513d423f293432d66853d26f963ecb"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123158_0168_V.JPG",
+      "size": 5541888,
+      "mtime_ns": 1791215807817369400,
+      "sha256": "9ae726c23c3e5c48d8d4539e57ca44140493510787f11ae0661fcd3befe18779"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123159_0169_V.JPG",
+      "size": 5373952,
+      "mtime_ns": 1791215827980784200,
+      "sha256": "a08eaa2d6856bddbf98baa620b41ff5c191ee554eff63cc9f36164832f7d9d18"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123200_0170_V.JPG",
+      "size": 5206016,
+      "mtime_ns": 1791215817751975500,
+      "sha256": "1974f9d5a8827cd708da6fa6f491a48a57b50de9306c06500f5f0f70aad83b8e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123202_0171_V.JPG",
+      "size": 5148672,
+      "mtime_ns": 1791215820152487600,
+      "sha256": "ff801dd35ed98dd2d3bdff728b6b967ce48c12e99a00b0692bba92c177760aae"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123203_0172_V.JPG",
+      "size": 5251072,
+      "mtime_ns": 1791215816792951300,
+      "sha256": "038b2962fb75048c498d9e7e72c24502f88c7c8ccbff91682a261b4202467200"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123204_0173_V.JPG",
+      "size": 5402624,
+      "mtime_ns": 1791215815354953200,
+      "sha256": "9ba63cc12262d2bcf498a7e7d51b8f44c63c3fec98162ef0edb323b89c23de82"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123206_0174_V.JPG",
+      "size": 5529600,
+      "mtime_ns": 1791215815735622500,
+      "sha256": "c4020d90463aea926be931b0a786d5a3cb25c8841baae99922d0ba7ffbce77c6"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123207_0175_V.JPG",
+      "size": 5718016,
+      "mtime_ns": 1791215819293197100,
+      "sha256": "2a99acb4158549a97734e18f53a5b269a1295759e2caf8ee7abae83775c62d78"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123208_0176_V.JPG",
+      "size": 5734400,
+      "mtime_ns": 1791215818417394300,
+      "sha256": "0b2cc2d897bbeff062349b45020212f5546faea07f5e8468fc568906ed81592e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123210_0177_V.JPG",
+      "size": 5746688,
+      "mtime_ns": 1791215813212552600,
+      "sha256": "7e717dbb2b6d7ec5b679150e29b9a974b878bd760ccf0491f65ed4719b5af2e1"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123211_0178_V.JPG",
+      "size": 5726208,
+      "mtime_ns": 1791215814809128000,
+      "sha256": "c1aad66692a196e166d11e342f4aaf378d437247acb2fb6343ccbd90619623cb"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123213_0179_V.JPG",
+      "size": 5758976,
+      "mtime_ns": 1791215812166670500,
+      "sha256": "0382a4c4ba846492410766cbb004656229230240cc441a9fe241f88dd84759f1"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123214_0180_V.JPG",
+      "size": 5656576,
+      "mtime_ns": 1791215807743340600,
+      "sha256": "4efad9bdffc3e290ebfabded86bd837d935a2f0e151fd11d55f0ad7bbd0cbc0d"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123215_0181_V.JPG",
+      "size": 5525504,
+      "mtime_ns": 1791215827709292100,
+      "sha256": "6cc90c84c07df65c0ee8d302f382272abdde3ca68b456a99d8f31815c4b737a5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123217_0182_V.JPG",
+      "size": 5406720,
+      "mtime_ns": 1791215827265718900,
+      "sha256": "0b9f6ee54c44a4727b5d165c0d5f73a94118cdfcc962387f35a2e0393a41bcfb"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123218_0183_V.JPG",
+      "size": 5251072,
+      "mtime_ns": 1791215828040303300,
+      "sha256": "c96bb8c3deac91dc22cf11c5ec7a461fa283b5ec418ab84349c2be685b3242e3"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123219_0184_V.JPG",
+      "size": 5259264,
+      "mtime_ns": 1791215810169007100,
+      "sha256": "c1979a18e311ee23016f6ad41da1d6ed611d88c0fae98ef7c4ad28ecda326771"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123221_0185_V.JPG",
+      "size": 5226496,
+      "mtime_ns": 1791215809406479100,
+      "sha256": "1d9355071b76005bba61fbbb3e57a38ef738491f9f6da1e2a26f70346fdd3846"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123222_0186_V.JPG",
+      "size": 5210112,
+      "mtime_ns": 1791215818033952700,
+      "sha256": "62a3a477a6b6d6af4fdc07d3ddd24327b83d75a4a2c7953fc3e9dafc46c1e644"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123223_0187_V.JPG",
+      "size": 5287936,
+      "mtime_ns": 1791215816863457400,
+      "sha256": "b4e7f34d5402ee30da878e37fac5d8d001cbaa20b4ac05799f767fb89a923cf9"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123225_0188_V.JPG",
+      "size": 5505024,
+      "mtime_ns": 1791215809164946700,
+      "sha256": "9dd090cefd85de98ce629cfeb1ed1aa3f569c894c808244cac6904c23c09d744"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123226_0189_V.JPG",
+      "size": 5738496,
+      "mtime_ns": 1791215820845051500,
+      "sha256": "e7798a37610f7834be67cbc5047915023c450d9440123fffb5238475e4ddfc2e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123227_0190_V.JPG",
+      "size": 6008832,
+      "mtime_ns": 1791215807979605600,
+      "sha256": "f46dccae9470116c1f1966806c4b6e674431640afa7d2ffd82b67efeee753c8a"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123229_0191_V.JPG",
+      "size": 6152192,
+      "mtime_ns": 1791215821153590900,
+      "sha256": "eeaf3431f0832308375e123824d22ce7d9d9b5a29d24fe040fbcaf066bbf3f99"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123230_0192_V.JPG",
+      "size": 6004736,
+      "mtime_ns": 1791215824294153300,
+      "sha256": "d93d5665f8999dad35966d723779e88913b95e198655fd763365ed429e1de3fe"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123232_0193_V.JPG",
+      "size": 6004736,
+      "mtime_ns": 1791215823799443100,
+      "sha256": "e022f1a643e5dfc3894ec0f313c8085ddaf46e103ec25e3cc48aa6beb6438852"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123233_0194_V.JPG",
+      "size": 5996544,
+      "mtime_ns": 1791215808600692000,
+      "sha256": "aac699257c10eb8050e43356df5c1daf15f06a3ca17fe5c61a987c980d612fde"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123234_0195_V.JPG",
+      "size": 5931008,
+      "mtime_ns": 1791215810411538700,
+      "sha256": "024bda8668b944f7cf96b4565a903a651ae2cc9c3b6b9cc2778bbcf3bf104c21"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123236_0196_V.JPG",
+      "size": 5681152,
+      "mtime_ns": 1791215810456538400,
+      "sha256": "b8f2a00b40485c5dda1450367654aba591ebb8345922ba4c69805c7ab7ceb524"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123237_0197_V.JPG",
+      "size": 5533696,
+      "mtime_ns": 1791215822792950800,
+      "sha256": "65145bb8efc7d46f56adef88e37d494b4d6860fbec9a05e21012b81e9feeddfd"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123238_0198_V.JPG",
+      "size": 5562368,
+      "mtime_ns": 1791215809953099900,
+      "sha256": "1481f16ea14ca9df1155ae3723f1a759ae8311be37a732ee9abd5691e960c1ff"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123240_0199_V.JPG",
+      "size": 5500928,
+      "mtime_ns": 1791215821486117500,
+      "sha256": "f3281dd4678dc6b51c5fabd8f2c45e1e4dde7f10aad112489a79c962c07c63de"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123241_0200_V.JPG",
+      "size": 5513216,
+      "mtime_ns": 1791215811327547600,
+      "sha256": "a9aa4429e98c67624f3999f06d6ebf210e10613ee18400b16a06e3bc06d41145"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123242_0201_V.JPG",
+      "size": 5566464,
+      "mtime_ns": 1791215818291485400,
+      "sha256": "08be91c64e4dfe8a544e90a35563d934a0b2b83954796379246efa0734c7c83c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123244_0202_V.JPG",
+      "size": 5627904,
+      "mtime_ns": 1791215808415626500,
+      "sha256": "6a8eb18d0e1c183fe18bd84bd2c1b6662a4f700d7822bdd44d5075408932efb5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123245_0203_V.JPG",
+      "size": 5734400,
+      "mtime_ns": 1791215826331614400,
+      "sha256": "a9da13c4343541331b1d981a5114baad541b11052be33702906a7d47b00546ba"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123246_0204_V.JPG",
+      "size": 5775360,
+      "mtime_ns": 1791215817567954900,
+      "sha256": "e56c6e8facd4e82d5c8c2c7facf77635ae7c876760814abd0f41da8d37349366"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123248_0205_V.JPG",
+      "size": 5804032,
+      "mtime_ns": 1791215824869082700,
+      "sha256": "1802d37e8b2d8384ca9f4ec60f017b8d8f91ac8d1a5985d0ff767f2ed57c7212"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123249_0206_V.JPG",
+      "size": 5885952,
+      "mtime_ns": 1791215810906691700,
+      "sha256": "3856e5fc2edec8236bdd9bbfb1a748c54cf31b6c3a21b7f62281174cec9a9488"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123251_0207_V.JPG",
+      "size": 5926912,
+      "mtime_ns": 1791215827920784700,
+      "sha256": "6cc182598bee6dd390f1001967afc5a51bfcc5f0f38579f6da7d39d16284567a"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123252_0208_V.JPG",
+      "size": 5955584,
+      "mtime_ns": 1791215821565709300,
+      "sha256": "9472f393872cf42fe1d1925226addf3d604090a7ecb965d5893fd672dee69230"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123253_0209_V.JPG",
+      "size": 5902336,
+      "mtime_ns": 1791215815511972800,
+      "sha256": "a7cf4ad337998f0487fc77c456d31995d993f2abb57e8818eebd37e6c3213c3c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123255_0210_V.JPG",
+      "size": 5763072,
+      "mtime_ns": 1791215819045463900,
+      "sha256": "154ffbea0e548eba13fe2b273a648718a29dddcee96613ba77dc709579e25080"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123256_0211_V.JPG",
+      "size": 5664768,
+      "mtime_ns": 1791215810507048700,
+      "sha256": "ad4cb95c7afcd5ae9c44fa3f0c5c013b61f0e1e36557bfd1153a2125118ef710"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123257_0212_V.JPG",
+      "size": 5586944,
+      "mtime_ns": 1791215825713717200,
+      "sha256": "6d18fe510642e9db294cce0499d6f484be91af98b95133d182f2994bdb69cde2"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123259_0213_V.JPG",
+      "size": 5529600,
+      "mtime_ns": 1791215817248920000,
+      "sha256": "cd805d62412d7696209ab323b8e6a1f8389484bf01ee91fc06b66e2a836b9070"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123300_0214_V.JPG",
+      "size": 5550080,
+      "mtime_ns": 1791215820074472500,
+      "sha256": "1ac4390aa95f7dc28df35708a60852604dd3985e5bbdb13ddf62b9688d1894a8"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123301_0215_V.JPG",
+      "size": 5615616,
+      "mtime_ns": 1791215816708947700,
+      "sha256": "c4ec34853d75ad87ecd0b5e5862d16cdbefffd9e4b8c2cd639f4ebcff2c06c93"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123303_0216_V.JPG",
+      "size": 5754880,
+      "mtime_ns": 1791215816541423600,
+      "sha256": "f8bcd895fa400d3416e3e914d6a3b95f19ad3f02c8cc74ceb11ecbae81b7ae71"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123304_0217_V.JPG",
+      "size": 5865472,
+      "mtime_ns": 1791215812289064400,
+      "sha256": "f2d020ebb8f24aa73305d94fdfe7f131a1e400234e9afbef5ef3cf053b20487e"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123306_0218_V.JPG",
+      "size": 5984256,
+      "mtime_ns": 1791215822203290900,
+      "sha256": "793681ba03fd5822a5269e4f1f9bd2675219b4e9d4c2258bd22b98ffff32d745"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123309_0219_V.JPG",
+      "size": 5980160,
+      "mtime_ns": 1791215821766241800,
+      "sha256": "ed6eb637b2bab0e9495a0d8e2fb34631dae08c965d2957fdc6bef2173e638fb3"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123311_0220_V.JPG",
+      "size": 5939200,
+      "mtime_ns": 1791215808378114800,
+      "sha256": "67a49b8b4e00e2d3a8742570ed47c794f51526cb3d885ef11816403aa5dac5de"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123312_0221_V.JPG",
+      "size": 5918720,
+      "mtime_ns": 1791215821674223800,
+      "sha256": "a46a68641fb5c97853db98d13f825f96363c61ebd7f91b3f716b899128a92985"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123313_0222_V.JPG",
+      "size": 5931008,
+      "mtime_ns": 1791215811460081900,
+      "sha256": "e8d6b4c6d14533d721844fc4171d4c991fb417b7d9e6aff41c603130188c9c5f"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123315_0223_V.JPG",
+      "size": 5988352,
+      "mtime_ns": 1791215823983106000,
+      "sha256": "1df8e3a56a98db92622f4ea7c3de306d31e11ca343f26c69c7df149cd0f81302"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123316_0224_V.JPG",
+      "size": 6008832,
+      "mtime_ns": 1791215814894134500,
+      "sha256": "6eab4cea21831bed342e34cbf2c3d25e6f9ce1acee49d388ccea6f1dbbd0b668"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123317_0225_V.JPG",
+      "size": 6119424,
+      "mtime_ns": 1791215820463014100,
+      "sha256": "76c91b5abb044650a5531c8cfaf55a6db8aa7cb2528b4a0ef3b370edcf30a37d"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123319_0226_V.JPG",
+      "size": 6172672,
+      "mtime_ns": 1791215808183638600,
+      "sha256": "23395f1ae76d44c5c5e1bd653726233bdf003948d7c9a0b6fc2b533fd74a0f3c"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123320_0227_V.JPG",
+      "size": 6197248,
+      "mtime_ns": 1791215822405894900,
+      "sha256": "cd06a43cfe14de68eb5f71b63ee36e01b4769fb9c0af8cc072a1b5ce900059b7"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123322_0228_V.JPG",
+      "size": 6156288,
+      "mtime_ns": 1791215811868114300,
+      "sha256": "528d5d2d719595a7e358eca2fdbe60443f7690de8b716f6b6142876a484b7a57"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123323_0229_V.JPG",
+      "size": 6094848,
+      "mtime_ns": 1791215821862753000,
+      "sha256": "ee96e5d46a056f864caba5007476ad04409447bb1d5aa954131a6f6e41fd5116"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123324_0230_V.JPG",
+      "size": 6025216,
+      "mtime_ns": 1791215823530410900,
+      "sha256": "7afcd68e2cb6b22fc20c1e45c52ec7fdd9874323d0799e5f14fef19ee8385a35"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123326_0231_V.JPG",
+      "size": 6066176,
+      "mtime_ns": 1791215825307158700,
+      "sha256": "ffb9ed4f94fba7e8eaf2a96358ee1641a21ccf9c5587f991daa3525a9ac8fce6"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123327_0232_V.JPG",
+      "size": 5971968,
+      "mtime_ns": 1791215810733078300,
+      "sha256": "92d296a2db1e1d37cc0357dace1a3a176fab35561a53320c6b2ad4274b8ef765"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123328_0233_V.JPG",
+      "size": 5992448,
+      "mtime_ns": 1791215811141165000,
+      "sha256": "d660f0ec8b7b715d94db686029d544dc8367d3cb4e56eaabf5eef7a218634b03"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123330_0234_V.JPG",
+      "size": 5939200,
+      "mtime_ns": 1791215825114614600,
+      "sha256": "01a70c3d5df9d6c0102d3d676704f78ccba1310d245f5668e5c54b4de64a0510"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123331_0235_V.JPG",
+      "size": 5939200,
+      "mtime_ns": 1791215809568987900,
+      "sha256": "f587eb6077d9e7ff2738ac22696f27912f865e214c74feb81588c3e38d579678"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123332_0236_V.JPG",
+      "size": 5890048,
+      "mtime_ns": 1791215817869927200,
+      "sha256": "00038ded28a6c31a10463f54ce970c6058eaf3dcad3513a1e33bec40e182e4d5"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123334_0237_V.JPG",
+      "size": 5869568,
+      "mtime_ns": 1791215808017119300,
+      "sha256": "eb12a843c89fa917e9d8818c349ed23a1f58b767e422fa2c72dfeabd805e8e03"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123335_0238_V.JPG",
+      "size": 5836800,
+      "mtime_ns": 1791215809062452000,
+      "sha256": "28fb861606b5174292413bc2fa72aa8adb3bda067bfb9fad75530a25e6892b9b"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123336_0239_V.JPG",
+      "size": 5890048,
+      "mtime_ns": 1791215820774540800,
+      "sha256": "69dc2b165c19177c1e23a334d5628f41dc2072ed6d5186b560b29b1c77af64d1"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123338_0240_V.JPG",
+      "size": 6037504,
+      "mtime_ns": 1791215808059119900,
+      "sha256": "c7a506b350e939ce8ac1e39767e88c410572414166fdae9d195e49d0f8570c23"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123339_0241_V.JPG",
+      "size": 6184960,
+      "mtime_ns": 1791215828660880800,
+      "sha256": "2d0227a0d66bd3f0fbfef08706a00176b84eb14be876b283f8705522137a7914"
+    },
+    {
+      "path": "Gorgon LGL/DJI_20261002123341_0242_V.JPG",
+      "size": 6303744,
+      "mtime_ns": 1791215815882133600,
+      "sha256": "f95528d0667f35b5b5c73c9a60326ac719a9bbb7d096095c7b92e63606446b75"
+    },
+    {
+      "path": "Gorgon LGL/ppk_file_name.pbk",
+      "size": 29,
+      "mtime_ns": 1791215807551309600,
+      "sha256": "0e812734092ea5b4116698ff7266a01542628fde7ac09e029a1cc8f6dafb141e"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094440_0001_V.JPG",
+      "size": 8351744,
+      "mtime_ns": 1791581882140163400,
+      "sha256": "2334220256f039a95d9d73f6e04f0483d51841bc618d6921fafcbf832dba3f0b"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094441_0003_V.JPG",
+      "size": 8200192,
+      "mtime_ns": 1791581875387662500,
+      "sha256": "6418db465a714d571c1e539460133f22cfb58288f1fc31d6cb0aee88e02b7e14"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094442_0002_D.MRK",
+      "size": 32858,
+      "mtime_ns": 1791581882530663400,
+      "sha256": "aa5d5f34a5948f9bb0b7dd035d0a71341812bf52d7a99381de1e238ddc1114bc"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094442_0002_D.NAV",
+      "size": 29692,
+      "mtime_ns": 1791581876276162800,
+      "sha256": "d2e847e6cb92756a90396930070c0c1102b17a6fec3451b1589a8b45bb32039c"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094442_0002_D.OBS",
+      "size": 24328764,
+      "mtime_ns": 1791581872469663800,
+      "sha256": "742a24dbaf779b3489d395ecf51fed56bd0bc4109f3903b28a9c85d568365766"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094442_0002_D.RTK",
+      "size": 2333846,
+      "mtime_ns": 1791581871909662600,
+      "sha256": "3b460f3259e95ee21cc6e99d14a34d005f64e45b2e6f189c46f1bb1341ba86c7"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094443_0004_V.JPG",
+      "size": 7884800,
+      "mtime_ns": 1791581876527163900,
+      "sha256": "01afa07f971ac5429d50250fd43ef1d5a3776decd483a20eac67aaa0fb63f981"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094444_0005_V.JPG",
+      "size": 7643136,
+      "mtime_ns": 1791581874368663900,
+      "sha256": "3154806a32eb06b2fbf6a0a631c8e43db6c1e257a64b2a448f4d0ec9dfc25fc5"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094445_0006_V.JPG",
+      "size": 7458816,
+      "mtime_ns": 1791581879584663500,
+      "sha256": "799a6a3a9c6313f6c489465fafed2e38d910b882cddb679150eff7275a4dda05"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094447_0007_V.JPG",
+      "size": 7270400,
+      "mtime_ns": 1791581879772163000,
+      "sha256": "09128ae47d742a7cfae26b16ee69f041de8abb685326eb6ecf45ef1f78e7ccb3"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094448_0008_V.JPG",
+      "size": 7266304,
+      "mtime_ns": 1791581875760663500,
+      "sha256": "fb3fb2103a1bc17b6c76488a978c74082a8bce7c05fd880429a5da34b42e5351"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094449_0009_V.JPG",
+      "size": 7286784,
+      "mtime_ns": 1791581879296662800,
+      "sha256": "69589737622799d48233daacdfd5fcc88b4c1d955329b3e82c3e3b9a35dcbeb1"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094451_0010_V.JPG",
+      "size": 7393280,
+      "mtime_ns": 1791581873637162700,
+      "sha256": "80b11c346d401f61a6a8b0d49021c66eb1359e1e41554bf01b22213eb56a9c4e"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094452_0011_V.JPG",
+      "size": 7626752,
+      "mtime_ns": 1791581877816662300,
+      "sha256": "79f6da7598a33feb78073094364a4547d2bc6b7ab79dbe95f6cdbf2025663cc4"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094454_0012_V.JPG",
+      "size": 7794688,
+      "mtime_ns": 1791581871504162400,
+      "sha256": "e786e18b42eca8e3655d76c1ff97249f5d928f99455baa152f2b5e33df3221f2"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094455_0013_V.JPG",
+      "size": 7524352,
+      "mtime_ns": 1791581881834162600,
+      "sha256": "fdddbbd63385d85beb4e8096dde2835508ff5655fad72c9a83ba4d7adc26cc88"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094456_0014_V.JPG",
+      "size": 7553024,
+      "mtime_ns": 1791581877717162400,
+      "sha256": "2132b582a4e7568c171db4ef216ea69b9297cf137b866159d7682dc042573da5"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094458_0015_V.JPG",
+      "size": 7831552,
+      "mtime_ns": 1791581881009162500,
+      "sha256": "ffc1d169e7eee238b0a9866cdd4315751104e0f81c1b34238f04e11b2f1dee8e"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094459_0016_V.JPG",
+      "size": 7892992,
+      "mtime_ns": 1791581873788663200,
+      "sha256": "37cd07a8b13667442c90ced773e828f73feb2f9e4c3a320b612009a7220f2e93"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094500_0017_V.JPG",
+      "size": 7987200,
+      "mtime_ns": 1791581882510665400,
+      "sha256": "554632c45d064566fbb2aa3cae4b6518b1ee7445d066d1bc69c927a1426d9a20"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094502_0018_V.JPG",
+      "size": 8056832,
+      "mtime_ns": 1791581871554163100,
+      "sha256": "a1516cf74afa879de477f7c7960f73343f1c4d90f4600df9d449e21df392c71f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094503_0019_V.JPG",
+      "size": 8212480,
+      "mtime_ns": 1791581882955164600,
+      "sha256": "19769973cddc5066545893ec7910edbd2f7dc3f403cc0891b4c3de704fd36f86"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094504_0020_V.JPG",
+      "size": 8413184,
+      "mtime_ns": 1791581880350162900,
+      "sha256": "0b7a725b3f915b8cbac9cd3250b00dd3e5502ceb2ce44538ba09e013869b7612"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094506_0021_V.JPG",
+      "size": 8429568,
+      "mtime_ns": 1791581878886165600,
+      "sha256": "00cf9ea0d9e7f7bd7dfe270e60908b239cedc8f8214d7580d8184f33ddd10618"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094507_0022_V.JPG",
+      "size": 8318976,
+      "mtime_ns": 1791581875129162800,
+      "sha256": "c35fba9ba99ad729b0f3af1b41b672d02f0efd77de7f4b6b6334e78c04c43e6f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094508_0023_V.JPG",
+      "size": 8134656,
+      "mtime_ns": 1791581874529664100,
+      "sha256": "3217491fe2fb709611715cab3d80c03d7b2c0940d182061c69aac3df44233782"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094510_0024_V.JPG",
+      "size": 8138752,
+      "mtime_ns": 1791581879443164200,
+      "sha256": "e1afc12604a9fb66966519df5a8fc87b3dfc138d23d6d40b3d5a64c9695ddb49"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094511_0025_V.JPG",
+      "size": 7921664,
+      "mtime_ns": 1791581876054663500,
+      "sha256": "4615c058498ceced27f119f509677a9ac36a14d1d290caef43e26f03b649acdd"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094513_0026_V.JPG",
+      "size": 7577600,
+      "mtime_ns": 1791581875905163500,
+      "sha256": "af8ad568e15dc7e8f669d2a7ca4024c7c34555d9a50f9bb11479581a5fc79103"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094514_0027_V.JPG",
+      "size": 7581696,
+      "mtime_ns": 1791581877292662700,
+      "sha256": "cf4b87727ed23a6999985bdbcb59dcf70802249f6b981f2e58939ba682e3085d"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094515_0028_V.JPG",
+      "size": 7258112,
+      "mtime_ns": 1791581876204663500,
+      "sha256": "3f76e739da807b062e3cc365db9433a9d284b1f7297fd847d4839af2358d21c5"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094517_0029_V.JPG",
+      "size": 7053312,
+      "mtime_ns": 1791581877575162800,
+      "sha256": "b9ab8183a0ae023d996e6a8cff2d172bfca2d085598095ee9519f29e6f76c901"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094518_0030_V.JPG",
+      "size": 7000064,
+      "mtime_ns": 1791581873198162300,
+      "sha256": "d4e4a16d61969bd4ef86f4a5aa11f26938ca46cb22866f0c134398ab0c498ea8"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094519_0031_V.JPG",
+      "size": 7016448,
+      "mtime_ns": 1791581881386662200,
+      "sha256": "20529c602f1408f825ca6ad731b48bb02daf2739458f2f2d80f11e785b1f92c0"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094521_0032_V.JPG",
+      "size": 7020544,
+      "mtime_ns": 1791581880671662700,
+      "sha256": "fbd76add1c83bf7c015cd09966cef2ccd906b680cf7f180e426b076d0b4b4031"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094522_0033_V.JPG",
+      "size": 7016448,
+      "mtime_ns": 1791581877108663100,
+      "sha256": "74f7a83a974c4e30904cc5bc171a3c5622dfa4d9104b29215ea7872040310dfa"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094523_0034_V.JPG",
+      "size": 6881280,
+      "mtime_ns": 1791581879107664100,
+      "sha256": "5d43e11c6d86ca53f5f7909d9ca84c5637b3d358db3aee8f6b28e18df52a3e3d"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094525_0035_V.JPG",
+      "size": 6799360,
+      "mtime_ns": 1791581872764162500,
+      "sha256": "0cf6bcdafd36d5170cb6e96c3e32fd6270ca3be8755eb5b7f230d8247fa72339"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094526_0036_V.JPG",
+      "size": 6873088,
+      "mtime_ns": 1791581878222163700,
+      "sha256": "28c294ba6b357f0de28246f96d29ecdcc0e1f48633ca4b2c3630cfe35bd05ef8"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094528_0037_V.JPG",
+      "size": 6983680,
+      "mtime_ns": 1791581872202163900,
+      "sha256": "84c96faddb98444a38933dddb235fe1054f6015f4a3ca090d02a5f2d1a808748"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094529_0038_V.JPG",
+      "size": 7266304,
+      "mtime_ns": 1791581873346662700,
+      "sha256": "af0b6cb223d634fa48fa19c8d03bff408895ce3fa3c5c7afbe17c891a397c2d5"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094530_0039_V.JPG",
+      "size": 7479296,
+      "mtime_ns": 1791581875709663600,
+      "sha256": "b9d195377f833d5ecd80c227ee8f5a878f68a7582529e780f1265f1079cc9593"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094532_0040_V.JPG",
+      "size": 7823360,
+      "mtime_ns": 1791581874472164000,
+      "sha256": "f019714af2584b577f2d6318438cb27618c8bfdfe70bc221c3ca92173332eae0"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094533_0041_V.JPG",
+      "size": 8216576,
+      "mtime_ns": 1791581879828163200,
+      "sha256": "169a7611635e59db73aee26f28931a455f629a052ec3ade2211e518df46cceb3"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094534_0042_V.JPG",
+      "size": 7708672,
+      "mtime_ns": 1791581878080162500,
+      "sha256": "47314569efc2405c0cb2877b5b9b0ea566e94f741e4ad3528120e4bc87387a49"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094536_0043_V.JPG",
+      "size": 7979008,
+      "mtime_ns": 1791581878502162400,
+      "sha256": "175f15ca7adefb166507196ede42139250066c17df34dd1d84c6a362021d288a"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094537_0044_V.JPG",
+      "size": 7548928,
+      "mtime_ns": 1791581875183162900,
+      "sha256": "aa6fdb5f9b6ccb6cda088bdafafff9b1e95267b225802b7fb8fa01364963a1fb"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094538_0045_V.JPG",
+      "size": 7507968,
+      "mtime_ns": 1791581874678662900,
+      "sha256": "ffd704256043e3aee4bf0f893288c0d462f7741a1a7b8c9f778195b4b2056468"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094540_0046_V.JPG",
+      "size": 7135232,
+      "mtime_ns": 1791581881535664300,
+      "sha256": "9fb7fd08fa69b12d63950f054790080f233c7c70538e70dddf9f72623e3cff09"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094541_0047_V.JPG",
+      "size": 6791168,
+      "mtime_ns": 1791581873244163800,
+      "sha256": "e90cf4b371ae1358e75f2279ae5544d6fe838741974da131033d13ad75a335e7"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094542_0048_V.JPG",
+      "size": 6500352,
+      "mtime_ns": 1791581877243663000,
+      "sha256": "237dd678312cd2cdad29cc3c7b6435042de5ee93f8f3b1113eaca6c820a1fd52"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094544_0049_V.JPG",
+      "size": 6303744,
+      "mtime_ns": 1791581882808662700,
+      "sha256": "c93b2b78e37f7908e621e57cbebc0c04c2786bfe891d776a8c83da6b04c2d155"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094545_0050_V.JPG",
+      "size": 6422528,
+      "mtime_ns": 1791581875569162900,
+      "sha256": "3998f99b76a979a5a4e6c3d328e76f7b99929f4fce6dbfdf2f1ac47f421ad6d3"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094547_0051_V.JPG",
+      "size": 6438912,
+      "mtime_ns": 1791581875072663800,
+      "sha256": "a1333a7e4c521f4e4d11a64e7c6cc2eb5807db509f4042446e6b5fd652bed60a"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094548_0052_V.JPG",
+      "size": 6483968,
+      "mtime_ns": 1791581876004163000,
+      "sha256": "93baecb2f95355e165f0366500edab89d9cc93a1d94e6bf4e9cae3b533a35f4c"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094549_0053_V.JPG",
+      "size": 6434816,
+      "mtime_ns": 1791581879343665800,
+      "sha256": "a0d64bf80446f65cfd853048bd9b05a55266c154d742c81a1e988f701cdf11fe"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094551_0054_V.JPG",
+      "size": 6361088,
+      "mtime_ns": 1791581874627163200,
+      "sha256": "97fd2bf78f2bd9d37d134f2f7e2f0b5ffa35e412be347f7bed25c866ed3fbf30"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094552_0055_V.JPG",
+      "size": 6418432,
+      "mtime_ns": 1791581883002164000,
+      "sha256": "86b4e005cfec3666ef6161e507c9f7225f68708760f65347c744437353b4a778"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094553_0056_V.JPG",
+      "size": 6615040,
+      "mtime_ns": 1791581871645162800,
+      "sha256": "26fa4913a377ae54924545190655bf4f41772814b3781199fb7c3b83199d4fb6"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094555_0057_V.JPG",
+      "size": 6746112,
+      "mtime_ns": 1791581878652164300,
+      "sha256": "c36a4091e3a40cd572d8e79324bb11f50de516692bc4cd80c712217c22ed9948"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094556_0058_V.JPG",
+      "size": 6848512,
+      "mtime_ns": 1791581880529162500,
+      "sha256": "114e117069880095c862870f20d0b9af06a35c7c62a1bcf04d039509a9f8f9f4"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094557_0059_V.JPG",
+      "size": 7233536,
+      "mtime_ns": 1791581873543163800,
+      "sha256": "31bb7f36d6177de413c0a4c9195472de136a9b5803f5ff25c9e9ac0e6f3f5163"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094559_0060_V.JPG",
+      "size": 7618560,
+      "mtime_ns": 1791581882413662500,
+      "sha256": "62e91915edef95195e01782e25c31564b2a80a2815c76281d299c433b11b8e71"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094600_0061_V.JPG",
+      "size": 7839744,
+      "mtime_ns": 1791581881245662500,
+      "sha256": "b29c54f988e40edf189790432f2576db027a2a33e18153f03939fcc2513dfe01"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094601_0062_V.JPG",
+      "size": 7991296,
+      "mtime_ns": 1791581873396662500,
+      "sha256": "77368f8238ab3cf6c59c46e2228f86e0bcbc3c9cd2159f3bfc05df22997ee946"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094603_0063_V.JPG",
+      "size": 8048640,
+      "mtime_ns": 1791581872813662400,
+      "sha256": "0799ca4f4a98c0cb128a9be02fa2be7051fb7aed0efc5296471ea206dabba692"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094604_0064_V.JPG",
+      "size": 7983104,
+      "mtime_ns": 1791581872623191300,
+      "sha256": "bb8d533554b6e3545414c96258733931ca484caab914b46341ff26c3e3419b11"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094606_0065_V.JPG",
+      "size": 7663616,
+      "mtime_ns": 1791581873687662800,
+      "sha256": "8a3f3570333e14436c7a0a4919f4900932e6a3081caed3eac2667980fe68113d"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094607_0066_V.JPG",
+      "size": 7340032,
+      "mtime_ns": 1791581881057163700,
+      "sha256": "2c9577c18a3c19bb475d0925ebbe01f56231f0eca9db22b88c8c4dd9868056b6"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094608_0067_V.JPG",
+      "size": 6975488,
+      "mtime_ns": 1791581881582162500,
+      "sha256": "251cc876993ece432d21897e48e575044149f429ac4efa54d3f8af4a5b1c2cdf"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094610_0068_V.JPG",
+      "size": 6647808,
+      "mtime_ns": 1791581882274163900,
+      "sha256": "f061253fba76e65beda0208144319f82ed08ce9bb8d77e30e934d444ff21abd4"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094611_0069_V.JPG",
+      "size": 6533120,
+      "mtime_ns": 1791581871137164800,
+      "sha256": "be9079b146a097605e9597d2b2302b20a2d430874156bc707ebfbbad0e243a6b"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094612_0070_V.JPG",
+      "size": 6344704,
+      "mtime_ns": 1791581881880663000,
+      "sha256": "76e0d630ed6f6fa3cd549d080a6b72672779e598a74aca0288c63f5e58cd1f6d"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094614_0071_V.JPG",
+      "size": 5988352,
+      "mtime_ns": 1791581876448163500,
+      "sha256": "7f06fabeefe93d620b9ac7bdd8f869239100f0230f5a003fd449de977f454edd"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094615_0072_V.JPG",
+      "size": 5992448,
+      "mtime_ns": 1791581877940163500,
+      "sha256": "691e91a7d6ceda014ff9ff3d5366f698219e2050f01805356e0a71a35b3be658"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094616_0073_V.JPG",
+      "size": 6000640,
+      "mtime_ns": 1791581874082662500,
+      "sha256": "24e527a42d296857480001e667533af526abcb32aca11d626a034f170f808a00"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094618_0074_V.JPG",
+      "size": 6135808,
+      "mtime_ns": 1791581879917665500,
+      "sha256": "b94de7a847e30fca726d2a9d80c25d79e05033afea6c0c434467334ea9d5ff40"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094619_0075_V.JPG",
+      "size": 5992448,
+      "mtime_ns": 1791581874964663100,
+      "sha256": "2f801da627549c2fa16e3e17ee37b4a7b3cae5dd264056ebe88490a0ac7b69c4"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094620_0076_V.JPG",
+      "size": 6094848,
+      "mtime_ns": 1791581882666663000,
+      "sha256": "dbfa7ecc62e4163e5ac3128cced027eab052b980c39207747081ddf44a84df52"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094622_0077_V.JPG",
+      "size": 6086656,
+      "mtime_ns": 1791581882185163100,
+      "sha256": "b9414857d101c58664ab0bd7a6ffc15e529fb5f1a6b788b50a34d58ce21effa2"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094623_0078_V.JPG",
+      "size": 6160384,
+      "mtime_ns": 1791581882852662500,
+      "sha256": "308eabded4c0c8decb0745245112b3f425f426353d670f037e52eba88566a545"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094625_0079_V.JPG",
+      "size": 6602752,
+      "mtime_ns": 1791581877199164500,
+      "sha256": "bfa4a87b6e35a803c724c9105a9e7ff999d6ebcd09649a31c422949acd7fd4da"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094626_0080_V.JPG",
+      "size": 6979584,
+      "mtime_ns": 1791581878765165400,
+      "sha256": "e652880bd7d4d12d97331758216302e9db4e5ac05fec8bbbcb83d89730d35ac0"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094627_0081_V.JPG",
+      "size": 7483392,
+      "mtime_ns": 1791581875233163400,
+      "sha256": "df3eac33494784302e8c6a57d4176a092f88d8ac4f0d96ae907c77426a4610e1"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094629_0082_V.JPG",
+      "size": 7933952,
+      "mtime_ns": 1791581881785164000,
+      "sha256": "452059418ae0cbc67cf81f2b203b06927d1f26088fe671fdf63c23c43c9a1dad"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094630_0083_V.JPG",
+      "size": 7823360,
+      "mtime_ns": 1791581878129662300,
+      "sha256": "830cb1c73c5925689c049320ca1bbc3aa6241e1cccc419d4d421a2088754de76"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094631_0084_V.JPG",
+      "size": 7966720,
+      "mtime_ns": 1791581876151663500,
+      "sha256": "849d00081c60d6cf1e3e93dce0dfef64341aafff742e5305608bf8e023105caa"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094633_0085_V.JPG",
+      "size": 7434240,
+      "mtime_ns": 1791581874419663400,
+      "sha256": "29bd7a460599120922ca87824e20fcc082af04962cdebd70e6577bbbc977c81a"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094634_0086_V.JPG",
+      "size": 7503872,
+      "mtime_ns": 1791581877389162700,
+      "sha256": "f906e6e789b5a760cecaeed5764ad9155d6317675e4bcc68f9e96ef7e61c9501"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094635_0087_V.JPG",
+      "size": 6995968,
+      "mtime_ns": 1791581877987166000,
+      "sha256": "f5e3f1e4970f2f9bb4e17fabf462764cbcccee400cbae06864d45451d4d7c935"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094637_0088_V.JPG",
+      "size": 6615040,
+      "mtime_ns": 1791581877434664100,
+      "sha256": "509fbdf5c96cbe6052f09feae4e7d502f651cf6d120b361e04063746e9478c24"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094638_0089_V.JPG",
+      "size": 6041600,
+      "mtime_ns": 1791581877152665600,
+      "sha256": "f4cdca7fdc745b1099f69314f554e1f45e22e30e1a08684c39ed82ea1b1f5a08"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094639_0090_V.JPG",
+      "size": 5959680,
+      "mtime_ns": 1791581881289162700,
+      "sha256": "97861f38777ba335e01230418d13587d45afb074467154b3bd62c8927fe9815f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094641_0091_V.JPG",
+      "size": 5881856,
+      "mtime_ns": 1791581875613662500,
+      "sha256": "06d11b922230725d2c4c6e3572a7752ee8b6db4f3a41effd2bd2a7010d4dabd3"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094642_0092_V.JPG",
+      "size": 5840896,
+      "mtime_ns": 1791581883104162500,
+      "sha256": "a176102542f73f76a9f9b70c96d40b58a60a4ac308d4096c17752b0b42921bff"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094644_0093_V.JPG",
+      "size": 5935104,
+      "mtime_ns": 1791581876907165400,
+      "sha256": "e33b27c8db5dcabca6b7e567fffcc37d1fd40df3e90e8963715665d8ef5a3b4f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094645_0094_V.JPG",
+      "size": 5861376,
+      "mtime_ns": 1791581879153663700,
+      "sha256": "6ee9201667dceab0dda4a08fe6d2bebc127a0b2ffa2716585652d917e49216c9"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094646_0095_V.JPG",
+      "size": 5754880,
+      "mtime_ns": 1791581871951164700,
+      "sha256": "8023622a9676cc6290fd8ac75e89ea191a795364f9461d6bfe6e0d8f21738d01"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094648_0096_V.JPG",
+      "size": 5804032,
+      "mtime_ns": 1791581879626662500,
+      "sha256": "69b2527fcb348cbcf2417e22b5521da2557fa0e7ca7ca92fead236423444bc17"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094649_0097_V.JPG",
+      "size": 5963776,
+      "mtime_ns": 1791581876098662500,
+      "sha256": "017c55ab6858b0cdb559205c816b511fdc9ebddeabedf73f9cdc22379c60a456"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094650_0098_V.JPG",
+      "size": 6176768,
+      "mtime_ns": 1791581881101162400,
+      "sha256": "a6114e9c3843ee4e776f4e43a60f4e3e626ced4032b09365c3ac8bf450b82395"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094652_0099_V.JPG",
+      "size": 6254592,
+      "mtime_ns": 1791581880573663500,
+      "sha256": "4509069adc72ec64c4d7ebe85cc7e1b701aca093dd887c1683106dc22b825181"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094653_0100_V.JPG",
+      "size": 6770688,
+      "mtime_ns": 1791581874180662500,
+      "sha256": "19616d57950dc835be0873163d84b6a66f4e5155e442ee45c537d8f3aedd6663"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094654_0101_V.JPG",
+      "size": 7225344,
+      "mtime_ns": 1791581871732664700,
+      "sha256": "9c6bfb852aa010517999f5d609f6a61dce117934df6c056e709b9c0deefccc0f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094656_0102_V.JPG",
+      "size": 7692288,
+      "mtime_ns": 1791581871784165000,
+      "sha256": "3161b9180640bea9b6709758f0b174b5aea505ef740ec66ec673ef87735695f5"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094657_0103_V.JPG",
+      "size": 7884800,
+      "mtime_ns": 1791581882032162400,
+      "sha256": "277d6a577a3fbb7fb3a2036ab45c2516cb32ed05d3677c99774b1fd91febd5fd"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094659_0104_V.JPG",
+      "size": 7700480,
+      "mtime_ns": 1791581876959664600,
+      "sha256": "64d7eb398a805594c1748fdd1021c1b756111a6606680d7b7b5a34e62fb379bc"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094700_0105_V.JPG",
+      "size": 7733248,
+      "mtime_ns": 1791581878825164200,
+      "sha256": "c4881ab6385bae2ef84d87dd66cb04dfda454e0eb255cb2bd3003c387b2b673f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094701_0106_V.JPG",
+      "size": 7471104,
+      "mtime_ns": 1791581875333665000,
+      "sha256": "e986010f1cd97519dac59a792cea3d5f7f873bd7757d7d5a413820912bb9e780"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094703_0107_V.JPG",
+      "size": 6946816,
+      "mtime_ns": 1791581875435663900,
+      "sha256": "d8c3a9de6d4706287db3149a4b2369b966781d3b048aa1301c6116ed856fab63"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094704_0108_V.JPG",
+      "size": 6680576,
+      "mtime_ns": 1791581878551163300,
+      "sha256": "e112028235b6aa6f952ca355b30630f126bd51a3e36f250f99c3709e0b9cd997"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094705_0109_V.JPG",
+      "size": 6320128,
+      "mtime_ns": 1791581876640163600,
+      "sha256": "8f96d5c97833a74499a5f41e0feb623a9249c1fdab6daee38d351add4aea7a40"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094707_0110_V.JPG",
+      "size": 6246400,
+      "mtime_ns": 1791581872856662400,
+      "sha256": "16489567286e0c02c32d3f6b00f26b3cd08e88a0654fcae389e09f1466ec6fec"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094708_0111_V.JPG",
+      "size": 5984256,
+      "mtime_ns": 1791581872243665200,
+      "sha256": "473908fa59b8503b6deae21f9b7b451c9b0d2a5c086ec907eae85a5c3bb58ba1"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094709_0112_V.JPG",
+      "size": 5926912,
+      "mtime_ns": 1791581880713662300,
+      "sha256": "1bf97847f6feac9d2000b6832cd6917622511362a35b665387c690ec36f732b8"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094711_0113_V.JPG",
+      "size": 5947392,
+      "mtime_ns": 1791581871043162300,
+      "sha256": "604fa2a4b00600e3632f1bb61748aad92422c3e69794874e3433dd572c5b53c2"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094712_0114_V.JPG",
+      "size": 5955584,
+      "mtime_ns": 1791581878704163700,
+      "sha256": "92d1327d833abae897775bc77cc41e772a29c6763f32126798aac67bae5f98c4"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094713_0115_V.JPG",
+      "size": 6062080,
+      "mtime_ns": 1791581876754664300,
+      "sha256": "57d390d6cad574720cb631ac2d3810c38de0cf828f45a6e20061e01e2833e77a"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094715_0116_V.JPG",
+      "size": 6004736,
+      "mtime_ns": 1791581883055163700,
+      "sha256": "b8134f7e622b0e0dbc28a1f49afc15e33150fdb1e345b32144336a4b2a714e51"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094716_0117_V.JPG",
+      "size": 5881856,
+      "mtime_ns": 1791581874915663500,
+      "sha256": "e41e7e0a6535b160f7d7c484248add9ad1c614b1127da3c4f1dd4fbb7e6013a6"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094718_0118_V.JPG",
+      "size": 5943296,
+      "mtime_ns": 1791581871269162500,
+      "sha256": "fba58b757240e1ee39f28d0c1c3ddbb646123d840b3e5f03cc8b3e6f0bed9176"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094719_0119_V.JPG",
+      "size": 6156288,
+      "mtime_ns": 1791581882711662700,
+      "sha256": "db32c82f3bf84d9d3d2bc0e17269a1563f4f6ff6963edd545f53f514f50b00f3"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094720_0120_V.JPG",
+      "size": 6557696,
+      "mtime_ns": 1791581874227664100,
+      "sha256": "451391d7db39e720b620b9991f87d17700b100012b6a041ed68294b23df7980c"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094722_0121_V.JPG",
+      "size": 7004160,
+      "mtime_ns": 1791581872289662500,
+      "sha256": "fee60e04eeff6ea755785cdf2528125e4ab52133230b4566124dbd36fcb002eb"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094723_0122_V.JPG",
+      "size": 7544832,
+      "mtime_ns": 1791581880858164600,
+      "sha256": "ba281bcfb8dd447c4aa084bee2ded085e392e47899f5392bff2a101cc5822df1"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094724_0123_V.JPG",
+      "size": 8073216,
+      "mtime_ns": 1791581882085662400,
+      "sha256": "2c2b5a57a3bf17da8080df656e414476fb90bfaeaaa029ebc3b48240cf29dd62"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094726_0124_V.JPG",
+      "size": 7909376,
+      "mtime_ns": 1791581881442163000,
+      "sha256": "ecd78a3cf02efd46c89f979639e7cf91626fec682e6dd4dd145d1354a259feeb"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094727_0125_V.JPG",
+      "size": 7938048,
+      "mtime_ns": 1791581873296162900,
+      "sha256": "a3b574d9a73f6778cca8b36500120bcff53af4f288a28e927f898ac44e8337a9"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094728_0126_V.JPG",
+      "size": 7561216,
+      "mtime_ns": 1791581873737663800,
+      "sha256": "7ebe3e8202a7e15e83051055cdfc1330767b87cf5beb0598d3975c8078515aba"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094730_0127_V.JPG",
+      "size": 7553024,
+      "mtime_ns": 1791581882624163000,
+      "sha256": "ec7b496fb507e173bfab8891b3a34e5b35424eed68b1a237abbbebd84083ddfc"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094731_0128_V.JPG",
+      "size": 7041024,
+      "mtime_ns": 1791581881979162800,
+      "sha256": "f30706bd1bd9c22fd0fa72b9e77a1ad1d48e61ddf4d0bb09ca17682c3a5112e0"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094732_0129_V.JPG",
+      "size": 6574080,
+      "mtime_ns": 1791581875855664100,
+      "sha256": "83a55e56448f78af42ad249354a696a1895a5bbfc730c297218558cbf7754be8"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094734_0130_V.JPG",
+      "size": 6115328,
+      "mtime_ns": 1791581878311662200,
+      "sha256": "d563280c50f071c09eb2097e7e62f83e6c01f561d8421dafa9e52ccf2794ce87"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094735_0131_V.JPG",
+      "size": 5832704,
+      "mtime_ns": 1791581877667162800,
+      "sha256": "0445bf45868877dc86ec212916ce7164aae8af4146ffe34d429a1cab1ee8f02d"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094737_0132_V.JPG",
+      "size": 5808128,
+      "mtime_ns": 1791581877857662500,
+      "sha256": "32603ec20ddd77cc2b4d6b3bda8a911e0ce2bce8206cddba507b73e3b775d2e0"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094738_0133_V.JPG",
+      "size": 5844992,
+      "mtime_ns": 1791581877477663000,
+      "sha256": "6fe6b007223e28b5b653063c8f7f2fb904eea2b1e066fe008f6de561bdcb4cb7"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094739_0134_V.JPG",
+      "size": 5959680,
+      "mtime_ns": 1791581878998163000,
+      "sha256": "70a73b7ce8376d984b051d6dca408ec1b83b2158884bd996c6ca97fa6ba02a56"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094741_0135_V.JPG",
+      "size": 5877760,
+      "mtime_ns": 1791581872666662900,
+      "sha256": "bd0837b0e5ef90692859d18b4cd43bfd2f243f88697c6e5adff66ad2dd3d672e"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094742_0136_V.JPG",
+      "size": 5943296,
+      "mtime_ns": 1791581877899162300,
+      "sha256": "beac87e26c17af3365df5f112a4fb6c82bb8b270594db6f446f749d4d204aca0"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094743_0137_V.JPG",
+      "size": 6049792,
+      "mtime_ns": 1791581877006662200,
+      "sha256": "11bd12da1b8ac5c34da79a3dc5053ca8e2af73616e16e8e852dca4d0afd1f999"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094745_0138_V.JPG",
+      "size": 6184960,
+      "mtime_ns": 1791581871994162400,
+      "sha256": "2a3fd9f10f034b7d3c4e8a2a20533ee97ed23006ad229b45bc923711a7cdf42d"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094746_0139_V.JPG",
+      "size": 6144000,
+      "mtime_ns": 1791581879199662600,
+      "sha256": "c8e2f132771c9939efce58aba1c8ab8a803da209a5b30b713163b7f753b255c7"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094747_0140_V.JPG",
+      "size": 6217728,
+      "mtime_ns": 1791581875480689600,
+      "sha256": "161a53b5b994f41a6f9c862e29b52ce74d917fc11275d292009d111bda6b094c"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094749_0141_V.JPG",
+      "size": 6660096,
+      "mtime_ns": 1791581883150661500,
+      "sha256": "dfc7d8956d2cf24a8828060eae424db32318173fa3d45ccddd3876a9272f93a6"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094750_0142_V.JPG",
+      "size": 7184384,
+      "mtime_ns": 1791581878176662400,
+      "sha256": "67c1bea811dc6fdeae73a131613771026005a55ce86c553026b54d5194c1e882"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094751_0143_V.JPG",
+      "size": 7475200,
+      "mtime_ns": 1791581877624663100,
+      "sha256": "199b74f48694fd2cc5304c27020edae9fca718cc8d61109583a23258e4b6b4c7"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094753_0144_V.JPG",
+      "size": 7921664,
+      "mtime_ns": 1791581874581662300,
+      "sha256": "e1b255bd311289df55c02083ab55c50cc9ecd0eef61c44be3398e72e11d50584"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094754_0145_V.JPG",
+      "size": 7778304,
+      "mtime_ns": 1791581876332163100,
+      "sha256": "bb293042c1720306d3c72e3aad7929764bdae62feab07f310f3640b5e802b6a8"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094756_0146_V.JPG",
+      "size": 7815168,
+      "mtime_ns": 1791581876589162900,
+      "sha256": "87e1c551d93edcbd696fa587503a563381f12c3a4b7a7c132dac9458aa6579ae"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094757_0147_V.JPG",
+      "size": 7606272,
+      "mtime_ns": 1791581878407165200,
+      "sha256": "f73ec6852af18936b680710954b9d9837c10ba0d6e00451b55919884c153ea8f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094758_0148_V.JPG",
+      "size": 7208960,
+      "mtime_ns": 1791581877057665000,
+      "sha256": "860e321e1a47d70fd169fbed153178b254da28cdc2716c20ed7ae1c2fd00f32f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094800_0149_V.JPG",
+      "size": 6705152,
+      "mtime_ns": 1791581879488662700,
+      "sha256": "cf542c84b7a6988032630785b8ec723b43051671cf72636b036de5a5af733a34"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094801_0150_V.JPG",
+      "size": 6238208,
+      "mtime_ns": 1791581871227662700,
+      "sha256": "6eeb399cc17e334d7fb0017cf3d71f1802b144f7b8caba18444a01fe29f51a7a"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094802_0151_V.JPG",
+      "size": 6033408,
+      "mtime_ns": 1791581880014662000,
+      "sha256": "7652559a8ed94d237e1a8696566689a3e4e1289cbe7f7da064bac482c4b68202"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094804_0152_V.JPG",
+      "size": 6152192,
+      "mtime_ns": 1791581872949662700,
+      "sha256": "1fe7c096f8c41df31fc2695090c0e732895995393402360f7b403578dac90a0c"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094805_0153_V.JPG",
+      "size": 6160384,
+      "mtime_ns": 1791581881144662700,
+      "sha256": "b6ecfc29deae2c3dd2abefa1141af64859e9504f9335fe75b2698f12fefec4c8"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094806_0154_V.JPG",
+      "size": 6131712,
+      "mtime_ns": 1791581874777163000,
+      "sha256": "dcc297673b3c039e9f4f2475325cbc6d522a532fc0567fa71a9407b5730250b8"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094808_0155_V.JPG",
+      "size": 6123520,
+      "mtime_ns": 1791581882228662400,
+      "sha256": "fd56aaac04752ab13abe8234bc8cf5d3e92e58bc476302335617d8c2af2197b5"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094809_0156_V.JPG",
+      "size": 6234112,
+      "mtime_ns": 1791581871310663100,
+      "sha256": "fcef5d3071c83d6e5e15820995092654e68b5cf7c9a7858b6e2abd5a5518c810"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094810_0157_V.JPG",
+      "size": 5996544,
+      "mtime_ns": 1791581876801162800,
+      "sha256": "494eb86f77c798030261155a82122cc6da8debb8d904bcd64927e2397347075e"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094812_0158_V.JPG",
+      "size": 5865472,
+      "mtime_ns": 1791581878355664200,
+      "sha256": "462e6c3d0fb05c7bc9dcf9fe0be4ebda0889e391ad7d357d3058727f682c090f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094813_0159_V.JPG",
+      "size": 5656576,
+      "mtime_ns": 1791581876254663900,
+      "sha256": "61fc973e6e6461c255c90267da7b967a7bde212516ccceaf5598043c43b3fb8a"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094815_0160_V.JPG",
+      "size": 5931008,
+      "mtime_ns": 1791581878030663500,
+      "sha256": "a1cf7de5297ebedac49fc8e457a58979b308f7c6ac7bd5e494d473d0be85acbf"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094816_0161_V.JPG",
+      "size": 6324224,
+      "mtime_ns": 1791581874040162400,
+      "sha256": "18d18626ebbb5367b8af60266917e44ae7a3910157fed8c69246cf19d64c9841"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094817_0162_V.JPG",
+      "size": 6848512,
+      "mtime_ns": 1791581880957162900,
+      "sha256": "3890009e35029164e5e91a80f941fceea6ecc034cf8d93c0c396087be990be05"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094819_0163_V.JPG",
+      "size": 7360512,
+      "mtime_ns": 1791581877765162800,
+      "sha256": "3cd44d9f05420a1afb1cff6c67308687b0b8fd52ad82738995f82c5da2154dbb"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094820_0164_V.JPG",
+      "size": 7888896,
+      "mtime_ns": 1791581882763162700,
+      "sha256": "68f65cc5b4b7d9c2f35f7247aa4ce80c93407ae4f2113bd8dd2d7b18829be9e6"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094821_0165_V.JPG",
+      "size": 8200192,
+      "mtime_ns": 1791581871360663100,
+      "sha256": "dae91de22710c3375ca50ae3e05bbf2d77d44bd80e21b4ebf8f9386e7a9521d8"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094823_0166_V.JPG",
+      "size": 7987200,
+      "mtime_ns": 1791581871410662800,
+      "sha256": "80c56ad0d876ad2149daf49cce9ed707ee3ab032aa0b38fced761ba13b232812"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094824_0167_V.JPG",
+      "size": 7786496,
+      "mtime_ns": 1791581873102664600,
+      "sha256": "701e2f2138938f37fc8ff83b044fd5af9ed0a04514c72ff85e25f5a2c69136d3"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094825_0168_V.JPG",
+      "size": 7700480,
+      "mtime_ns": 1791581874132662500,
+      "sha256": "42c691ad7ae5d7e3d91a9b8a1c23d0393fc8798b73ec2334228fd11d1d2d0f62"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094827_0169_V.JPG",
+      "size": 7225344,
+      "mtime_ns": 1791581872044663800,
+      "sha256": "1428dfaf4a40f676495f7368e697f4ae2dd1712a93984919600596beb358b9f1"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094828_0170_V.JPG",
+      "size": 6725632,
+      "mtime_ns": 1791581877340162400,
+      "sha256": "9c4c6529000134f548af7c2ff2d4d6fe5eb5d3f482b681baf899aec76117e3ac"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094830_0171_V.JPG",
+      "size": 6197248,
+      "mtime_ns": 1791581880156165000,
+      "sha256": "e2bb1417b5e6c97df66ecf1dcc009096b9bbdc43cb90704293100423b573e45a"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094831_0172_V.JPG",
+      "size": 5976064,
+      "mtime_ns": 1791581875523662800,
+      "sha256": "2b985292d77a6d4ca7fc2bfd7a3c49499d913edf3732915ad254378a65cd1bde"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094832_0173_V.JPG",
+      "size": 5713920,
+      "mtime_ns": 1791581882314162400,
+      "sha256": "e19642da8d79c4cf0ccbd366918cc272f960b54d3f5d7ba96fc925af1f7dbf3b"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094834_0174_V.JPG",
+      "size": 5894144,
+      "mtime_ns": 1791581874820162400,
+      "sha256": "714d8d831efcf4b927b949f33f8e69ae42254f65d2fc8a84962ce4752bce97f5"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094835_0175_V.JPG",
+      "size": 6115328,
+      "mtime_ns": 1791581879873163900,
+      "sha256": "4b44f951af90ada7972343cff605ef94c0e8d9ffe02c356aff3ddc6b3c06491b"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094836_0176_V.JPG",
+      "size": 6144000,
+      "mtime_ns": 1791581871686163000,
+      "sha256": "53676e2e57a3b97af792ee711bf1c78e1f0043f55285e5859a2cf18ccfc9ef53"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094838_0177_V.JPG",
+      "size": 6197248,
+      "mtime_ns": 1791581880298162400,
+      "sha256": "dbf083047ec56ceb5f8872fa853a32f50bf9eec8f68a3016232bae2097d8d386"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094839_0178_V.JPG",
+      "size": 6369280,
+      "mtime_ns": 1791581879533663200,
+      "sha256": "dd06361ba2cd5f3f6a1e43c533ea9ca929eab0f9d58b383713392e94dce8632f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094840_0179_V.JPG",
+      "size": 6332416,
+      "mtime_ns": 1791581878266162700,
+      "sha256": "4ef21a7b42a11068041313e26841618da70368c7fd9afdeac8e3cd821b68bad9"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094842_0180_V.JPG",
+      "size": 6021120,
+      "mtime_ns": 1791581883193662800,
+      "sha256": "b12c126ea6e37a2f9e3139740cdae55a0b66f70b0cfea5c2b119303ee91a5ffa"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094843_0181_V.JPG",
+      "size": 6348800,
+      "mtime_ns": 1791581871454662600,
+      "sha256": "86b0a0e38b9c2f3ed133a1b7df7b3f6fa6ec299be11493a13fc0ab347087b01c"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094844_0182_V.JPG",
+      "size": 6602752,
+      "mtime_ns": 1791581873834663300,
+      "sha256": "6531612ee7a01e3e0d78db0e770a64cc778b7fdff50669d78bffc5a4dad728b2"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094846_0183_V.JPG",
+      "size": 7118848,
+      "mtime_ns": 1791581872517663200,
+      "sha256": "a5d32284fbf4b0d3e6a6431f0d006c35342e721c972344e16913937953f4a6cc"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094847_0184_V.JPG",
+      "size": 7426048,
+      "mtime_ns": 1791581882363162500,
+      "sha256": "439c14d00d66ccb773617034481e6b421e1da3eee65d2a6ee6f1012a675cdf92"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094849_0185_V.JPG",
+      "size": 7897088,
+      "mtime_ns": 1791581875958162500,
+      "sha256": "a7791966d07442e2a8a1f8940c83ace83ca376545f271f12fe0f1d0938d66d6a"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094850_0186_V.JPG",
+      "size": 7729152,
+      "mtime_ns": 1791581872907162700,
+      "sha256": "621bd708d135d3056d34da5e1f25bbcfc7f91fa14665c609f61a541735afe713"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094851_0187_V.JPG",
+      "size": 7864320,
+      "mtime_ns": 1791581881194663700,
+      "sha256": "2b4daad3d7695481a1d3f249c4cd4efe100435911afa84a68b34b84d3ec240eb"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094853_0188_V.JPG",
+      "size": 7778304,
+      "mtime_ns": 1791581872717165400,
+      "sha256": "c26b5cd810a39627c11a167d3b1e02c615a29023c27981af7047ebbcdf256f6c"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094854_0189_V.JPG",
+      "size": 7557120,
+      "mtime_ns": 1791581871601162600,
+      "sha256": "6147a4ea99e3ec26aff532ad5b39b22b1e26f24f3ebb08e0150cb51bf034a999"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094855_0190_V.JPG",
+      "size": 7077888,
+      "mtime_ns": 1791581878943164200,
+      "sha256": "5d5685d2237669bf8cc381f4a215dc61c865205a4e47f1a7668ce76fc4d4f5cc"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094857_0191_V.JPG",
+      "size": 6668288,
+      "mtime_ns": 1791581880201162400,
+      "sha256": "39d687cc3b91c9e8de435d3cbb8332b32dc848ae28fd5db56b28841f3f6828fd"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094858_0192_V.JPG",
+      "size": 6426624,
+      "mtime_ns": 1791581879247163600,
+      "sha256": "e4d476458a43fba6ca90ba7e07f006d03ac9d19e2cd7fefd0dc96b956c0d96e9"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094859_0193_V.JPG",
+      "size": 6438912,
+      "mtime_ns": 1791581875808664500,
+      "sha256": "59aa59d976c066934e3aa4d76d88150de56266b61bc039932a95ce2690675286"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094901_0194_V.JPG",
+      "size": 6430720,
+      "mtime_ns": 1791581871829162300,
+      "sha256": "c1b55ab409d017a6318e149921eac340e9d266a657c8525ec63154c3baa1321b"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094902_0195_V.JPG",
+      "size": 6426624,
+      "mtime_ns": 1791581879673162900,
+      "sha256": "c28bef5e0df76a12aa0ab7e827702435d4de860b4ef2ab4a3711744816e9aff1"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094903_0196_V.JPG",
+      "size": 6385664,
+      "mtime_ns": 1791581874272163000,
+      "sha256": "3dd7c6f727bc42731511ebd55b262232358a156dbbf68b4f2a0c12d6f131a67d"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094905_0197_V.JPG",
+      "size": 6275072,
+      "mtime_ns": 1791581880808662600,
+      "sha256": "eaf3f610cdfca44306f0ec3757e6b5b825b47044601a99a776f2ffed1cbd3d9d"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094906_0198_V.JPG",
+      "size": 6250496,
+      "mtime_ns": 1791581878450662600,
+      "sha256": "fc5989def4a6495b0fae43a5236646dc9197e1ae007d5966f9c0010ccff2434d"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094908_0199_V.JPG",
+      "size": 6168576,
+      "mtime_ns": 1791581873587162500,
+      "sha256": "5d132bdea0e536353e1c661dfd1313d82f05495306f1e458287f339e440ed28f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094909_0200_V.JPG",
+      "size": 5963776,
+      "mtime_ns": 1791581879387162600,
+      "sha256": "619ebedcb14eb0af8b3043e451df68627c3698e124042711a105dfb19822b9b7"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094910_0201_V.JPG",
+      "size": 6103040,
+      "mtime_ns": 1791581880393162500,
+      "sha256": "c99418aac3865b56d656028f3dcb70137bc2d1445dfab8d196abd565afa9fa0e"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094912_0202_V.JPG",
+      "size": 6402048,
+      "mtime_ns": 1791581880437663900,
+      "sha256": "8396fa8f689bcfb1408429e0613c98d75f554b483bd7627fea82b432d04e62dd"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094913_0203_V.JPG",
+      "size": 6971392,
+      "mtime_ns": 1791581873442663100,
+      "sha256": "ef8cd17dc6729f0b8879570846bd6e7b1a5cfd789d7fbcd53eb9b0a73134f84f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094914_0204_V.JPG",
+      "size": 7503872,
+      "mtime_ns": 1791581873885663400,
+      "sha256": "515c4428a922ba06a2715c6e4bfaa8a106a2ab0ea7800d992f3b59a1853993e6"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094916_0205_V.JPG",
+      "size": 7925760,
+      "mtime_ns": 1791581872343162600,
+      "sha256": "3c1a55bc2513607466f2e9fd3baf3ef2aa1194bf89553b197de87a39ad2a01cd"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094917_0206_V.JPG",
+      "size": 8196096,
+      "mtime_ns": 1791581880764664400,
+      "sha256": "38a4c1c6acc0be6a71e6b2c321063642ae63e36aa322e810920eafc9a9eaefcc"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094918_0207_V.JPG",
+      "size": 8118272,
+      "mtime_ns": 1791581880625663100,
+      "sha256": "8d8060192939849c899aaf9e579795e67e8c55d5719fed78355d8a18212b51d0"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094920_0208_V.JPG",
+      "size": 7671808,
+      "mtime_ns": 1791581872998662700,
+      "sha256": "264f353d6e368ecd5cd2976eba3f70ae4fc465dfc21be9a730086fc4132d6a7e"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094921_0209_V.JPG",
+      "size": 7798784,
+      "mtime_ns": 1791581881633162800,
+      "sha256": "5d96fb306da2550128a7dc8ae26df33edc09bacc28cb1411e3f776afa8514a67"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094922_0210_V.JPG",
+      "size": 7348224,
+      "mtime_ns": 1791581873493162400,
+      "sha256": "aba91c09f02c88c5d7dd538c91286349ce0a8844c620e53329b818c183810fe1"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094924_0211_V.JPG",
+      "size": 6852608,
+      "mtime_ns": 1791581880061663600,
+      "sha256": "2a721822793b61a8a1674ddb2b2141be810a0a919a1614508f30f44ad3e8e427"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094925_0212_V.JPG",
+      "size": 6471680,
+      "mtime_ns": 1791581875659662600,
+      "sha256": "d5130ae430a0a1464a33757e5e402d4481c400288cddfa26aade896687077bc0"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094927_0213_V.JPG",
+      "size": 6369280,
+      "mtime_ns": 1791581874871163500,
+      "sha256": "73e8bcbc3c5f5a83e3878ef56f19ed53b10dda45cf5ed23cffc5663c8eb5bd02"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094928_0214_V.JPG",
+      "size": 6459392,
+      "mtime_ns": 1791581876390163600,
+      "sha256": "6ed77d6f36147b6c535815e8e1e3fb392b0bc8451343768078edbf00a56174fc"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094929_0215_V.JPG",
+      "size": 6471680,
+      "mtime_ns": 1791581878599664100,
+      "sha256": "6464a21f4032d6cb21fa09da4c584d2f2bf84c164c1f376f7b0784336ff6e3b6"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094931_0216_V.JPG",
+      "size": 6422528,
+      "mtime_ns": 1791581875021166900,
+      "sha256": "93978daf451068c95fb02745b7b98db949d05bea230a9b5a643cec6cbd6e10f0"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094932_0217_V.JPG",
+      "size": 6500352,
+      "mtime_ns": 1791581882458664900,
+      "sha256": "76e657b89207058233ae9537efdae53ff85d2621a7bd0c80c02e9c697fa956c8"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094933_0218_V.JPG",
+      "size": 6725632,
+      "mtime_ns": 1791581881684662900,
+      "sha256": "b7bdb787fe217bf72e254e6872d241920e5d4c9e445ac9922ba1da7c1afa5ea8"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094935_0219_V.JPG",
+      "size": 6823936,
+      "mtime_ns": 1791581876857164200,
+      "sha256": "fe082344d2400e5825a1d470310533b09b1c91b3bad2e664c4a186116b292abb"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094936_0220_V.JPG",
+      "size": 6819840,
+      "mtime_ns": 1791581880483163000,
+      "sha256": "c69a67272be88666d8f505e46fdf6ca4b4418a9175879e8a1c16bef44e024fba"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094937_0221_V.JPG",
+      "size": 6926336,
+      "mtime_ns": 1791581875280273800,
+      "sha256": "df13d9e1ed130857d9ec1eb213d494ea0c08493b7713927c815798a1f5ceab93"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094939_0222_V.JPG",
+      "size": 7196672,
+      "mtime_ns": 1791581882901163800,
+      "sha256": "ce9e91c73b2ec09070e0883e0cca6c5802ee16c5cf83fd3f5516be7d2fd3c8bc"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094940_0223_V.JPG",
+      "size": 7479296,
+      "mtime_ns": 1791581881338663200,
+      "sha256": "623a9af1f6af1126fe51b60006311d4288385c09750f2633bd0003b929d5f88c"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094942_0224_V.JPG",
+      "size": 7835648,
+      "mtime_ns": 1791581881931662600,
+      "sha256": "443ab0cacaafd173ad5b271e5831ba575b4f2c7e06c8c0ae127cf5afe090eba0"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094943_0225_V.JPG",
+      "size": 8060928,
+      "mtime_ns": 1791581871881162700,
+      "sha256": "11e50ae5a138db71e2654e02553283cb6536fb0aa7d28d440d5c8711d544cab4"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094944_0226_V.JPG",
+      "size": 8212480,
+      "mtime_ns": 1791581872096662500,
+      "sha256": "108475b4f436206ffd43264bab13d885ef16bc9f3aeb43492423a29d50401a7a"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094946_0227_V.JPG",
+      "size": 8331264,
+      "mtime_ns": 1791581873941162700,
+      "sha256": "bbc65c89db84a98d9874d0d93d4cc0ae523cda5dda227e44f48728537595f8b3"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094947_0228_V.JPG",
+      "size": 8245248,
+      "mtime_ns": 1791581873050162700,
+      "sha256": "bfd923fbfa86f69532cd8e3f13d9e18a2e7468a4293dace3ffa3ca29105e769c"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094948_0229_V.JPG",
+      "size": 8228864,
+      "mtime_ns": 1791581872571163100,
+      "sha256": "a07f08d1e508b1008107fb8f911d502e21afcb55a3fd86306a0735266e91206f"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094950_0230_V.JPG",
+      "size": 8192000,
+      "mtime_ns": 1791581879970662100,
+      "sha256": "9b08bfad25c26e3fe521f6c0a41f9bb19a241fda52fb3e4bbdf99d92f978c7ce"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094951_0231_V.JPG",
+      "size": 7979008,
+      "mtime_ns": 1791581874732663200,
+      "sha256": "8a5e56d7ae1f01c6ba79f4728e6e0fed6f07dfb79ac1568ee66672a83675acec"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094952_0232_V.JPG",
+      "size": 7831552,
+      "mtime_ns": 1791581881733163100,
+      "sha256": "2a4ef3bd968204670d056bfb584d6fe02db4ebf656a836caa19c4caf46fef676"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094954_0233_V.JPG",
+      "size": 7680000,
+      "mtime_ns": 1791581876698163500,
+      "sha256": "36b8bf966947a85cdd00fb414df80f6142095f9a2d71b3a6080f650269801501"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094955_0234_V.JPG",
+      "size": 7593984,
+      "mtime_ns": 1791581880112162500,
+      "sha256": "d9219509763cdcb80785ccad2b5ee420c89a2366623b8f956d7ddb2557b68ba6"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094956_0235_V.JPG",
+      "size": 7380992,
+      "mtime_ns": 1791581871092662500,
+      "sha256": "67bf73dbae22eff9aa95dd1228f7d661073a93262749d85397114084d3fd8a6a"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094958_0236_V.JPG",
+      "size": 7204864,
+      "mtime_ns": 1791581879722163900,
+      "sha256": "7042c61e7a10febc50f8445d218c94d0ddb5956471cd5bb2f7f7c51f82ad280d"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007094959_0237_V.JPG",
+      "size": 7073792,
+      "mtime_ns": 1791581874319164200,
+      "sha256": "9c9a9b967908781cf9fa1198073f6e6fdd7588d7c2cb5f32558a683ab3e75b16"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007095001_0238_V.JPG",
+      "size": 6963200,
+      "mtime_ns": 1791581880250162400,
+      "sha256": "61db72d25fe549eb1dd3d5db998a7a58052b3b03e58a86b87636107ef2b4eaf3"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007095002_0239_V.JPG",
+      "size": 6922240,
+      "mtime_ns": 1791581871184164400,
+      "sha256": "6f47a560801226b4349789f9da31a0ebd7f9d11840a97a44036d935b96701cfc"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007095003_0240_V.JPG",
+      "size": 6868992,
+      "mtime_ns": 1791581882576164000,
+      "sha256": "ab0759ca468be48b1d3daacbb4799a32f2f931d9d460db73a3ecb03bf47f977b"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007095005_0241_V.JPG",
+      "size": 6905856,
+      "mtime_ns": 1791581877524662700,
+      "sha256": "ab75786fb18339b2c8f11a895f0fc88d1397a45730eb8b8de8ea30b43b5cb460"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007095006_0242_V.JPG",
+      "size": 7024640,
+      "mtime_ns": 1791581881488663200,
+      "sha256": "b27233bf559eb3a916db271f820d322347295ed9baac2fba42d72e3e4240649e"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007095007_0243_V.JPG",
+      "size": 7344128,
+      "mtime_ns": 1791581873152163300,
+      "sha256": "8db1129d58d4e451f76b8b08f3635ed22b03d6c1805dfe716b70f06c4bb671c7"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007095009_0244_V.JPG",
+      "size": 7716864,
+      "mtime_ns": 1791581879052662600,
+      "sha256": "23964bb45e5f19975b653e479a781318f41425056b33dbc0e5491d128f31b227"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007095010_0245_V.JPG",
+      "size": 8101888,
+      "mtime_ns": 1791581880910663500,
+      "sha256": "1c8d61ac71d345ab84215d65637fe778aad27d6b35a02f1de550808cfa42978e"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007095011_0246_V.JPG",
+      "size": 8437760,
+      "mtime_ns": 1791581872155663100,
+      "sha256": "b535c76b525ac9bbf436ebf7da34094804a6808904b5843b2eeefe03879f2046"
+    },
+    {
+      "path": "Neptune LGL/DJI_20261007095013_0247_V.JPG",
+      "size": 8577024,
+      "mtime_ns": 1791581873995165300,
+      "sha256": "ec454e75b2230a3825e2cfb8d54580d689567132e1c2b34de2e0eea8c5e8cb2c"
+    },
+    {
+      "path": "Neptune LGL/ppk_file_name.pbk",
+      "size": 29,
+      "mtime_ns": 1791581871000663300,
+      "sha256": "704a486ea9d2682695d776c399a9b6bd9b0c46fb3b57af75bd4f236cc44624f8"
+    }
+  ]
+}

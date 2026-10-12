@@ -1,0 +1,317 @@
+{
+  "measured_at_utc": "2026-10-10T20:13:10.000905+00:00",
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "opencv": "4.12.0",
+  "pillow": "12.3.0",
+  "exiftool": "13.30",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "logical_cpus": 24,
+  "initial_opencv_threads": 24,
+  "original_script": "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.work\\dewarp_original.py",
+  "options": {
+    "copy_xmp": true,
+    "alpha": 0.0,
+    "jpeg_quality": 95,
+    "jpeg_subsampling": "4:4:4"
+  },
+  "timing_scope": "per-folder pipeline including metadata, JPEG decoding/encoding and file I/O; fixture generation and comparison excluded",
+  "runs": [
+    {
+      "name": "original_serial",
+      "workers": 1,
+      "elapsed_s": 8.230626699980348,
+      "photos_per_s": 0.9719794484202644
+    },
+    {
+      "name": "updated_1_workers",
+      "workers": 1,
+      "elapsed_s": 5.642530499957502,
+      "photos_per_s": 1.4178035900843167,
+      "speedup_vs_original": 1.458676510484496,
+      "comparison": {
+        "all_pixels_equal": true,
+        "images": [
+          {
+            "file": "DJI_0000.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12247771,
+            "new_file_bytes": 12245725
+          },
+          {
+            "file": "DJI_0001.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12255201,
+            "new_file_bytes": 12253155
+          },
+          {
+            "file": "DJI_0002.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12263599,
+            "new_file_bytes": 12261553
+          },
+          {
+            "file": "DJI_0003.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12259480,
+            "new_file_bytes": 12257434
+          },
+          {
+            "file": "DJI_0004.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12253817,
+            "new_file_bytes": 12251771
+          },
+          {
+            "file": "DJI_0005.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12261367,
+            "new_file_bytes": 12259321
+          },
+          {
+            "file": "DJI_0006.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12267039,
+            "new_file_bytes": 12264993
+          },
+          {
+            "file": "DJI_0007.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12262418,
+            "new_file_bytes": 12260372
+          }
+        ]
+      }
+    },
+    {
+      "name": "updated_2_workers",
+      "workers": 2,
+      "elapsed_s": 3.2825762999709696,
+      "photos_per_s": 2.4371101442701426,
+      "speedup_vs_original": 2.5073679780278493,
+      "comparison": {
+        "all_pixels_equal": true,
+        "images": [
+          {
+            "file": "DJI_0000.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12247771,
+            "new_file_bytes": 12245725
+          },
+          {
+            "file": "DJI_0001.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12255201,
+            "new_file_bytes": 12253155
+          },
+          {
+            "file": "DJI_0002.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12263599,
+            "new_file_bytes": 12261553
+          },
+          {
+            "file": "DJI_0003.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12259480,
+            "new_file_bytes": 12257434
+          },
+          {
+            "file": "DJI_0004.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12253817,
+            "new_file_bytes": 12251771
+          },
+          {
+            "file": "DJI_0005.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12261367,
+            "new_file_bytes": 12259321
+          },
+          {
+            "file": "DJI_0006.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12267039,
+            "new_file_bytes": 12264993
+          },
+          {
+            "file": "DJI_0007.JPG",
+            "old_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "new_shape": [
+              3955,
+              5279,
+              3
+            ],
+            "pixels_equal": true,
+            "old_file_bytes": 12262418,
+            "new_file_bytes": 12260372
+          }
+        ]
+      }
+    }
+  ],
+  "fixtures": {
+    "count": 8,
+    "dimensions": [
+      5280,
+      3956
+    ],
+    "calibration": "3713.29,3713.29,0,0,-0.11257524,0.01487443,-0.00008572,0.00000010,-0.02706411",
+    "source_bytes": 131716157,
+    "kind": "deterministic interpolated random texture with low-amplitude noise; synthetic, not real DJI photos"
+  },
+  "all_pixels_equal": true
+}

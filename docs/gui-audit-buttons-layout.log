@@ -1,0 +1,11 @@
+{
+  "cases": 288,
+  "cases_with_critical_visibility_failures": 0,
+  "cases_with_clipped_critical_button_text": 0,
+  "cases_with_unreachable_actions": 0,
+  "cases_with_label_issues": 0,
+  "cases_with_short_queue_rows": 0,
+  "processes_with_startup_frame_outside_workarea": 0,
+  "cases_with_minimum_hint_exceeding_workarea": 0,
+  "cases_with_client_size_changed_by_window_manager": 16
+}

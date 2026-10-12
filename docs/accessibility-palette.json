@@ -1,0 +1,224 @@
+{
+  "style": "windowsvista",
+  "native_device_pixel_ratio": 1.25,
+  "simulation": "QApplication palette changed at runtime; Windows contrast settings unchanged; native theme drawing not certified",
+  "roles_inherited": {
+    "window": true,
+    "start_button": true,
+    "cancel_button": true,
+    "output_edit": true,
+    "folder_table": true,
+    "selected_input": true,
+    "selected_output": true,
+    "current_bar": true,
+    "batch_bar": true,
+    "log": true
+  },
+  "no_widget_stylesheets": true,
+  "stylesheets": [],
+  "restored_original_palette": true,
+  "before": {
+    "window": {
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "Base": "#ffffff",
+      "Text": "#000000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "Highlight": "#0078d7",
+      "HighlightedText": "#ffffff"
+    },
+    "start_button": {
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "Base": "#ffffff",
+      "Text": "#000000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "Highlight": "#0078d7",
+      "HighlightedText": "#ffffff"
+    },
+    "cancel_button": {
+      "Window": "#f0f0f0",
+      "WindowText": "#787878",
+      "Base": "#f0f0f0",
+      "Text": "#787878",
+      "Button": "#f0f0f0",
+      "ButtonText": "#787878",
+      "Highlight": "#0078d7",
+      "HighlightedText": "#ffffff"
+    },
+    "output_edit": {
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "Base": "#ffffff",
+      "Text": "#000000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "Highlight": "#0078d7",
+      "HighlightedText": "#ffffff"
+    },
+    "folder_table": {
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "Base": "#ffffff",
+      "Text": "#000000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "Highlight": "#0078d7",
+      "HighlightedText": "#ffffff"
+    },
+    "selected_input": {
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "Base": "#ffffff",
+      "Text": "#000000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "Highlight": "#0078d7",
+      "HighlightedText": "#ffffff"
+    },
+    "selected_output": {
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "Base": "#ffffff",
+      "Text": "#000000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "Highlight": "#0078d7",
+      "HighlightedText": "#ffffff"
+    },
+    "current_bar": {
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "Base": "#ffffff",
+      "Text": "#000000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "Highlight": "#0078d7",
+      "HighlightedText": "#ffffff"
+    },
+    "batch_bar": {
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "Base": "#ffffff",
+      "Text": "#000000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "Highlight": "#0078d7",
+      "HighlightedText": "#ffffff"
+    },
+    "log": {
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "Base": "#ffffff",
+      "Text": "#000000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "Highlight": "#0078d7",
+      "HighlightedText": "#ffffff"
+    }
+  },
+  "simulated": {
+    "window": {
+      "Window": "#000000",
+      "WindowText": "#ffffff",
+      "Base": "#000000",
+      "Text": "#ffffff",
+      "Button": "#000000",
+      "ButtonText": "#ffffff",
+      "Highlight": "#ffffff",
+      "HighlightedText": "#000000"
+    },
+    "start_button": {
+      "Window": "#000000",
+      "WindowText": "#ffffff",
+      "Base": "#000000",
+      "Text": "#ffffff",
+      "Button": "#000000",
+      "ButtonText": "#ffffff",
+      "Highlight": "#ffffff",
+      "HighlightedText": "#000000"
+    },
+    "cancel_button": {
+      "Window": "#000000",
+      "WindowText": "#ffffff",
+      "Base": "#000000",
+      "Text": "#ffffff",
+      "Button": "#000000",
+      "ButtonText": "#ffffff",
+      "Highlight": "#ffffff",
+      "HighlightedText": "#000000"
+    },
+    "output_edit": {
+      "Window": "#000000",
+      "WindowText": "#ffffff",
+      "Base": "#000000",
+      "Text": "#ffffff",
+      "Button": "#000000",
+      "ButtonText": "#ffffff",
+      "Highlight": "#ffffff",
+      "HighlightedText": "#000000"
+    },
+    "folder_table": {
+      "Window": "#000000",
+      "WindowText": "#ffffff",
+      "Base": "#000000",
+      "Text": "#ffffff",
+      "Button": "#000000",
+      "ButtonText": "#ffffff",
+      "Highlight": "#ffffff",
+      "HighlightedText": "#000000"
+    },
+    "selected_input": {
+      "Window": "#000000",
+      "WindowText": "#ffffff",
+      "Base": "#000000",
+      "Text": "#ffffff",
+      "Button": "#000000",
+      "ButtonText": "#ffffff",
+      "Highlight": "#ffffff",
+      "HighlightedText": "#000000"
+    },
+    "selected_output": {
+      "Window": "#000000",
+      "WindowText": "#ffffff",
+      "Base": "#000000",
+      "Text": "#ffffff",
+      "Button": "#000000",
+      "ButtonText": "#ffffff",
+      "Highlight": "#ffffff",
+      "HighlightedText": "#000000"
+    },
+    "current_bar": {
+      "Window": "#000000",
+      "WindowText": "#ffffff",
+      "Base": "#000000",
+      "Text": "#ffffff",
+      "Button": "#000000",
+      "ButtonText": "#ffffff",
+      "Highlight": "#ffffff",
+      "HighlightedText": "#000000"
+    },
+    "batch_bar": {
+      "Window": "#000000",
+      "WindowText": "#ffffff",
+      "Base": "#000000",
+      "Text": "#ffffff",
+      "Button": "#000000",
+      "ButtonText": "#ffffff",
+      "Highlight": "#ffffff",
+      "HighlightedText": "#000000"
+    },
+    "log": {
+      "Window": "#000000",
+      "WindowText": "#ffffff",
+      "Base": "#000000",
+      "Text": "#ffffff",
+      "Button": "#000000",
+      "ButtonText": "#ffffff",
+      "Highlight": "#ffffff",
+      "HighlightedText": "#000000"
+    }
+  }
+}

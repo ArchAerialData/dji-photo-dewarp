@@ -1,0 +1,87 @@
+{
+  "captured_utc": "2026-10-10T21:01:01.014041+00:00",
+  "source_sha256": "6ee432f8b3ba2bffac3328a8ca51071212b6f6b07ab04afd87ddf55a73908123",
+  "results": [
+    {
+      "command": [
+        "pwsh",
+        "-File",
+        "tools/audit_gui_accessibility.ps1",
+        "-Python",
+        "C:\\Program Files\\Python313\\python.exe",
+        "-OutputFile",
+        "docs/accessibility-after.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.6006643999135122,
+      "timeout": null,
+      "wall_limit_seconds": 240,
+      "stall_limit_seconds": 180,
+      "tail": [
+        "21/21 UIA control checks passed. Evidence: C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\accessibility-after.json"
+      ]
+    },
+    {
+      "command": [
+        "pwsh",
+        "-File",
+        "tools/audit_gui_accessibility.ps1",
+        "-Python",
+        "C:\\Program Files\\Python313\\python.exe",
+        "-RunningState",
+        "-OutputFile",
+        "docs/accessibility-running.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.6110167000442743,
+      "timeout": null,
+      "wall_limit_seconds": 240,
+      "stall_limit_seconds": 180,
+      "tail": [
+        "21/21 UIA control checks passed. Evidence: C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\accessibility-running.json"
+      ]
+    },
+    {
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "tools/audit_qt_layout.py",
+        "--output",
+        "docs/gui-audit-after.json",
+        "--screenshots",
+        "docs/gui-audit-images"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 27.66829299996607,
+      "timeout": null,
+      "wall_limit_seconds": 240,
+      "stall_limit_seconds": 180,
+      "tail": [
+        "{",
+        "  \"cases\": 288,",
+        "  \"cases_with_critical_visibility_failures\": 0,",
+        "  \"cases_with_clipped_critical_button_text\": 0,",
+        "  \"cases_with_unreachable_actions\": 0,",
+        "  \"cases_with_label_issues\": 0,",
+        "  \"cases_with_short_queue_rows\": 0,",
+        "  \"processes_with_startup_frame_outside_workarea\": 0,",
+        "  \"cases_with_minimum_hint_exceeding_workarea\": 0,",
+        "  \"cases_with_client_size_changed_by_window_manager\": 16",
+        "}"
+      ]
+    },
+    {
+      "command": [
+        "C:\\Program Files\\Python313\\python.exe",
+        "tools/audit_qt_terminal_states.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.145009700092487,
+      "timeout": null,
+      "wall_limit_seconds": 30,
+      "stall_limit_seconds": 25,
+      "tail": [
+        "{\"cases\": 32, \"failed_cases\": 0, \"failures\": []}"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+test_cancel_discards_edits_and_does_not_modify_initial_value (test_settings.SettingsDialogTests.test_cancel_discards_edits_and_does_not_modify_initial_value) ... ok
+test_dialog_inherits_and_tracks_parent_text_zoom (test_settings.SettingsDialogTests.test_dialog_inherits_and_tracks_parent_text_zoom) ... ok
+test_escape_cancels_without_implicit_default_accept (test_settings.SettingsDialogTests.test_escape_cancels_without_implicit_default_accept) ... ok
+test_restore_requires_explicit_save_and_accept_returns_all_options (test_settings.SettingsDialogTests.test_restore_requires_explicit_save_and_accept_returns_all_options) ... ok
+test_small_window_focus_reveals_complete_native_spin_control (test_settings.SettingsDialogTests.test_small_window_focus_reveals_complete_native_spin_control) ... ok
+test_first_use_defaults_preserve_metadata_and_crop (test_settings.SettingsStoreTests.test_first_use_defaults_preserve_metadata_and_crop) ... ok
+test_invalid_saved_fields_fall_back_individually (test_settings.SettingsStoreTests.test_invalid_saved_fields_fall_back_individually) ... ok
+test_out_of_range_worker_counts_do_not_escape_validation (test_settings.SettingsStoreTests.test_out_of_range_worker_counts_do_not_escape_validation) ... ok
+test_values_survive_a_fresh_process (test_settings.SettingsStoreTests.test_values_survive_a_fresh_process) ... ok
+test_write_failure_is_reported (test_settings.SettingsStoreTests.test_write_failure_is_reported) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.495s
+
+OK

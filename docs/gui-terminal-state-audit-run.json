@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Program Files\\Python313\\python.exe",
+    "tools/audit_qt_terminal_states.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.0399345000041649,
+  "timeout": null,
+  "wall_limit_seconds": 30,
+  "stall_limit_seconds": 25,
+  "tail": [
+    "{\"cases\": 32, \"failed_cases\": 0, \"failures\": []}"
+  ]
+}

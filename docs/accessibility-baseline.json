@@ -1,0 +1,223 @@
+{
+  "audit_date": "2026-10-10",
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "tkinter_baseline": {
+    "tk": "8.6.15",
+    "window_visible": true,
+    "descendant_count": 45,
+    "descendant_classes": [
+      "TkChild"
+    ],
+    "descendant_types": [
+      "ControlType.Pane"
+    ],
+    "named_descendants": 0,
+    "elements_with_patterns": 0,
+    "targets": [
+      {
+        "widget": "start",
+        "expected_text": "Start batch",
+        "name": "",
+        "type": "ControlType.Pane",
+        "class": "TkChild",
+        "keyboard_focusable": false,
+        "patterns": []
+      },
+      {
+        "widget": "cancel",
+        "expected_text": "Cancel batch",
+        "name": "",
+        "type": "ControlType.Pane",
+        "class": "TkChild",
+        "keyboard_focusable": false,
+        "patterns": []
+      },
+      {
+        "widget": "add",
+        "expected_text": "Add folder…",
+        "name": "",
+        "type": "ControlType.Pane",
+        "class": "TkChild",
+        "keyboard_focusable": false,
+        "patterns": []
+      }
+    ],
+    "accessible_api": "unknown or ambiguous subcommand \"accessible\": must be appname, busy, caret, fontchooser, inactive, scaling, useinputmethods, or windowingsystem"
+  },
+  "qt_prototype": {
+    "qt": "6.10.2",
+    "pyside6": "6.10.2",
+    "device_pixel_ratio": 1.25,
+    "window_visible": true,
+    "elements": [
+      {
+        "name": "Add folder…",
+        "type": "ControlType.Button",
+        "class": "QPushButton",
+        "automation_id": "QApplication.QWidget.QPushButton",
+        "keyboard_focusable": true,
+        "control_element": true,
+        "patterns": [
+          "InvokePatternIdentifiers.Pattern",
+          "ValuePatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "Start batch",
+        "type": "ControlType.Button",
+        "class": "QPushButton",
+        "automation_id": "QApplication.QWidget.QPushButton",
+        "keyboard_focusable": true,
+        "control_element": true,
+        "patterns": [
+          "InvokePatternIdentifiers.Pattern",
+          "ValuePatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "Cancel batch",
+        "type": "ControlType.Button",
+        "class": "QPushButton",
+        "automation_id": "QApplication.QWidget.QPushButton",
+        "keyboard_focusable": true,
+        "control_element": true,
+        "patterns": [
+          "InvokePatternIdentifiers.Pattern",
+          "ValuePatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "Current folder progress",
+        "type": "ControlType.ProgressBar",
+        "class": "QProgressBar",
+        "automation_id": "QApplication.QWidget.QProgressBar",
+        "keyboard_focusable": false,
+        "control_element": true,
+        "patterns": [
+          "InvokePatternIdentifiers.Pattern",
+          "ValuePatternIdentifiers.Pattern",
+          "RangeValuePatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "Folder queue",
+        "type": "ControlType.Table",
+        "class": "QTableWidget",
+        "automation_id": "Folder queue",
+        "keyboard_focusable": true,
+        "control_element": true,
+        "patterns": [
+          "SelectionPatternIdentifiers.Pattern",
+          "ValuePatternIdentifiers.Pattern",
+          "GridPatternIdentifiers.Pattern",
+          "TablePatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "",
+        "type": "ControlType.Pane",
+        "class": "",
+        "automation_id": "QApplication.QWidget.QTableWidget",
+        "keyboard_focusable": false,
+        "control_element": true,
+        "patterns": [
+          "ValuePatternIdentifiers.Pattern",
+          "SelectionItemPatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "Input folder",
+        "type": "ControlType.Header",
+        "class": "",
+        "automation_id": "QApplication.QWidget.QTableWidget",
+        "keyboard_focusable": false,
+        "control_element": true,
+        "patterns": [
+          "ValuePatternIdentifiers.Pattern",
+          "SelectionItemPatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "ControlType.Header",
+        "class": "",
+        "automation_id": "QApplication.QWidget.QTableWidget",
+        "keyboard_focusable": false,
+        "control_element": true,
+        "patterns": [
+          "ValuePatternIdentifiers.Pattern",
+          "SelectionItemPatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "Processed",
+        "type": "ControlType.Header",
+        "class": "",
+        "automation_id": "QApplication.QWidget.QTableWidget",
+        "keyboard_focusable": false,
+        "control_element": true,
+        "patterns": [
+          "ValuePatternIdentifiers.Pattern",
+          "SelectionItemPatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "1",
+        "type": "ControlType.Header",
+        "class": "",
+        "automation_id": "QApplication.QWidget.QTableWidget",
+        "keyboard_focusable": false,
+        "control_element": true,
+        "patterns": [
+          "ValuePatternIdentifiers.Pattern",
+          "SelectionItemPatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "Example folder",
+        "type": "ControlType.DataItem",
+        "class": "",
+        "automation_id": "QApplication.QWidget.QTableWidget",
+        "keyboard_focusable": true,
+        "control_element": true,
+        "patterns": [
+          "InvokePatternIdentifiers.Pattern",
+          "ValuePatternIdentifiers.Pattern",
+          "GridItemPatternIdentifiers.Pattern",
+          "SelectionItemPatternIdentifiers.Pattern",
+          "TableItemPatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "Queued",
+        "type": "ControlType.DataItem",
+        "class": "",
+        "automation_id": "QApplication.QWidget.QTableWidget",
+        "keyboard_focusable": true,
+        "control_element": true,
+        "patterns": [
+          "InvokePatternIdentifiers.Pattern",
+          "ValuePatternIdentifiers.Pattern",
+          "GridItemPatternIdentifiers.Pattern",
+          "SelectionItemPatternIdentifiers.Pattern",
+          "TableItemPatternIdentifiers.Pattern"
+        ]
+      },
+      {
+        "name": "0",
+        "type": "ControlType.DataItem",
+        "class": "",
+        "automation_id": "QApplication.QWidget.QTableWidget",
+        "keyboard_focusable": true,
+        "control_element": true,
+        "patterns": [
+          "InvokePatternIdentifiers.Pattern",
+          "ValuePatternIdentifiers.Pattern",
+          "GridItemPatternIdentifiers.Pattern",
+          "SelectionItemPatternIdentifiers.Pattern",
+          "TableItemPatternIdentifiers.Pattern"
+        ]
+      }
+    ]
+  }
+}

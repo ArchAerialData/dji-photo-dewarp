@@ -1,0 +1,8 @@
+test_contrast_preference_removes_and_restores_scoped_styles (test_buttons.ButtonTests.test_contrast_preference_removes_and_restores_scoped_styles) ... ok
+test_enabled_text_has_contrast_in_all_accent_interaction_states (test_buttons.ButtonTests.test_enabled_text_has_contrast_in_all_accent_interaction_states) ... ok
+test_native_rendering_is_colored_when_enabled_and_grey_when_disabled (test_buttons.ButtonTests.test_native_rendering_is_colored_when_enabled_and_grey_when_disabled) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.300s
+
+OK

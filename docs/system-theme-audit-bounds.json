@@ -1,0 +1,21 @@
+{
+  "command": [
+    "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\tools\\audit_gui_theme.py",
+    "--worker",
+    "--output",
+    "C:\\Users\\rbake\\Desktop\\Functional Scripts\\Dewarp M3E JPGs\\docs\\system-theme-audit.json"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 7.501520799938589,
+  "timeout": null,
+  "wall_limit_seconds": 30,
+  "stall_limit_seconds": 15,
+  "tail": [
+    "{\"state\": \"system\", \"scheme\": \"Dark\", \"checks\": 15}",
+    "{\"state\": \"light\", \"scheme\": \"Light\", \"checks\": 31}",
+    "{\"state\": \"dark\", \"scheme\": \"Dark\", \"checks\": 46}",
+    "{\"state\": \"restored-system\", \"scheme\": \"Dark\", \"checks\": 61}",
+    "{\"passed\": true, \"checks\": 62}"
+  ]
+}

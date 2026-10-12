@@ -1,0 +1,509 @@
+{
+  "captured_utc": "2026-10-10T21:15:34.979421+00:00",
+  "qt_version": "6.10.2",
+  "windows_version": "sys.getwindowsversion(major=10, minor=0, build=19045, platform=2, service_pack='')",
+  "style": "windows11",
+  "current_user_preferences_before": {
+    "AppsUseLightTheme": 0,
+    "SystemUsesLightTheme": 0
+  },
+  "contrast_preference": "NoPreference",
+  "source_sha256": {
+    "app\\src\\dewarp\\gui\\window.py": "12cc46891dd31b851ca973b8970bae1876842c962ea1c264cda709ac4d845819",
+    "app\\src\\dewarp\\gui\\theme.py": "45bf6578f5a6b77abc17e41951602c80b0fdc72dc2fb72466573dd62b7fb8644"
+  },
+  "checks": [
+    {
+      "name": "system.main.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "system.main.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "system.main.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "system.main.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "system.modal.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "system.modal.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "system.modal.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "system.modal.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "system.message.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "system.message.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "system.message.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "system.message.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "system.font_unchanged",
+      "passed": true
+    },
+    {
+      "name": "system.footer_visible",
+      "passed": true
+    },
+    {
+      "name": "system.native_controls_accessible",
+      "passed": true
+    },
+    {
+      "name": "system.follows_current_user_app_preference",
+      "passed": true
+    },
+    {
+      "name": "light.main.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "light.main.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "light.main.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "light.main.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "light.modal.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "light.modal.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "light.modal.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "light.modal.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "light.message.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "light.message.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "light.message.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "light.message.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "light.font_unchanged",
+      "passed": true
+    },
+    {
+      "name": "light.footer_visible",
+      "passed": true
+    },
+    {
+      "name": "light.native_controls_accessible",
+      "passed": true
+    },
+    {
+      "name": "dark.main.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "dark.main.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "dark.main.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "dark.main.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "dark.modal.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "dark.modal.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "dark.modal.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "dark.modal.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "dark.message.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "dark.message.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "dark.message.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "dark.message.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "dark.font_unchanged",
+      "passed": true
+    },
+    {
+      "name": "dark.footer_visible",
+      "passed": true
+    },
+    {
+      "name": "dark.native_controls_accessible",
+      "passed": true
+    },
+    {
+      "name": "restored-system.main.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "restored-system.main.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "restored-system.main.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "restored-system.main.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "restored-system.modal.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "restored-system.modal.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "restored-system.modal.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "restored-system.modal.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "restored-system.message.native_attribute_available",
+      "passed": true
+    },
+    {
+      "name": "restored-system.message.native_frame_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "restored-system.message.palette_matches_scheme",
+      "passed": true
+    },
+    {
+      "name": "restored-system.message.no_stylesheet",
+      "passed": true
+    },
+    {
+      "name": "restored-system.font_unchanged",
+      "passed": true
+    },
+    {
+      "name": "restored-system.footer_visible",
+      "passed": true
+    },
+    {
+      "name": "restored-system.native_controls_accessible",
+      "passed": true
+    },
+    {
+      "name": "system.preferences_unchanged",
+      "passed": true
+    }
+  ],
+  "states": [
+    {
+      "label": "system",
+      "scheme": "Dark",
+      "windows": [
+        {
+          "name": "main",
+          "palette": {
+            "Window": "#1e1e1e",
+            "WindowText": "#ffffff",
+            "Base": "#2d2d2d",
+            "Text": "#ffffff",
+            "Button": "#3c3c3c",
+            "ButtonText": "#ffffff",
+            "Highlight": "#0078d7",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": true
+          }
+        },
+        {
+          "name": "modal",
+          "palette": {
+            "Window": "#1e1e1e",
+            "WindowText": "#ffffff",
+            "Base": "#2d2d2d",
+            "Text": "#ffffff",
+            "Button": "#3c3c3c",
+            "ButtonText": "#ffffff",
+            "Highlight": "#0078d7",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": true
+          }
+        },
+        {
+          "name": "message",
+          "palette": {
+            "Window": "#1e1e1e",
+            "WindowText": "#ffffff",
+            "Base": "#2d2d2d",
+            "Text": "#ffffff",
+            "Button": "#3c3c3c",
+            "ButtonText": "#ffffff",
+            "Highlight": "#0078d7",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": true
+          }
+        }
+      ],
+      "main_screenshot": "docs\\theme-images\\system-main.png"
+    },
+    {
+      "label": "light",
+      "scheme": "Light",
+      "windows": [
+        {
+          "name": "main",
+          "palette": {
+            "Window": "#f3f3f3",
+            "WindowText": "#000000",
+            "Base": "#ffffff",
+            "Text": "#000000",
+            "Button": "#ffffff",
+            "ButtonText": "#000000",
+            "Highlight": "#005a9e",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": false
+          }
+        },
+        {
+          "name": "modal",
+          "palette": {
+            "Window": "#f3f3f3",
+            "WindowText": "#000000",
+            "Base": "#ffffff",
+            "Text": "#000000",
+            "Button": "#ffffff",
+            "ButtonText": "#000000",
+            "Highlight": "#005a9e",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": false
+          }
+        },
+        {
+          "name": "message",
+          "palette": {
+            "Window": "#f3f3f3",
+            "WindowText": "#000000",
+            "Base": "#ffffff",
+            "Text": "#000000",
+            "Button": "#ffffff",
+            "ButtonText": "#000000",
+            "Highlight": "#005a9e",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": false
+          }
+        }
+      ],
+      "main_screenshot": "docs\\theme-images\\light-main.png"
+    },
+    {
+      "label": "dark",
+      "scheme": "Dark",
+      "windows": [
+        {
+          "name": "main",
+          "palette": {
+            "Window": "#1e1e1e",
+            "WindowText": "#ffffff",
+            "Base": "#2d2d2d",
+            "Text": "#ffffff",
+            "Button": "#3c3c3c",
+            "ButtonText": "#ffffff",
+            "Highlight": "#0078d7",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": true
+          }
+        },
+        {
+          "name": "modal",
+          "palette": {
+            "Window": "#1e1e1e",
+            "WindowText": "#ffffff",
+            "Base": "#2d2d2d",
+            "Text": "#ffffff",
+            "Button": "#3c3c3c",
+            "ButtonText": "#ffffff",
+            "Highlight": "#0078d7",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": true
+          }
+        },
+        {
+          "name": "message",
+          "palette": {
+            "Window": "#1e1e1e",
+            "WindowText": "#ffffff",
+            "Base": "#2d2d2d",
+            "Text": "#ffffff",
+            "Button": "#3c3c3c",
+            "ButtonText": "#ffffff",
+            "Highlight": "#0078d7",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": true
+          }
+        }
+      ],
+      "main_screenshot": "docs\\theme-images\\dark-main.png"
+    },
+    {
+      "label": "restored-system",
+      "scheme": "Dark",
+      "windows": [
+        {
+          "name": "main",
+          "palette": {
+            "Window": "#1e1e1e",
+            "WindowText": "#ffffff",
+            "Base": "#2d2d2d",
+            "Text": "#ffffff",
+            "Button": "#3c3c3c",
+            "ButtonText": "#ffffff",
+            "Highlight": "#0078d7",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": true
+          }
+        },
+        {
+          "name": "modal",
+          "palette": {
+            "Window": "#1e1e1e",
+            "WindowText": "#ffffff",
+            "Base": "#2d2d2d",
+            "Text": "#ffffff",
+            "Button": "#3c3c3c",
+            "ButtonText": "#ffffff",
+            "Highlight": "#0078d7",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": true
+          }
+        },
+        {
+          "name": "message",
+          "palette": {
+            "Window": "#1e1e1e",
+            "WindowText": "#ffffff",
+            "Base": "#2d2d2d",
+            "Text": "#ffffff",
+            "Button": "#3c3c3c",
+            "ButtonText": "#ffffff",
+            "Highlight": "#0078d7",
+            "HighlightedText": "#ffffff"
+          },
+          "native_frame": {
+            "hresult": 0,
+            "dark": true
+          }
+        }
+      ],
+      "main_screenshot": "docs\\theme-images\\restored-system-main.png"
+    }
+  ],
+  "limitations": [
+    "Light/dark transitions use Qt's per-process override, not a Windows Settings change.",
+    "Actual Windows contrast-theme appearance and screen-reader speech are not certified by this audit.",
+    "Screenshots use this application's window DC, clipped to its visible DWM frame; native file-picker dialogs are owned by Windows."
+  ],
+  "current_user_preferences_after": {
+    "AppsUseLightTheme": 0,
+    "SystemUsesLightTheme": 0
+  },
+  "passed": true
+}

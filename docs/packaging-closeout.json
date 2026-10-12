@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-10-10T21:19:22.376207+00:00",
+  "engine_sha256": "ee374ea47d04add43668af21a2f7dca64c2eb8a2b73ca13461a649d407838082",
+  "engine_unchanged": true,
+  "gui_sha256": "12cc46891dd31b851ca973b8970bae1876842c962ea1c264cda709ac4d845819",
+  "current_gui_audit_hashes_match": true,
+  "root_files": [
+    ".gitignore",
+    "Dewarp.cmd"
+  ],
+  "owned_validation_scratch_remaining": [],
+  "broken_document_links": [],
+  "real_fixture_processed": false,
+  "fixture_parent_directories": [
+    "Original Input JPGs"
+  ],
+  "evidence": [
+    "docs/validation-packaged.json",
+    "docs/gui-audit-packaged.json",
+    "docs/gui-audit-after.json",
+    "docs/system-theme-audit.json",
+    "docs/accessibility-after.json",
+    "docs/accessibility-running.json",
+    "docs/benchmarks/portable-install-audit.json",
+    "docs/benchmarks/launcher-gui-audit.json",
+    "docs/benchmarks/launcher-gui-run.json",
+    "docs/alias-packaged.json"
+  ]
+}

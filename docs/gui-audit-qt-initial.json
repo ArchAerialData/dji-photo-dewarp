@@ -1,0 +1,3921 @@
+{
+  "method": "Independent native Qt processes for QT_SCALE_FACTOR; transparent mapped windows; all-ancestor widget clipping, scrolling reachability, style-aware primary button text rectangles, label font metrics, queue row metrics.",
+  "limitations": [
+    "Synthetic Qt scaling does not verify physical monitor transitions.",
+    "Window minimum overridden to test constrained available space.",
+    "No Narrator or Windows high-contrast certification from geometry alone."
+  ],
+  "source_sha256": "fc4be0a370dc51285216f9cf5b22cf1c7a78d00f0c59b724ba6b26199506f584",
+  "native_device_pixel_ratio": 1.25,
+  "python": "3.13.3",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "environments": [
+    {
+      "qt_binding": "6.10.2",
+      "platform_plugin": "windows",
+      "style": "windowsvista",
+      "screen_dpr": 1.0,
+      "logical_dpi": 96.0,
+      "declared_minimum": [
+        320,
+        240
+      ],
+      "startup_geometry": {
+        "frame": [
+          730,
+          67,
+          1100,
+          858
+        ],
+        "available_workarea": [
+          0,
+          0,
+          2560,
+          1030
+        ],
+        "frame_fits_workarea": true
+      }
+    },
+    {
+      "qt_binding": "6.10.2",
+      "platform_plugin": "windows",
+      "style": "windowsvista",
+      "screen_dpr": 2.0,
+      "logical_dpi": 96.0,
+      "declared_minimum": [
+        320,
+        240
+      ],
+      "startup_geometry": {
+        "frame": [
+          90,
+          11,
+          1100,
+          474
+        ],
+        "available_workarea": [
+          0,
+          0,
+          1280,
+          515
+        ],
+        "frame_fits_workarea": true
+      }
+    },
+    {
+      "qt_binding": "6.10.2",
+      "platform_plugin": "windows",
+      "style": "windowsvista",
+      "screen_dpr": 3.0,
+      "logical_dpi": 96.0,
+      "declared_minimum": [
+        320,
+        240
+      ],
+      "startup_geometry": {
+        "frame": [
+          3,
+          0,
+          793,
+          296
+        ],
+        "available_workarea": [
+          0,
+          0,
+          853,
+          343
+        ],
+        "frame_fits_workarea": true
+      }
+    }
+  ],
+  "summary": {
+    "cases": 36,
+    "cases_with_critical_visibility_failures": 0,
+    "cases_with_clipped_critical_button_text": 0,
+    "cases_with_unreachable_actions": 0,
+    "cases_with_label_issues": 36,
+    "cases_with_short_queue_rows": 0,
+    "processes_with_startup_frame_outside_workarea": 0,
+    "cases_with_minimum_hint_exceeding_workarea": 0,
+    "cases_with_minimum_size_expansion": 4
+  },
+  "cases": [
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        182,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            313,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            893,
+            313,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            69,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            313,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            893,
+            313,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            32
+          ],
+          "needed_size": [
+            1327,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        182,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            313,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            893,
+            313,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            69,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            313,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            893,
+            313,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            32
+          ],
+          "needed_size": [
+            1327,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        182,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            553,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1053,
+            553,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            69,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            553,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1053,
+            553,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            32
+          ],
+          "needed_size": [
+            1327,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        182,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            553,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1053,
+            553,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            69,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            553,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1053,
+            553,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            32
+          ],
+          "needed_size": [
+            1327,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        182,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        820
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            893,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1283,
+            893,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            69,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            893,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1283,
+            893,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            32
+          ],
+          "needed_size": [
+            1327,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        182,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        820
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            893,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1283,
+            893,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            69,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            893,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1283,
+            893,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            32
+          ],
+          "needed_size": [
+            1327,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            297,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            893,
+            297,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            137,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            297,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            893,
+            297,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            64
+          ],
+          "needed_size": [
+            2701,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            297,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            893,
+            297,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            137,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            297,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            893,
+            297,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            64
+          ],
+          "needed_size": [
+            2701,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            537,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1053,
+            537,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            137,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            537,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1053,
+            537,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            64
+          ],
+          "needed_size": [
+            2701,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            537,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1053,
+            537,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            137,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            537,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1053,
+            537,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            64
+          ],
+          "needed_size": [
+            2701,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        820
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            877,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1283,
+            877,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            137,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            877,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1283,
+            877,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            64
+          ],
+          "needed_size": [
+            2701,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "0.8",
+      "target_device_pixel_ratio": 1.0,
+      "device_pixel_ratio": 1.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        820
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            877,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1283,
+            877,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            137,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            742,
+            877,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            1283,
+            877,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            64
+          ],
+          "needed_size": [
+            2701,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            238,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            253,
+            238,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            238,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            253,
+            238,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            238,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            253,
+            238,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            238,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            253,
+            238,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            478,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            413,
+            478,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            478,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            413,
+            478,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            478,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            413,
+            478,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            478,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            413,
+            478,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        820
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            818,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            643,
+            818,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            818,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            643,
+            818,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        820
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            818,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            643,
+            818,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            818,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            643,
+            818,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            222,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            253,
+            222,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            222,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            253,
+            222,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            222,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            253,
+            222,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            222,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            253,
+            222,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            462,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            413,
+            462,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            462,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            413,
+            462,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            462,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            413,
+            462,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            462,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            413,
+            462,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        820
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            802,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            643,
+            802,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            802,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            643,
+            802,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "1.6",
+      "target_device_pixel_ratio": 2.0,
+      "device_pixel_ratio": 2.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        820
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            802,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            643,
+            802,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            102,
+            802,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            643,
+            802,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            221,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            166,
+            221,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            221,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            166,
+            221,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            221,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            166,
+            221,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            221,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            166,
+            221,
+            145,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            461,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            326,
+            461,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            461,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            326,
+            461,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            461,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            326,
+            461,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            461,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            326,
+            461,
+            305,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        718
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            699,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            556,
+            699,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            699,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            556,
+            699,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 100,
+      "minimum_size_hint": [
+        181,
+        155
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        718
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            699,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            57,
+            16
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            556,
+            699,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            16
+          ],
+          "text_size": [
+            68,
+            16
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            699,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            556,
+            699,
+            535,
+            24
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            32
+          ],
+          "needed_size": [
+            1337,
+            32
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 24,
+      "queue_font_height": 16,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            205,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            166,
+            205,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            205,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            166,
+            205,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        320,
+        240
+      ],
+      "actual_logical_client": [
+        320,
+        240
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            205,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            166,
+            205,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            137,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            205,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            166,
+            205,
+            145,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            257,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            445,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            326,
+            445,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            445,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            326,
+            445,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        640,
+        480
+      ],
+      "actual_logical_client": [
+        640,
+        480
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            445,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            326,
+            445,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            297,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            445,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            326,
+            445,
+            305,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            577,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        718
+      ],
+      "state": "idle",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            683,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            556,
+            683,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            683,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            556,
+            683,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    },
+    {
+      "qt_scale_factor": "2.4",
+      "target_device_pixel_ratio": 3.0,
+      "device_pixel_ratio": 3.0,
+      "text_scale_percent": 200,
+      "minimum_size_hint": [
+        297,
+        203
+      ],
+      "minimum_hint_fits_workarea": true,
+      "requested_logical_client": [
+        1100,
+        820
+      ],
+      "actual_logical_client": [
+        1100,
+        718
+      ],
+      "state": "running",
+      "critical_top": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            683,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            114,
+            32
+          ]
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            556,
+            683,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": [],
+          "fits": true,
+          "content_size": [
+            527,
+            32
+          ],
+          "text_size": [
+            136,
+            32
+          ]
+        }
+      },
+      "critical_bottom": {
+        "start_button": {
+          "visible": true,
+          "rect": [
+            15,
+            683,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        },
+        "cancel_button": {
+          "visible": true,
+          "rect": [
+            556,
+            683,
+            535,
+            40
+          ],
+          "clipped_by": [],
+          "clipping_details": []
+        }
+      },
+      "unreachable_actions": [],
+      "actions_without_explicit_accessible_names": [],
+      "label_issues": [
+        {
+          "text": "Latest: DJI_20261010153000_1000000_A_ExtendedMissionIdentifier_ExtendedMissionIdentifier_ExtendedMis",
+          "content_size": [
+            1037,
+            64
+          ],
+          "needed_size": [
+            2676,
+            64
+          ],
+          "horizontal_clipping": false
+        }
+      ],
+      "queue_row_height": 40,
+      "queue_font_height": 32,
+      "queue_text_fits": true,
+      "horizontal_scroll_maximum": 0
+    }
+  ]
+}

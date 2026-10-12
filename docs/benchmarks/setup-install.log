@@ -1,0 +1,56 @@
+Dewarp setup: C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs
+Log: C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\.local\logs\setup-20261010-160928.log
+Python: C:\Program Files\Python313\python.exe
+ExifTool: C:\ExifTools\exiftool-13.30_64\exiftool-13.30_64\exiftool.exe
+Obtaining file:///C:/Users/rbake/Desktop/Functional%20Scripts/Dewarp%20M3E%20JPGs/app
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting numpy<3,>=1.26 (from dji-photo-dewarp==1.0.0)
+  Using cached numpy-2.2.6-cp313-cp313-win_amd64.whl.metadata (60 kB)
+Collecting opencv-python<5,>=4.8 (from dji-photo-dewarp==1.0.0)
+  Using cached opencv_python-4.12.0.88-cp37-abi3-win_amd64.whl.metadata (19 kB)
+Collecting Pillow<13,>=11 (from dji-photo-dewarp==1.0.0)
+  Using cached pillow-12.3.0-cp313-cp313-win_amd64.whl.metadata (9.3 kB)
+Collecting piexif<2,>=1.1.3 (from dji-photo-dewarp==1.0.0)
+  Using cached piexif-1.1.3-py2.py3-none-any.whl.metadata (3.7 kB)
+Collecting PySide6<7,>=6.10 (from dji-photo-dewarp==1.0.0)
+  Using cached pyside6-6.10.2-cp39-abi3-win_amd64.whl.metadata (5.5 kB)
+Collecting shiboken6==6.10.2 (from PySide6<7,>=6.10->dji-photo-dewarp==1.0.0)
+  Using cached shiboken6-6.10.2-cp39-abi3-win_amd64.whl.metadata (2.6 kB)
+Collecting PySide6_Essentials==6.10.2 (from PySide6<7,>=6.10->dji-photo-dewarp==1.0.0)
+  Using cached pyside6_essentials-6.10.2-cp39-abi3-win_amd64.whl.metadata (3.8 kB)
+Collecting PySide6_Addons==6.10.2 (from PySide6<7,>=6.10->dji-photo-dewarp==1.0.0)
+  Using cached pyside6_addons-6.10.2-cp39-abi3-win_amd64.whl.metadata (4.2 kB)
+Using cached numpy-2.2.6-cp313-cp313-win_amd64.whl (12.6 MB)
+Using cached opencv_python-4.12.0.88-cp37-abi3-win_amd64.whl (39.0 MB)
+Using cached piexif-1.1.3-py2.py3-none-any.whl (20 kB)
+Using cached pillow-12.3.0-cp313-cp313-win_amd64.whl (7.2 MB)
+Using cached pyside6-6.10.2-cp39-abi3-win_amd64.whl (569 kB)
+Using cached pyside6_addons-6.10.2-cp39-abi3-win_amd64.whl (164.7 MB)
+Using cached pyside6_essentials-6.10.2-cp39-abi3-win_amd64.whl (74.5 MB)
+Using cached shiboken6-6.10.2-cp39-abi3-win_amd64.whl (1.2 MB)
+Building wheels for collected packages: dji-photo-dewarp
+  Building editable for dji-photo-dewarp (pyproject.toml): started
+  Building editable for dji-photo-dewarp (pyproject.toml): finished with status 'done'
+  Created wheel for dji-photo-dewarp: filename=dji_photo_dewarp-1.0.0-0.editable-py3-none-any.whl size=1972 sha256=ab35b14d9c5f870dab4aa553904ff711b821f2b138fe78457ba24ef32b420dac
+  Stored in directory: C:\Users\rbake\AppData\Local\Temp\pip-ephem-wheel-cache-4aywg1q1\wheels\88\5a\cd\7d4bd5b0cabb91e5facd93634593794f5e54aec85a5cdd7c42
+Successfully built dji-photo-dewarp
+Installing collected packages: shiboken6, Pillow, piexif, numpy, PySide6_Essentials, opencv-python, PySide6_Addons, PySide6, dji-photo-dewarp
+Successfully installed Pillow-12.3.0 PySide6-6.10.2 PySide6_Addons-6.10.2 PySide6_Essentials-6.10.2 dji-photo-dewarp-1.0.0 numpy-2.2.6 opencv-python-4.12.0.88 piexif-1.1.3 shiboken6-6.10.2
+Dependency imports OK; Python 3.13.3
+C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\scripts\Setup.ps1 : Setup failed: The term 'Get-FileHash' is 
+not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+Log: C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\.local\logs\setup-20261010-160928.log
+At C:\Users\rbake\Desktop\Functional Scripts\Dewarp M3E JPGs\scripts\Setup.ps1:60 char:5
++     Write-Error "Setup failed: $message`nLog: $logPath"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,Setup.ps1
+ 

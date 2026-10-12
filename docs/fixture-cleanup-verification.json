@@ -1,0 +1,14 @@
+{
+  "originals_unchanged_across_entire_audit": true,
+  "original_file_count": 867,
+  "fixture_parent_contents": [
+    "Original Input JPGs"
+  ],
+  "remaining_owned_scratch_in_workspace": [],
+  "engine_matches_successful_baseline": true,
+  "photos_verified": 96,
+  "reference_comparisons": 8,
+  "maker_note_field_counts": [
+    14
+  ]
+}
